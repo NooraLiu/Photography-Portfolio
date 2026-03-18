@@ -1,0 +1,67 @@
+{
+  "images": [
+    {
+      "id": 1773827721905,
+      "filename": "e185d053d1cf4486b9d315baea742d60.jpg",
+      "path": "/uploads/e185d053d1cf4486b9d315baea742d60.jpg",
+      "category": "nature",
+      "photoName": "",
+      "locationName": "Ngorongoro, Tanzania",
+      "latitude": -3.2,
+      "longitude": 35.5,
+      "uploadedAt": "2026-03-18T02:55:21.905570"
+    },
+    {
+      "id": 1773827050633,
+      "filename": "a8b54ba482f84f189da49f93b830f823.jpg",
+      "path": "/uploads/a8b54ba482f84f189da49f93b830f823.jpg",
+      "category": "nature",
+      "photoName": "",
+      "locationName": "Serengeti, Tanzania",
+      "latitude": -2.3333,
+      "longitude": 34.8333,
+      "uploadedAt": "2026-03-18T02:44:10.633047"
+    },
+    {
+      "id": 1773826853742,
+      "filename": "691bbe83f1f94fe09d0d5865db090de5.jpg",
+      "path": "/uploads/691bbe83f1f94fe09d0d5865db090de5.jpg",
+      "category": "nature",
+      "photoName": "",
+      "locationName": "Ngorongoro, Tanzania",
+      "latitude": -3.2,
+      "longitude": 35.5,
+      "uploadedAt": "2026-03-18T02:40:53.742344"
+    },
+    {
+      "id": 1773821122659,
+      "filename": "95fedca409874be1a16c5a84f6afb134.jpg",
+      "path": "/uploads/95fedca409874be1a16c5a84f6afb134.jpg",
+      "category": "nature",
+      "uploadedAt": "2026-03-18T01:05:22.659153",
+      "locationName": "Serengeti, Tanzania",
+      "latitude": -2.3333,
+      "longitude": 34.8333
+    },
+    {
+      "id": 1773820206918,
+      "filename": "46c978d361f5436ca36b40b5e1b680d3.jpg",
+      "path": "/uploads/46c978d361f5436ca36b40b5e1b680d3.jpg",
+      "category": "nature",
+      "uploadedAt": "2026-03-18T00:50:06.918990",
+      "locationName": "Serengeti, Tanzania",
+      "latitude": -2.3333,
+      "longitude": 34.8333
+    },
+    {
+      "id": 1773820168722,
+      "filename": "53376ef2d00e430d9b0142727ee90217.jpg",
+      "path": "/uploads/53376ef2d00e430d9b0142727ee90217.jpg",
+      "category": "nature",
+      "uploadedAt": "2026-03-18T00:49:28.722665",
+      "locationName": "Serengeti, Tanzania",
+      "latitude": -2.3333,
+      "longitude": 34.8333
+    }
+  ]
+}
