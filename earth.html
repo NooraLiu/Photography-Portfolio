@@ -640,6 +640,11 @@
             }, 1000);
         }
 
+        // Fix absolute paths to relative for GitHub Pages
+        function fixPath(p) {
+            return p && p.startsWith('/') ? p.substring(1) : p;
+        }
+
         // Load gallery data
         async function loadData() {
             try {
@@ -1114,7 +1119,7 @@
             const modalTitle = document.getElementById('modalTitle');
             const modalLocation = document.getElementById('modalLocation');
             
-            modalImage.src = photo.path;
+            modalImage.src = fixPath(photo.path);
             modalTitle.textContent = photo.locationName || 'Photo';
             modalLocation.textContent = `📍 ${photo.latitude.toFixed(4)}, ${photo.longitude.toFixed(4)}`;
             
@@ -1143,7 +1148,7 @@
             // Generate thumbnails
             thumbnailStrip.innerHTML = album.photos.map((photo, index) => `
                 <div class="thumbnail ${index === 0 ? 'active' : ''}" data-index="${index}">
-                    <img src="${photo.path}" alt="Photo ${index + 1}">
+                    <img src="${fixPath(photo.path)}" alt="Photo ${index + 1}">
                 </div>
             `).join('');
             
@@ -1196,7 +1201,7 @@
         function updateMainPhoto() {
             if (!currentAlbum) return;
             const photo = currentAlbum.photos[currentPhotoIndex];
-            document.getElementById('modalImage').src = photo.path;
+            document.getElementById('modalImage').src = fixPath(photo.path);
         }
 
         // Update navigation button visibility (no disabled state since we cycle)
@@ -1243,7 +1248,7 @@
             
             listContainer.innerHTML = photoLocations.map((album, index) => `
                 <div class="location-item" onclick="openAlbumModal(${index})" onmouseenter="rotateToLocation(${index})">
-                    <img src="${album.photos[0].path}" alt="${album.locationName || 'Album'}">
+                    <img src="${fixPath(album.photos[0].path)}" alt="${album.locationName || 'Album'}">
                     <div class="location-item-info">
                         <h4>${album.locationName || 'Unknown Location'}</h4>
                         <p>${album.photos.length} photo${album.photos.length > 1 ? 's' : ''}</p>

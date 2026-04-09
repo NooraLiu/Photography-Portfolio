@@ -984,6 +984,11 @@ document.querySelectorAll('section').forEach(section => {
 });
 
 // ===== Load Saved Images from Server =====
+// Fix absolute paths to relative for GitHub Pages compatibility
+function fixPath(p) {
+    return p && p.startsWith('/') ? p.substring(1) : p;
+}
+
 async function loadSavedImages() {
     try {
         let response;
@@ -1003,7 +1008,7 @@ async function loadSavedImages() {
         highlighted.reverse().forEach(img => {
             addToGallery({
                 id: img.id,
-                preview: img.path,
+                preview: fixPath(img.path),
                 category: img.category
             }, true);
         });
