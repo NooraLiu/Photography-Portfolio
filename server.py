@@ -25,7 +25,7 @@ except ImportError:
 PORT = 8080
 UPLOAD_DIR = "uploads"
 THUMB_DIR = "uploads/thumbs"
-THUMB_SIZE = 300
+THUMB_SIZE = 800
 DATA_FILE = "gallery-data.json"
 
 class PortfolioHandler(http.server.SimpleHTTPRequestHandler):

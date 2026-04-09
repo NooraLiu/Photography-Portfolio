@@ -836,9 +836,18 @@ function initGalleryImages() {
 // Open lightbox by element reference (more reliable)
 function openLightboxByElement(element) {
     const img = element.querySelector('img');
-    lightboxImage.src = img.dataset.fullres || img.src;
+    const fullres = img.dataset.fullres || img.src;
+    lightboxImage.style.opacity = '0';
+    lightboxImage.src = '';
     lightbox.classList.add('active');
     document.body.style.overflow = 'hidden';
+    
+    const preload = new Image();
+    preload.onload = () => {
+        lightboxImage.src = fullres;
+        lightboxImage.style.opacity = '1';
+    };
+    preload.src = fullres;
     
     // Find current index by element reference
     currentImageIndex = galleryImages.findIndex(g => g.element === element);
@@ -912,10 +921,16 @@ function navigateLightbox(direction) {
     const slideClass = direction > 0 ? 'slide-left' : 'slide-right';
     lightboxImage.classList.add(slideClass);
     
-    // After animation, change image and slide in
-    setTimeout(() => {
+    // Preload new image, then swap
+    const preload = new Image();
+    preload.onload = () => {
         lightboxImage.src = newSrc;
         lightboxImage.classList.remove(slideClass);
+    };
+    // After slide-out animation, start loading
+    setTimeout(() => {
+        lightboxImage.src = '';
+        preload.src = newSrc;
     }, 150);
 }
 
