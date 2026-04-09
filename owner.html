@@ -1,0 +1,734 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Owner Dashboard — Nora Liu Photography</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <style>
+        /* ===== Owner Page Layout ===== */
+        .owner-page { min-height: 100vh; background: var(--off-white); }
+
+        .owner-topbar {
+            position: sticky; top: 0; z-index: 100;
+            background: var(--primary-color);
+            padding: 0.8rem 2rem;
+            display: flex; align-items: center; justify-content: space-between;
+            box-shadow: 0 2px 12px rgba(0,0,0,0.3);
+        }
+        .owner-topbar .logo a {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.3rem; font-weight: 700;
+            color: #fff; text-decoration: none;
+        }
+        .owner-topbar .nav-links {
+            list-style: none; display: flex; gap: 1.5rem; margin: 0; padding: 0;
+        }
+        .owner-topbar .nav-links a {
+            color: rgba(255,255,255,0.7); text-decoration: none;
+            font-size: 0.9rem; transition: color 0.2s;
+        }
+        .owner-topbar .nav-links a:hover { color: #fff; }
+        .owner-topbar .nav-links a.active { color: var(--accent-color); }
+
+        /* Tabs */
+        .owner-tabs {
+            display: flex; justify-content: center; gap: 0;
+            background: var(--secondary-color);
+            border-bottom: 2px solid rgba(255,255,255,0.06);
+        }
+        .owner-tab {
+            padding: 1rem 2.5rem;
+            background: none; border: none;
+            color: rgba(255,255,255,0.5);
+            font-family: 'Inter', sans-serif;
+            font-size: 0.95rem; font-weight: 500;
+            cursor: pointer; transition: all 0.2s;
+            border-bottom: 3px solid transparent;
+            position: relative;
+        }
+        .owner-tab:hover { color: rgba(255,255,255,0.8); }
+        .owner-tab.active {
+            color: var(--accent-color);
+            border-bottom-color: var(--accent-color);
+        }
+
+        /* Tab panels */
+        .tab-panel { display: none; }
+        .tab-panel.active { display: block; }
+
+        /* ===== Edit Albums (inline) ===== */
+        .albums-container {
+            max-width: 1400px; margin: 0 auto; padding: 2rem;
+        }
+        .no-photos {
+            text-align: center; padding: 4rem 2rem;
+            color: var(--text-light); font-size: 1.1rem;
+        }
+        .no-photos a { color: var(--accent-color); }
+
+        .album-group {
+            margin-bottom: 3rem; background: var(--white);
+            border-radius: 12px; overflow: hidden;
+            box-shadow: 0 2px 12px rgba(0,0,0,0.06);
+        }
+        .album-header {
+            display: flex; align-items: center; justify-content: space-between;
+            padding: 1.2rem 1.5rem; background: var(--primary-color); color: #fff;
+            flex-wrap: wrap; gap: 0.75rem;
+            cursor: pointer; user-select: none; transition: background 0.2s;
+        }
+        .album-header:hover { background: #2a2a2a; }
+        .album-header .album-title {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.3rem; font-weight: 600;
+        }
+        .album-header .album-title .chevron {
+            display: inline-block; transition: transform 0.3s; margin-right: 0.3rem;
+            font-size: 0.8em;
+        }
+        .album-group.expanded .album-header .album-title .chevron { transform: rotate(90deg); }
+        .album-header .album-meta {
+            font-size: 0.85rem; color: rgba(255,255,255,0.6);
+        }
+        .album-body { display: none; }
+        .album-group.expanded .album-body { display: block; }
+        .album-actions { display: flex; gap: 0.5rem; align-items: center; }
+        .album-actions button {
+            padding: 0.4rem 0.9rem;
+            border: 1px solid rgba(255,255,255,0.3);
+            background: rgba(255,255,255,0.1); color: #fff;
+            border-radius: 6px; font-size: 0.8rem;
+            cursor: pointer; transition: all 0.2s;
+        }
+        .album-actions button:hover { background: rgba(255,255,255,0.2); }
+        .album-actions button.highlight-all { border-color: var(--accent-color); color: var(--accent-color); }
+        .album-actions button.highlight-all:hover { background: var(--accent-color); color: #000; }
+        .album-actions button.delete-selected { border-color: #dc3545; color: #dc3545; }
+        .album-actions button.delete-selected:hover { background: #dc3545; color: #fff; }
+
+        .album-grid {
+            display: grid; grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+            gap: 0.5rem; padding: 0.75rem;
+        }
+        .photo-card {
+            position: relative; border-radius: 8px; overflow: hidden;
+            cursor: pointer; aspect-ratio: 1;
+            border: 3px solid transparent; transition: all 0.2s ease;
+        }
+        .photo-card img { width: 100%; height: 100%; object-fit: cover; display: block; }
+        .photo-card.highlighted {
+            border-color: var(--accent-color);
+            box-shadow: 0 0 0 2px var(--accent-color), 0 4px 16px rgba(201,169,98,0.3);
+        }
+        .photo-card .highlight-badge {
+            position: absolute; top: 8px; right: 8px;
+            width: 28px; height: 28px; border-radius: 50%;
+            background: rgba(0,0,0,0.5); border: 2px solid rgba(255,255,255,0.3);
+            display: flex; align-items: center; justify-content: center;
+            font-size: 0.75rem; transition: all 0.2s; z-index: 2;
+        }
+        .photo-card.highlighted .highlight-badge {
+            background: var(--accent-color); border-color: var(--accent-color);
+        }
+        .photo-card .select-check {
+            position: absolute; top: 8px; left: 8px;
+            width: 24px; height: 24px; border-radius: 4px;
+            background: rgba(0,0,0,0.5); border: 2px solid rgba(255,255,255,0.4);
+            display: flex; align-items: center; justify-content: center;
+            font-size: 0.7rem; color: #fff; z-index: 2;
+            opacity: 0.4; transition: opacity 0.2s;
+            pointer-events: none;
+        }
+        .photo-card:hover .select-check { opacity: 0.8; }
+        .photo-card.selected .select-check { opacity: 1; background: var(--accent-color); border-color: var(--accent-color); }
+        .photo-card .delete-badge {
+            position: absolute; bottom: 8px; right: 8px;
+            width: 28px; height: 28px; border-radius: 50%;
+            background: rgba(0,0,0,0.5); border: 2px solid rgba(255,255,255,0.3);
+            display: flex; align-items: center; justify-content: center;
+            font-size: 0.8rem; color: #fff; z-index: 2;
+            opacity: 0; transition: all 0.2s;
+        }
+        .photo-card:hover .delete-badge { opacity: 1; }
+        .photo-card .delete-badge:hover { background: #dc3545; border-color: #dc3545; }
+        .photo-card .category-tag {
+            position: absolute; bottom: 8px; left: 8px;
+            padding: 2px 8px; background: rgba(0,0,0,0.6);
+            color: rgba(255,255,255,0.8); font-size: 0.65rem;
+            border-radius: 4px; text-transform: uppercase;
+            letter-spacing: 0.5px; z-index: 2;
+            opacity: 0; transition: opacity 0.2s;
+        }
+        .photo-card:hover .category-tag { opacity: 1; }
+
+        .album-stats {
+            padding: 0.8rem 1.5rem; background: var(--off-white);
+            border-top: 1px solid rgba(0,0,0,0.06);
+            display: flex; gap: 1.5rem; font-size: 0.8rem; color: var(--text-light);
+        }
+        .album-stats .stat { display: flex; align-items: center; gap: 0.3rem; }
+        .album-stats .stat .count { font-weight: 600; color: var(--text-color); }
+
+        /* Bulk Action Bar */
+        .bulk-bar {
+            position: fixed; bottom: 0; left: 0; right: 0;
+            background: var(--primary-color); color: #fff;
+            padding: 0.8rem 1.5rem;
+            display: flex; align-items: center; gap: 1rem;
+            z-index: 500;
+            transform: translateY(100%); transition: transform 0.3s ease;
+            box-shadow: 0 -4px 20px rgba(0,0,0,0.3);
+            flex-wrap: wrap;
+        }
+        .bulk-bar.visible { transform: translateY(0); }
+        .bulk-bar .bulk-count {
+            font-weight: 600; font-size: 0.95rem;
+            margin-right: 0.5rem; white-space: nowrap;
+        }
+        .bulk-bar .bulk-actions { display: flex; gap: 0.5rem; flex-wrap: wrap; align-items: center; flex: 1; }
+        .bulk-bar button {
+            padding: 0.45rem 1rem; border: 1px solid rgba(255,255,255,0.3);
+            background: rgba(255,255,255,0.1); color: #fff;
+            border-radius: 6px; font-size: 0.85rem;
+            cursor: pointer; transition: all 0.2s; white-space: nowrap;
+        }
+        .bulk-bar button:hover { background: rgba(255,255,255,0.2); }
+        .bulk-bar button.btn-highlight { border-color: var(--accent-color); color: var(--accent-color); }
+        .bulk-bar button.btn-highlight:hover { background: var(--accent-color); color: #000; }
+        .bulk-bar button.btn-danger { border-color: #dc3545; color: #dc3545; }
+        .bulk-bar button.btn-danger:hover { background: #dc3545; color: #fff; }
+        .bulk-bar button.btn-clear { border-color: rgba(255,255,255,0.2); color: rgba(255,255,255,0.6); }
+        .bulk-bar select {
+            padding: 0.4rem 0.6rem; border: 1px solid rgba(255,255,255,0.3);
+            background: rgba(255,255,255,0.1); color: #fff;
+            border-radius: 6px; font-size: 0.85rem; cursor: pointer;
+        }
+        .bulk-bar select option { background: var(--primary-color); color: #fff; }
+        .bulk-bar .bulk-loc-wrapper {
+            position: relative; display: inline-block;
+        }
+        .bulk-bar .bulk-loc-wrapper input {
+            padding: 0.4rem 0.6rem; border: 1px solid rgba(255,255,255,0.3);
+            background: rgba(255,255,255,0.1); color: #fff;
+            border-radius: 6px; font-size: 0.85rem; width: 180px;
+        }
+        .bulk-bar .bulk-loc-wrapper input::placeholder { color: rgba(255,255,255,0.4); }
+        .bulk-bar .bulk-loc-results {
+            position: absolute; bottom: 100%; left: 0; right: 0;
+            background: var(--primary-color); border: 1px solid rgba(255,255,255,0.2);
+            border-radius: 6px; max-height: 200px; overflow-y: auto;
+            display: none; margin-bottom: 4px;
+        }
+        .bulk-bar .bulk-loc-results.active { display: block; }
+        .bulk-bar .bulk-loc-results div {
+            padding: 0.5rem 0.8rem; cursor: pointer; font-size: 0.85rem;
+            border-bottom: 1px solid rgba(255,255,255,0.06);
+        }
+        .bulk-bar .bulk-loc-results div:hover { background: rgba(255,255,255,0.1); }
+
+        /* Confirm dialog */
+        .confirm-overlay {
+            display: none; position: fixed; inset: 0;
+            background: rgba(0,0,0,0.6); z-index: 1000;
+            align-items: center; justify-content: center;
+        }
+        .confirm-overlay.active { display: flex; }
+        .confirm-dialog {
+            background: var(--white); border-radius: 12px;
+            padding: 2rem; max-width: 400px; width: 90%; text-align: center;
+        }
+        .confirm-dialog h3 { margin-bottom: 0.5rem; font-family: 'Playfair Display', serif; }
+        .confirm-dialog p { color: var(--text-light); margin-bottom: 1.5rem; font-size: 0.9rem; }
+        .confirm-dialog .confirm-btns { display: flex; gap: 0.75rem; justify-content: center; }
+        .confirm-dialog .confirm-btns button {
+            padding: 0.6rem 1.5rem; border: none; border-radius: 6px;
+            font-size: 0.9rem; cursor: pointer; font-weight: 500; transition: all 0.2s;
+        }
+        .confirm-dialog .btn-cancel { background: var(--off-white); color: var(--text-color); }
+        .confirm-dialog .btn-cancel:hover { background: #e0e0e0; }
+        .confirm-dialog .btn-danger { background: #dc3545; color: #fff; }
+        .confirm-dialog .btn-danger:hover { background: #c82333; }
+
+        /* Toast */
+        .toast {
+            position: fixed; bottom: 2rem; right: 2rem;
+            padding: 0.8rem 1.5rem; background: var(--primary-color);
+            color: #fff; border-radius: 8px; font-size: 0.9rem;
+            z-index: 2000; transform: translateY(100px); opacity: 0;
+            transition: all 0.3s ease; box-shadow: 0 4px 16px rgba(0,0,0,0.3);
+        }
+        .toast.visible { transform: translateY(0); opacity: 1; }
+
+        @media (max-width: 768px) {
+            .owner-topbar { padding: 0.6rem 1rem; flex-wrap: wrap; gap: 0.5rem; }
+            .owner-topbar .nav-links { gap: 0.8rem; flex-wrap: wrap; }
+            .owner-tab { padding: 0.8rem 1.5rem; font-size: 0.85rem; }
+            .albums-container { padding: 1rem; }
+            .album-grid { grid-template-columns: repeat(auto-fill, minmax(110px, 1fr)); gap: 0.4rem; }
+            .album-header { padding: 1rem; }
+        }
+    </style>
+</head>
+<body class="owner-page">
+
+    <!-- Top Bar -->
+    <div class="owner-topbar">
+        <div class="logo"><a href="index.html">Nora Liu</a></div>
+        <ul class="nav-links">
+            <li><a href="index.html">Portfolio</a></li>
+            <li><a href="earth.html">🌍 Globe View</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="index.html#contact">Contact</a></li>
+            <li><a href="owner.html" class="active">👤 Owner</a></li>
+        </ul>
+    </div>
+
+    <!-- Tabs -->
+    <div class="owner-tabs">
+        <button class="owner-tab active" data-tab="upload">📤 Upload Photos</button>
+        <button class="owner-tab" data-tab="albums">✏️ Edit Albums</button>
+    </div>
+
+    <!-- Upload Tab -->
+    <div class="tab-panel active" id="tab-upload">
+        <section class="batch-import-section" id="batch-import">
+            <div class="batch-import-container">
+                <h2>📱 Batch Import from Album</h2>
+                <p class="batch-subtitle">Drag & drop photos from your album — GPS location is auto-extracted from EXIF data</p>
+                
+                <div class="batch-drop-zone" id="batchDropZone">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                        <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+                        <polyline points="17 8 12 3 7 8"></polyline>
+                        <line x1="12" y1="3" x2="12" y2="15"></line>
+                    </svg>
+                    <p>Drop photos here or click to browse</p>
+                    <span>Supports JPG, PNG, HEIC — GPS location auto-detected</span>
+                    <input type="file" id="batchFileInput" accept="image/*" multiple hidden>
+                </div>
+
+                <div class="batch-controls" id="batchControls" style="display: none;">
+                    <div class="batch-controls-bar">
+                        <div class="batch-select-all">
+                            <input type="checkbox" id="batchSelectAll" checked>
+                            <label for="batchSelectAll">Select All</label>
+                            <span class="batch-count" id="batchCount">0 photos</span>
+                        </div>
+                        <div class="batch-category-all">
+                            <label>Category for Selected:</label>
+                            <select id="batchCategoryAll">
+                                <option value="">— Keep individual —</option>
+                                <option value="nature">Nature</option>
+                                <option value="portrait">Portrait</option>
+                                <option value="travel">Travel</option>
+                                <option value="street">Street</option>
+                            </select>
+                        </div>
+                        <div class="batch-location-all">
+                            <label>📍 Location for Selected:</label>
+                            <div class="autocomplete-wrapper">
+                                <input type="text" id="batchLocationSearch" class="batch-location-input" placeholder="Search city..." autocomplete="off">
+                                <div class="autocomplete-results" id="batchLocationResults"></div>
+                            </div>
+                            <button class="batch-location-clear" id="batchLocationClear" style="display:none;">✕</button>
+                        </div>
+                        <button class="batch-clear-btn" id="batchClearBtn">Clear All</button>
+                    </div>
+                    <div class="batch-preview-grid" id="batchPreviewGrid"></div>
+                    <div class="batch-actions">
+                        <button class="batch-import-btn" id="batchImportBtn" disabled>
+                            Import Selected (<span id="batchSelectedCount">0</span>)
+                        </button>
+                    </div>
+                </div>
+                
+                <div class="batch-progress" id="batchProgress" style="display: none;">
+                    <div class="batch-progress-bar">
+                        <div class="batch-progress-fill" id="batchProgressFill"></div>
+                    </div>
+                    <span class="batch-progress-text" id="batchProgressText">Uploading...</span>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- Edit Albums Tab -->
+    <div class="tab-panel" id="tab-albums">
+        <div class="albums-container" id="albumsContainer">
+            <div style="display:flex;justify-content:flex-end;gap:0.5rem;margin-bottom:1rem;">
+                <button onclick="sortGallery()" style="padding:0.5rem 1.2rem;background:var(--primary-color);color:#fff;border:none;border-radius:6px;font-size:0.9rem;cursor:pointer;transition:background 0.2s;"
+                    onmouseenter="this.style.background='#2a2a2a'" onmouseleave="this.style.background='var(--primary-color)'">📋 Sort by Location</button>
+                <button onclick="shuffleGallery()" style="padding:0.5rem 1.2rem;background:var(--primary-color);color:#fff;border:none;border-radius:6px;font-size:0.9rem;cursor:pointer;transition:background 0.2s;"
+                    onmouseenter="this.style.background='#2a2a2a'" onmouseleave="this.style.background='var(--primary-color)'">🔀 Shuffle Gallery</button>
+            </div>
+            <div class="no-photos" id="noPhotos" style="display:none;">
+                No photos uploaded yet. Switch to the Upload tab to add some!
+            </div>
+        </div>
+    </div>
+
+    <!-- Bulk Action Bar -->
+    <div class="bulk-bar" id="bulkBar">
+        <span class="bulk-count" id="bulkCount">0 selected</span>
+        <div class="bulk-actions">
+            <button class="btn-highlight" onclick="bulkHighlight(true)">★ Highlight</button>
+            <button onclick="bulkHighlight(false)">☆ Unhighlight</button>
+            <select id="bulkGenreSelect" onchange="bulkChangeGenre(this.value)">
+                <option value="">Change Genre…</option>
+                <option value="nature">Nature</option>
+                <option value="portrait">Portrait</option>
+                <option value="travel">Travel</option>
+                <option value="street">Street</option>
+                <option value="wildlife">Wildlife</option>
+                <option value="landscape">Landscape</option>
+                <option value="architecture">Architecture</option>
+            </select>
+            <div class="bulk-loc-wrapper">
+                <input type="text" id="bulkLocInput" placeholder="Change location…" autocomplete="off">
+                <div class="bulk-loc-results" id="bulkLocResults"></div>
+            </div>
+            <button class="btn-danger" onclick="bulkDelete()">🗑 Delete</button>
+        </div>
+        <button class="btn-clear" onclick="clearSelection()">✕ Clear</button>
+    </div>
+
+    <!-- Confirm Dialog -->
+    <div class="confirm-overlay" id="confirmOverlay">
+        <div class="confirm-dialog">
+            <h3 id="confirmTitle">Delete Photos?</h3>
+            <p id="confirmMsg">This action cannot be undone.</p>
+            <div class="confirm-btns">
+                <button class="btn-cancel" onclick="closeConfirm()">Cancel</button>
+                <button class="btn-danger" id="confirmBtn" onclick="confirmAction()">Delete</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="toast" id="toast"></div>
+
+    <!-- Load script.js for worldCities, EXIF extraction, and batch import -->
+    <script src="script.js"></script>
+
+    <script>
+    // ===== Tab Switching =====
+    document.querySelectorAll('.owner-tab').forEach(tab => {
+        tab.addEventListener('click', () => {
+            document.querySelectorAll('.owner-tab').forEach(t => t.classList.remove('active'));
+            document.querySelectorAll('.tab-panel').forEach(p => p.classList.remove('active'));
+            tab.classList.add('active');
+            document.getElementById('tab-' + tab.dataset.tab).classList.add('active');
+            if (tab.dataset.tab === 'albums') loadAlbums();
+        });
+    });
+
+    // ===== Edit Albums Logic =====
+    let allImages = [];
+    let pendingAction = null;
+
+    function groupByLocation(images) {
+        const groups = {};
+        images.forEach(img => {
+            const key = img.locationName || 'No Location';
+            if (!groups[key]) groups[key] = { locationName: key, photos: [] };
+            groups[key].photos.push(img);
+        });
+        return Object.values(groups).sort((a, b) => {
+            if (a.locationName === 'No Location') return 1;
+            if (b.locationName === 'No Location') return -1;
+            return a.locationName.localeCompare(b.locationName);
+        });
+    }
+
+    function escAttr(str) {
+        return str.replace(/'/g, "\\'").replace(/"/g, '&quot;');
+    }
+
+    function renderAlbums() {
+        const container = document.getElementById('albumsContainer');
+        const noPhotos = document.getElementById('noPhotos');
+
+        // Remember which albums are expanded
+        const expandedLocs = new Set();
+        container.querySelectorAll('.album-group.expanded').forEach(el => {
+            const header = el.querySelector('.album-title');
+            if (header) expandedLocs.add(header.textContent.replace(/^[\u25b6\u25bc\s\ud83d\udccd]+/, '').trim());
+        });
+
+        container.querySelectorAll('.album-group').forEach(el => el.remove());
+
+        if (allImages.length === 0) { noPhotos.style.display = 'block'; return; }
+        noPhotos.style.display = 'none';
+
+        const albums = groupByLocation(allImages);
+        albums.forEach(album => {
+            const group = document.createElement('div');
+            group.className = 'album-group';
+            const highlightedCount = album.photos.filter(p => p.highlight).length;
+
+            group.innerHTML = `
+                <div class="album-header">
+                    <div>
+                        <div class="album-title"><span class="chevron">▶</span> 📍 ${album.locationName}</div>
+                        <div class="album-meta">${album.photos.length} photo${album.photos.length > 1 ? 's' : ''} · ${highlightedCount} highlighted</div>
+                    </div>
+                    <div class="album-actions" onclick="event.stopPropagation()">
+                        <button onclick="albumSelectAll('${escAttr(album.locationName)}')">☑ Select All</button>
+                    </div>
+                </div>
+                <div class="album-body">
+                    <div class="album-grid" data-loc="${album.locationName}">
+                        ${album.photos.map(photo => `
+                            <div class="photo-card ${photo.highlight ? 'highlighted' : ''} ${selectedIds.has(photo.id) ? 'selected' : ''}" data-id="${photo.id}">
+                                <img src="${photo.thumbnailPath || photo.path}" alt="${photo.locationName}" loading="lazy">
+                                <div class="select-check">✓</div>
+                                <div class="highlight-badge">★</div>
+                                <div class="category-tag">${photo.category || 'uncategorized'}</div>
+                            </div>
+                        `).join('')}
+                    </div>
+                    <div class="album-stats">
+                        <div class="stat">★ <span class="count">${highlightedCount}</span> highlighted</div>
+                        <div class="stat">📷 <span class="count">${album.photos.length}</span> total</div>
+                    </div>
+                </div>
+            `;
+
+            // Restore expanded state
+            if (expandedLocs.has(album.locationName)) {
+                group.classList.add('expanded');
+            }
+
+            // Click header to expand/collapse
+            const header = group.querySelector('.album-header');
+            header.addEventListener('click', () => {
+                group.classList.toggle('expanded');
+            });
+
+            group.querySelectorAll('.photo-card').forEach(card => {
+                card.addEventListener('click', (e) => {
+                    e.stopPropagation();
+                    const id = parseInt(card.dataset.id);
+                    if (selectedIds.has(id)) selectedIds.delete(id);
+                    else selectedIds.add(id);
+                    card.classList.toggle('selected');
+                    updateBulkBar();
+                });
+            });
+            container.appendChild(group);
+        });
+    }
+
+    // ===== Selection State =====
+    const selectedIds = new Set();
+
+    function updateBulkBar() {
+        const bar = document.getElementById('bulkBar');
+        const count = document.getElementById('bulkCount');
+        if (selectedIds.size > 0) {
+            bar.classList.add('visible');
+            count.textContent = `${selectedIds.size} selected`;
+        } else {
+            bar.classList.remove('visible');
+        }
+    }
+
+    function clearSelection() {
+        selectedIds.clear();
+        document.querySelectorAll('.photo-card.selected').forEach(c => c.classList.remove('selected'));
+        updateBulkBar();
+        document.getElementById('bulkGenreSelect').value = '';
+        document.getElementById('bulkLocInput').value = '';
+    }
+
+    function getSelectedIds() {
+        return Array.from(selectedIds);
+    }
+
+    // ===== Bulk Actions =====
+    async function bulkHighlight(highlight) {
+        const ids = getSelectedIds();
+        if (ids.length === 0) return;
+        try {
+            const res = await fetch('/api/images/bulk-highlight', {
+                method: 'PUT',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({ ids, highlight })
+            });
+            if (res.ok) {
+                allImages.forEach(img => { if (ids.includes(img.id)) img.highlight = highlight; });
+                renderAlbums();
+                showToast(highlight ? `★ ${ids.length} photo(s) highlighted` : `☆ ${ids.length} photo(s) unhighlighted`);
+            }
+        } catch (e) { showToast('Error updating photos'); }
+    }
+
+    async function bulkChangeGenre(genre) {
+        if (!genre) return;
+        const ids = getSelectedIds();
+        if (ids.length === 0) { showToast('Select photos first'); document.getElementById('bulkGenreSelect').value = ''; return; }
+        try {
+            const res = await fetch('/api/images/bulk-update', {
+                method: 'PUT',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({ ids, updates: { category: genre } })
+            });
+            if (res.ok) {
+                allImages.forEach(img => { if (ids.includes(img.id)) img.category = genre; });
+                renderAlbums();
+                showToast(`📁 Genre changed to "${genre}" for ${ids.length} photo(s)`);
+            }
+        } catch (e) { showToast('Error updating genre'); }
+        document.getElementById('bulkGenreSelect').value = '';
+    }
+
+    async function bulkChangeLocation(cityObj) {
+        const ids = getSelectedIds();
+        if (ids.length === 0) { showToast('Select photos first'); return; }
+        try {
+            const res = await fetch('/api/images/bulk-update', {
+                method: 'PUT',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({ ids, updates: {
+                    locationName: cityObj.name,
+                    latitude: cityObj.lat,
+                    longitude: cityObj.lng
+                }})
+            });
+            if (res.ok) {
+                allImages.forEach(img => {
+                    if (ids.includes(img.id)) {
+                        img.locationName = cityObj.name;
+                        img.latitude = cityObj.lat;
+                        img.longitude = cityObj.lng;
+                    }
+                });
+                selectedIds.clear();
+                renderAlbums();
+                updateBulkBar();
+                showToast(`📍 Location changed to "${cityObj.name}" for ${ids.length} photo(s)`);
+            }
+        } catch (e) { showToast('Error updating location'); }
+        document.getElementById('bulkLocInput').value = '';
+    }
+
+    function bulkDelete() {
+        const ids = getSelectedIds();
+        if (ids.length === 0) { showToast('Select photos first'); return; }
+        showConfirm(`Delete ${ids.length} photo(s)?`, 'This will permanently remove the selected photos.', async () => {
+            try {
+                const res = await fetch('/api/images/bulk-delete', {
+                    method: 'PUT',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({ ids })
+                });
+                if (res.ok) {
+                    allImages = allImages.filter(img => !ids.includes(img.id));
+                    selectedIds.clear();
+                    renderAlbums();
+                    updateBulkBar();
+                    showToast(`🗑 Deleted ${ids.length} photo(s)`);
+                }
+            } catch (e) { showToast('Error deleting photos'); }
+        });
+    }
+
+    // Per-album header action: Select All in album
+    function albumSelectAll(locationName) {
+        const photos = allImages.filter(i => (i.locationName || 'No Location') === locationName);
+        const allSelected = photos.every(p => selectedIds.has(p.id));
+        photos.forEach(p => {
+            if (allSelected) selectedIds.delete(p.id);
+            else selectedIds.add(p.id);
+        });
+        renderAlbums();
+        updateBulkBar();
+    }
+
+    // ===== Bulk Location Search =====
+    (function initBulkLocSearch() {
+        const input = document.getElementById('bulkLocInput');
+        const results = document.getElementById('bulkLocResults');
+        if (!input || !results || typeof worldCities === 'undefined') return;
+
+        input.addEventListener('input', () => {
+            const q = input.value.trim().toLowerCase();
+            if (q.length < 2) { results.classList.remove('active'); return; }
+            const matches = worldCities.filter(c => c.name.toLowerCase().includes(q) || c.country.toLowerCase().includes(q)).slice(0, 8);
+            if (matches.length === 0) { results.classList.remove('active'); return; }
+            results.innerHTML = matches.map(c => {
+                const fullName = `${c.name}, ${c.country}`;
+                return `<div data-name="${fullName}" data-lat="${c.lat}" data-lng="${c.lng}">${c.icon} ${fullName}</div>`;
+            }).join('');
+            results.classList.add('active');
+        });
+
+        results.addEventListener('mousedown', (e) => {
+            e.preventDefault(); // Prevent blur/focus loss
+            const div = e.target.closest('[data-name]');
+            if (!div) return;
+            bulkChangeLocation({ name: div.dataset.name, lat: parseFloat(div.dataset.lat), lng: parseFloat(div.dataset.lng) });
+            results.classList.remove('active');
+            input.value = '';
+        });
+
+        document.addEventListener('click', (e) => {
+            if (!e.target.closest('.bulk-loc-wrapper')) results.classList.remove('active');
+        });
+    })();
+
+    function showConfirm(title, msg, action) {
+        document.getElementById('confirmTitle').textContent = title;
+        document.getElementById('confirmMsg').textContent = msg;
+        document.getElementById('confirmOverlay').classList.add('active');
+        pendingAction = action;
+    }
+    function closeConfirm() {
+        document.getElementById('confirmOverlay').classList.remove('active');
+        pendingAction = null;
+    }
+    function confirmAction() { if (pendingAction) pendingAction(); closeConfirm(); }
+
+    function showToast(msg) {
+        const toast = document.getElementById('toast');
+        toast.textContent = msg;
+        toast.classList.add('visible');
+        clearTimeout(toast._timer);
+        toast._timer = setTimeout(() => toast.classList.remove('visible'), 2500);
+    }
+
+    async function shuffleGallery() {
+        try {
+            const res = await fetch('/api/shuffle', { method: 'POST' });
+            if (res.ok) {
+                await loadAlbums();
+                showToast('🔀 Gallery order shuffled');
+            }
+        } catch (e) { showToast('Error shuffling gallery'); }
+    }
+
+    async function sortGallery() {
+        try {
+            const res = await fetch('/api/sort', { method: 'POST' });
+            if (res.ok) {
+                await loadAlbums();
+                showToast('📋 Gallery sorted by location');
+            }
+        } catch (e) { showToast('Error sorting gallery'); }
+    }
+
+    async function loadAlbums() {
+        try {
+            const res = await fetch('/api/images');
+            const data = await res.json();
+            allImages = data.images || [];
+            renderAlbums();
+        } catch (e) {
+            document.getElementById('noPhotos').style.display = 'block';
+            document.getElementById('noPhotos').textContent = 'Error loading photos. Is the server running?';
+        }
+    }
+    </script>
+</body>
+</html>

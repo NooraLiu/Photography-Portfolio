@@ -1,0 +1,656 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edit Albums — Photography Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --primary-color: #1a1a1a;
+            --secondary-color: #2d2d2d;
+            --accent-color: #c9a962;
+            --text-color: #333;
+            --text-light: #666;
+            --white: #ffffff;
+            --off-white: #f8f8f8;
+            --highlight-color: #c9a962;
+            --danger-color: #dc3545;
+        }
+
+        *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+        html { scroll-behavior: smooth; }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            background: var(--off-white);
+            color: var(--text-color);
+            min-height: 100vh;
+        }
+
+        /* Top bar */
+        .top-bar {
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            background: var(--primary-color);
+            padding: 1rem 2rem;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            box-shadow: 0 2px 12px rgba(0,0,0,0.3);
+        }
+        .top-bar a.back {
+            color: rgba(255,255,255,0.7);
+            text-decoration: none;
+            font-size: 0.9rem;
+            transition: color 0.2s;
+        }
+        .top-bar a.back:hover { color: #fff; }
+        .top-bar h1 {
+            font-family: 'Playfair Display', serif;
+            color: #fff;
+            font-size: 1.4rem;
+            font-weight: 600;
+        }
+        .top-bar .actions {
+            display: flex;
+            gap: 0.75rem;
+        }
+        .top-bar .actions button {
+            padding: 0.5rem 1.2rem;
+            border: none;
+            border-radius: 6px;
+            font-size: 0.85rem;
+            cursor: pointer;
+            font-weight: 500;
+            transition: all 0.2s;
+        }
+
+        /* Album container */
+        .albums-container {
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+
+        .no-photos {
+            text-align: center;
+            padding: 4rem 2rem;
+            color: var(--text-light);
+            font-size: 1.1rem;
+        }
+
+        /* Album group (one per location) */
+        .album-group {
+            margin-bottom: 3rem;
+            background: var(--white);
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 2px 12px rgba(0,0,0,0.06);
+        }
+
+        .album-header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 1.2rem 1.5rem;
+            background: var(--primary-color);
+            color: #fff;
+            flex-wrap: wrap;
+            gap: 0.75rem;
+        }
+        .album-header .album-title {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.3rem;
+            font-weight: 600;
+        }
+        .album-header .album-title .location-icon {
+            margin-right: 0.4rem;
+        }
+        .album-header .album-meta {
+            font-size: 0.85rem;
+            color: rgba(255,255,255,0.6);
+        }
+        .album-actions {
+            display: flex;
+            gap: 0.5rem;
+            align-items: center;
+        }
+        .album-actions button {
+            padding: 0.4rem 0.9rem;
+            border: 1px solid rgba(255,255,255,0.3);
+            background: rgba(255,255,255,0.1);
+            color: #fff;
+            border-radius: 6px;
+            font-size: 0.8rem;
+            cursor: pointer;
+            transition: all 0.2s;
+        }
+        .album-actions button:hover {
+            background: rgba(255,255,255,0.2);
+        }
+        .album-actions button.highlight-all {
+            border-color: var(--accent-color);
+            color: var(--accent-color);
+        }
+        .album-actions button.highlight-all:hover {
+            background: var(--accent-color);
+            color: #000;
+        }
+        .album-actions button.unhighlight-all {
+            border-color: rgba(255,255,255,0.3);
+        }
+        .album-actions button.delete-selected {
+            border-color: var(--danger-color);
+            color: var(--danger-color);
+        }
+        .album-actions button.delete-selected:hover {
+            background: var(--danger-color);
+            color: #fff;
+        }
+
+        /* Photo grid within album */
+        .album-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+            gap: 0.75rem;
+            padding: 1rem;
+        }
+
+        /* Individual photo card */
+        .photo-card {
+            position: relative;
+            border-radius: 8px;
+            overflow: hidden;
+            cursor: pointer;
+            aspect-ratio: 1;
+            border: 3px solid transparent;
+            transition: all 0.2s ease;
+        }
+        .photo-card img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            display: block;
+        }
+        .photo-card .photo-overlay {
+            position: absolute;
+            inset: 0;
+            background: linear-gradient(to top, rgba(0,0,0,0.5) 0%, transparent 50%);
+            opacity: 0;
+            transition: opacity 0.2s;
+            display: flex;
+            align-items: flex-end;
+            padding: 0.5rem;
+        }
+        .photo-card:hover .photo-overlay {
+            opacity: 1;
+        }
+
+        /* Highlight state */
+        .photo-card.highlighted {
+            border-color: var(--accent-color);
+            box-shadow: 0 0 0 2px var(--accent-color), 0 4px 16px rgba(201, 169, 98, 0.3);
+        }
+        .photo-card .highlight-badge {
+            position: absolute;
+            top: 8px;
+            right: 8px;
+            width: 28px;
+            height: 28px;
+            border-radius: 50%;
+            background: rgba(0,0,0,0.5);
+            border: 2px solid rgba(255,255,255,0.3);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 0.75rem;
+            transition: all 0.2s;
+            z-index: 2;
+        }
+        .photo-card.highlighted .highlight-badge {
+            background: var(--accent-color);
+            border-color: var(--accent-color);
+        }
+
+        /* Selection checkbox */
+        .photo-card .select-check {
+            position: absolute;
+            top: 8px;
+            left: 8px;
+            width: 24px;
+            height: 24px;
+            border-radius: 4px;
+            background: rgba(0,0,0,0.5);
+            border: 2px solid rgba(255,255,255,0.4);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 0.7rem;
+            color: #fff;
+            z-index: 2;
+            opacity: 0;
+            transition: opacity 0.2s;
+        }
+        .photo-card:hover .select-check,
+        .photo-card.selected .select-check {
+            opacity: 1;
+        }
+        .photo-card.selected .select-check {
+            background: var(--accent-color);
+            border-color: var(--accent-color);
+        }
+
+        /* Delete badge */
+        .photo-card .delete-badge {
+            position: absolute;
+            bottom: 8px;
+            right: 8px;
+            width: 28px;
+            height: 28px;
+            border-radius: 50%;
+            background: rgba(0,0,0,0.5);
+            border: 2px solid rgba(255,255,255,0.3);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 0.8rem;
+            color: #fff;
+            z-index: 2;
+            opacity: 0;
+            transition: all 0.2s;
+        }
+        .photo-card:hover .delete-badge {
+            opacity: 1;
+        }
+        .photo-card .delete-badge:hover {
+            background: var(--danger-color);
+            border-color: var(--danger-color);
+        }
+
+        /* Category tag */
+        .photo-card .category-tag {
+            position: absolute;
+            bottom: 8px;
+            left: 8px;
+            padding: 2px 8px;
+            background: rgba(0,0,0,0.6);
+            color: rgba(255,255,255,0.8);
+            font-size: 0.65rem;
+            border-radius: 4px;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            z-index: 2;
+            opacity: 0;
+            transition: opacity 0.2s;
+        }
+        .photo-card:hover .category-tag {
+            opacity: 1;
+        }
+
+        /* Stats bar */
+        .album-stats {
+            padding: 0.8rem 1.5rem;
+            background: var(--off-white);
+            border-top: 1px solid rgba(0,0,0,0.06);
+            display: flex;
+            gap: 1.5rem;
+            font-size: 0.8rem;
+            color: var(--text-light);
+        }
+        .album-stats .stat {
+            display: flex;
+            align-items: center;
+            gap: 0.3rem;
+        }
+        .album-stats .stat .count {
+            font-weight: 600;
+            color: var(--text-color);
+        }
+
+        /* Confirm dialog */
+        .confirm-overlay {
+            display: none;
+            position: fixed;
+            inset: 0;
+            background: rgba(0,0,0,0.6);
+            z-index: 1000;
+            align-items: center;
+            justify-content: center;
+        }
+        .confirm-overlay.active {
+            display: flex;
+        }
+        .confirm-dialog {
+            background: var(--white);
+            border-radius: 12px;
+            padding: 2rem;
+            max-width: 400px;
+            width: 90%;
+            text-align: center;
+        }
+        .confirm-dialog h3 {
+            margin-bottom: 0.5rem;
+            font-family: 'Playfair Display', serif;
+        }
+        .confirm-dialog p {
+            color: var(--text-light);
+            margin-bottom: 1.5rem;
+            font-size: 0.9rem;
+        }
+        .confirm-dialog .confirm-btns {
+            display: flex;
+            gap: 0.75rem;
+            justify-content: center;
+        }
+        .confirm-dialog .confirm-btns button {
+            padding: 0.6rem 1.5rem;
+            border: none;
+            border-radius: 6px;
+            font-size: 0.9rem;
+            cursor: pointer;
+            font-weight: 500;
+            transition: all 0.2s;
+        }
+        .confirm-dialog .btn-cancel {
+            background: var(--off-white);
+            color: var(--text-color);
+        }
+        .confirm-dialog .btn-cancel:hover {
+            background: #e0e0e0;
+        }
+        .confirm-dialog .btn-danger {
+            background: var(--danger-color);
+            color: #fff;
+        }
+        .confirm-dialog .btn-danger:hover {
+            background: #c82333;
+        }
+
+        /* Toast notification */
+        .toast {
+            position: fixed;
+            bottom: 2rem;
+            right: 2rem;
+            padding: 0.8rem 1.5rem;
+            background: var(--primary-color);
+            color: #fff;
+            border-radius: 8px;
+            font-size: 0.9rem;
+            z-index: 2000;
+            transform: translateY(100px);
+            opacity: 0;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 16px rgba(0,0,0,0.3);
+        }
+        .toast.visible {
+            transform: translateY(0);
+            opacity: 1;
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            .albums-container { padding: 1rem; }
+            .album-grid {
+                grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+                gap: 0.5rem;
+            }
+            .top-bar { padding: 0.8rem 1rem; flex-wrap: wrap; gap: 0.5rem; }
+            .top-bar h1 { font-size: 1.1rem; }
+            .album-header { padding: 1rem; }
+            .album-header .album-title { font-size: 1.1rem; }
+        }
+    </style>
+</head>
+<body>
+    <div class="top-bar">
+        <a href="index.html" class="back">← Back to Portfolio</a>
+        <h1>Edit Albums</h1>
+        <div class="actions"></div>
+    </div>
+
+    <div class="albums-container" id="albumsContainer">
+        <div class="no-photos" id="noPhotos" style="display:none;">
+            No photos uploaded yet. <a href="index.html">Go upload some!</a>
+        </div>
+    </div>
+
+    <div class="confirm-overlay" id="confirmOverlay">
+        <div class="confirm-dialog">
+            <h3 id="confirmTitle">Delete Photos?</h3>
+            <p id="confirmMsg">This action cannot be undone.</p>
+            <div class="confirm-btns">
+                <button class="btn-cancel" onclick="closeConfirm()">Cancel</button>
+                <button class="btn-danger" id="confirmBtn" onclick="confirmAction()">Delete</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="toast" id="toast"></div>
+
+    <script>
+    let allImages = [];
+    let pendingAction = null;
+
+    // Group images by location
+    function groupByLocation(images) {
+        const groups = {};
+        images.forEach(img => {
+            const key = img.locationName || 'No Location';
+            if (!groups[key]) {
+                groups[key] = { locationName: key, lat: img.latitude, lng: img.longitude, photos: [] };
+            }
+            groups[key].photos.push(img);
+        });
+        // Sort groups alphabetically, 'No Location' last
+        return Object.values(groups).sort((a, b) => {
+            if (a.locationName === 'No Location') return 1;
+            if (b.locationName === 'No Location') return -1;
+            return a.locationName.localeCompare(b.locationName);
+        });
+    }
+
+    function render() {
+        const container = document.getElementById('albumsContainer');
+        const noPhotos = document.getElementById('noPhotos');
+
+        // Keep the noPhotos element, remove album groups
+        container.querySelectorAll('.album-group').forEach(el => el.remove());
+
+        if (allImages.length === 0) {
+            noPhotos.style.display = 'block';
+            return;
+        }
+        noPhotos.style.display = 'none';
+
+        const albums = groupByLocation(allImages);
+        albums.forEach(album => {
+            const group = document.createElement('div');
+            group.className = 'album-group';
+
+            const highlightedCount = album.photos.filter(p => p.highlight).length;
+
+            group.innerHTML = `
+                <div class="album-header">
+                    <div>
+                        <div class="album-title"><span class="location-icon">📍</span>${album.locationName}</div>
+                        <div class="album-meta">${album.photos.length} photo${album.photos.length > 1 ? 's' : ''}</div>
+                    </div>
+                    <div class="album-actions">
+                        <button class="highlight-all" data-loc="${album.locationName}" onclick="highlightAll('${escAttr(album.locationName)}', true)">★ Highlight All</button>
+                        <button class="unhighlight-all" data-loc="${album.locationName}" onclick="highlightAll('${escAttr(album.locationName)}', false)">☆ Unhighlight All</button>
+                        <button class="delete-selected" data-loc="${album.locationName}" onclick="deleteSelected('${escAttr(album.locationName)}')">🗑 Delete Selected</button>
+                    </div>
+                </div>
+                <div class="album-grid" data-loc="${album.locationName}">
+                    ${album.photos.map(photo => `
+                        <div class="photo-card ${photo.highlight ? 'highlighted' : ''}"
+                             data-id="${photo.id}">
+                            <img src="${photo.path}" alt="${photo.locationName}" loading="lazy">
+                            <div class="select-check" onclick="event.stopPropagation(); toggleSelect(${photo.id})">✓</div>
+                            <div class="highlight-badge" onclick="event.stopPropagation(); toggleHighlight(${photo.id})" title="Toggle highlight">★</div>
+                            <div class="delete-badge" onclick="event.stopPropagation(); deleteSingle(${photo.id})" title="Delete photo">✕</div>
+                            <div class="category-tag">${photo.category || 'uncategorized'}</div>
+                        </div>
+                    `).join('')}
+                </div>
+                <div class="album-stats">
+                    <div class="stat">★ <span class="count">${highlightedCount}</span> highlighted</div>
+                    <div class="stat">📷 <span class="count">${album.photos.length}</span> total</div>
+                </div>
+            `;
+
+            // Click on photo card to toggle highlight (main click area)
+            group.querySelectorAll('.photo-card').forEach(card => {
+                card.addEventListener('click', () => {
+                    toggleHighlight(parseInt(card.dataset.id));
+                });
+            });
+
+            container.appendChild(group);
+        });
+    }
+
+    function escAttr(str) {
+        return str.replace(/'/g, "\\'").replace(/"/g, '&quot;');
+    }
+
+    // Toggle highlight for a single photo
+    async function toggleHighlight(id) {
+        const img = allImages.find(i => i.id === id);
+        if (!img) return;
+        const newVal = !img.highlight;
+        try {
+            const res = await fetch(`/api/images/${id}/highlight`, {
+                method: 'PUT',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({ highlight: newVal })
+            });
+            if (res.ok) {
+                img.highlight = newVal;
+                render();
+                showToast(newVal ? '★ Photo highlighted' : '☆ Highlight removed');
+            }
+        } catch (e) {
+            showToast('Error updating photo');
+        }
+    }
+
+    // Toggle select for multi-select operations
+    function toggleSelect(id) {
+        const card = document.querySelector(`.photo-card[data-id="${id}"]`);
+        if (card) card.classList.toggle('selected');
+    }
+
+    // Highlight/unhighlight all in a location
+    async function highlightAll(locationName, highlight) {
+        const ids = allImages
+            .filter(i => (i.locationName || 'No Location') === locationName)
+            .map(i => i.id);
+        if (ids.length === 0) return;
+        try {
+            const res = await fetch('/api/images/bulk-highlight', {
+                method: 'PUT',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({ ids, highlight })
+            });
+            if (res.ok) {
+                allImages.forEach(img => {
+                    if (ids.includes(img.id)) img.highlight = highlight;
+                });
+                render();
+                showToast(highlight
+                    ? `★ All ${ids.length} photos in ${locationName} highlighted`
+                    : `☆ Removed highlights from ${locationName}`);
+            }
+        } catch (e) {
+            showToast('Error updating photos');
+        }
+    }
+
+    // Delete selected photos in a location group
+    function deleteSelected(locationName) {
+        const grid = document.querySelector(`.album-grid[data-loc="${locationName}"]`);
+        if (!grid) return;
+        const selectedCards = grid.querySelectorAll('.photo-card.selected');
+        if (selectedCards.length === 0) {
+            showToast('Select photos first (click the ✓ checkbox)');
+            return;
+        }
+        const ids = Array.from(selectedCards).map(c => parseInt(c.dataset.id));
+        showConfirm(
+            `Delete ${ids.length} photo${ids.length > 1 ? 's' : ''}?`,
+            'This will permanently remove the selected photos.',
+            () => doBulkDelete(ids)
+        );
+    }
+
+    // Delete a single photo
+    function deleteSingle(id) {
+        showConfirm(
+            'Delete this photo?',
+            'This will permanently remove the photo.',
+            () => doBulkDelete([id])
+        );
+    }
+
+    async function doBulkDelete(ids) {
+        try {
+            const res = await fetch('/api/images/bulk-delete', {
+                method: 'PUT',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({ ids })
+            });
+            if (res.ok) {
+                allImages = allImages.filter(img => !ids.includes(img.id));
+                render();
+                showToast(`🗑 Deleted ${ids.length} photo${ids.length > 1 ? 's' : ''}`);
+            }
+        } catch (e) {
+            showToast('Error deleting photos');
+        }
+    }
+
+    // Confirm dialog
+    function showConfirm(title, msg, action) {
+        document.getElementById('confirmTitle').textContent = title;
+        document.getElementById('confirmMsg').textContent = msg;
+        document.getElementById('confirmOverlay').classList.add('active');
+        pendingAction = action;
+    }
+    function closeConfirm() {
+        document.getElementById('confirmOverlay').classList.remove('active');
+        pendingAction = null;
+    }
+    function confirmAction() {
+        if (pendingAction) pendingAction();
+        closeConfirm();
+    }
+
+    // Toast
+    function showToast(msg) {
+        const toast = document.getElementById('toast');
+        toast.textContent = msg;
+        toast.classList.add('visible');
+        clearTimeout(toast._timer);
+        toast._timer = setTimeout(() => toast.classList.remove('visible'), 2500);
+    }
+
+    // Load data
+    async function init() {
+        try {
+            const res = await fetch('/api/images');
+            const data = await res.json();
+            allImages = data.images || [];
+            render();
+        } catch (e) {
+            document.getElementById('noPhotos').style.display = 'block';
+            document.getElementById('noPhotos').textContent = 'Error loading photos. Is the server running?';
+        }
+    }
+
+    init();
+    </script>
+</body>
+</html>

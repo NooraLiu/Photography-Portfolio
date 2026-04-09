@@ -11,13 +11,14 @@
     <!-- Navigation -->
     <nav class="navbar">
         <div class="logo">
-            <a href="#">Your Name</a>
+            <a href="#">Nora Liu</a>
         </div>
         <ul class="nav-links">
             <li><a href="#gallery">Portfolio</a></li>
             <li><a href="earth.html">🌍 Globe View</a></li>
             <li><a href="#about">About</a></li>
             <li><a href="#contact">Contact</a></li>
+            <li><a href="owner.html">👤 Owner</a></li>
         </ul>
         <div class="hamburger">
             <span></span>
@@ -35,58 +36,6 @@
         </div>
     </header>
 
-    <!-- Upload Section -->
-    <section class="upload-section" id="upload">
-        <div class="upload-container">
-            <h2>Add New Photos</h2>
-            <div class="add-photo-form">
-                <div class="form-group">
-                    <label>Select Photo</label>
-                    <div class="photo-select-area" id="photoSelectArea">
-                        <input type="file" id="fileInput" accept="image/*" hidden>
-                        <div class="photo-select-prompt" id="photoSelectPrompt">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
-                                <rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect>
-                                <circle cx="8.5" cy="8.5" r="1.5"></circle>
-                                <polyline points="21 15 16 10 5 21"></polyline>
-                            </svg>
-                            <span>Click to select a photo</span>
-                        </div>
-                        <div class="photo-preview-container" id="photoPreviewContainer" style="display: none;">
-                            <img id="photoPreview" src="" alt="Selected photo">
-                            <button class="change-photo-btn" id="changePhotoBtn">Change</button>
-                        </div>
-                    </div>
-                </div>
-                <div class="form-group">
-                    <label>Search City</label>
-                    <div class="autocomplete-wrapper">
-                        <input type="text" id="citySearchInput" placeholder="Start typing a city name..." autocomplete="off">
-                        <div class="autocomplete-results" id="cityAutocompleteResults"></div>
-                    </div>
-                </div>
-                <div class="form-group">
-                    <label>Category</label>
-                    <select id="categorySelect">
-                        <option value="all">Select category...</option>
-                        <option value="nature">Nature</option>
-                        <option value="portrait">Portrait</option>
-                        <option value="travel">Travel</option>
-                        <option value="street">Street</option>
-                    </select>
-                </div>
-                <div class="form-group coord-display" id="coordDisplay" style="display: none;">
-                    <span class="coord-badge">
-                        <span class="coord-icon">📍</span>
-                        <span id="selectedLocationName"></span>
-                        <span class="coord-values" id="coordValues"></span>
-                    </span>
-                </div>
-                <button class="add-photo-btn" id="addPhotoBtn" disabled>Add to Gallery</button>
-            </div>
-        </div>
-    </section>
-
     <!-- Gallery Section -->
     <section class="gallery-section" id="gallery">
         <div class="section-header">
@@ -101,67 +50,6 @@
             <button class="filter-btn" data-filter="street">Street</button>
         </div>
         <div class="gallery-masonry" id="gallery-grid">
-            <!-- Sample placeholder images - these will be replaced with uploaded photos -->
-            <div class="gallery-item" data-category="nature">
-                <img src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=600" alt="Mountain landscape">
-                <div class="gallery-overlay">
-                    <span class="view-btn">View</span>
-                </div>
-            </div>
-            <div class="gallery-item tall" data-category="portrait">
-                <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=600" alt="Portrait">
-                <div class="gallery-overlay">
-                    <span class="view-btn">View</span>
-                </div>
-            </div>
-            <div class="gallery-item" data-category="travel">
-                <img src="https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?w=600" alt="Japan temple">
-                <div class="gallery-overlay">
-                    <span class="view-btn">View</span>
-                </div>
-            </div>
-            <div class="gallery-item wide" data-category="nature">
-                <img src="https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?w=800" alt="Foggy forest">
-                <div class="gallery-overlay">
-                    <span class="view-btn">View</span>
-                </div>
-            </div>
-            <div class="gallery-item" data-category="street">
-                <img src="https://images.unsplash.com/photo-1480714378408-67cf0d13bc1b?w=600" alt="City street">
-                <div class="gallery-overlay">
-                    <span class="view-btn">View</span>
-                </div>
-            </div>
-            <div class="gallery-item tall" data-category="nature">
-                <img src="https://images.unsplash.com/photo-1518837695005-2083093ee35b?w=600" alt="Ocean wave">
-                <div class="gallery-overlay">
-                    <span class="view-btn">View</span>
-                </div>
-            </div>
-            <div class="gallery-item" data-category="portrait">
-                <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=600" alt="Portrait 2">
-                <div class="gallery-overlay">
-                    <span class="view-btn">View</span>
-                </div>
-            </div>
-            <div class="gallery-item wide" data-category="travel">
-                <img src="https://images.unsplash.com/photo-1469474968028-56623f02e42e?w=800" alt="Nature landscape">
-                <div class="gallery-overlay">
-                    <span class="view-btn">View</span>
-                </div>
-            </div>
-            <div class="gallery-item" data-category="street">
-                <img src="https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?w=600" alt="Urban">
-                <div class="gallery-overlay">
-                    <span class="view-btn">View</span>
-                </div>
-            </div>
-            <div class="gallery-item tall" data-category="travel">
-                <img src="https://images.unsplash.com/photo-1502602898657-3e91760cbb34?w=600" alt="Paris">
-                <div class="gallery-overlay">
-                    <span class="view-btn">View</span>
-                </div>
-            </div>
         </div>
     </section>
 
@@ -219,7 +107,7 @@
     <!-- Footer -->
     <footer class="footer">
         <div class="footer-content">
-            <p>&copy; 2026 Your Name. All rights reserved.</p>
+            <p>&copy; 2026 Nora Liu. All rights reserved.</p>
             <div class="footer-links">
                 <a href="#">Privacy Policy</a>
                 <a href="#">Terms of Service</a>

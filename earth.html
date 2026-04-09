@@ -546,13 +546,14 @@
     <!-- Navigation -->
     <nav class="globe-nav">
         <div class="logo">
-            <a href="index.html">Your Name</a>
+            <a href="index.html">Nora Liu</a>
         </div>
         <ul class="nav-links">
             <li><a href="index.html">Portfolio</a></li>
             <li><a href="earth.html" style="color: #c9a962;">Globe View</a></li>
             <li><a href="index.html#about">About</a></li>
             <li><a href="index.html#contact">Contact</a></li>
+            <li><a href="owner.html">👤 Owner</a></li>
         </ul>
     </nav>
 
@@ -970,12 +971,11 @@
                 const markerContainer = new THREE.Group();
                 markerContainer.position.copy(position);
                 
-                // Scale based on number of photos
-                const photoCount = album.photos.length;
-                const scale = 1 + Math.min(photoCount - 1, 5) * 0.1;
+                // Uniform pin size for all markers
+                const pinScale = 0.8;
                 
                 // Pin head - glossy red ball with subtle shine
-                const headGeometry = new THREE.SphereGeometry(0.012 * scale, 32, 32);
+                const headGeometry = new THREE.SphereGeometry(0.012 * pinScale, 32, 32);
                 const headMaterial = new THREE.MeshPhongMaterial({ 
                     color: 0xdc2626,
                     emissive: 0x3a0808,
@@ -983,7 +983,7 @@
                     specular: 0xffffff
                 });
                 const head = new THREE.Mesh(headGeometry, headMaterial);
-                head.position.set(0, 0.065 * scale, 0);
+                head.position.set(0, 0.065 * pinScale, 0);
                 
                 // Store album data in head for raycasting
                 head.userData = {
@@ -995,7 +995,7 @@
                 markers.push(head);
                 
                 // Pin needle - metallic silver with subtle shine
-                const needleGeometry = new THREE.CylinderGeometry(0.0005 * scale, 0.003 * scale, 0.07 * scale, 16);
+                const needleGeometry = new THREE.CylinderGeometry(0.0005 * pinScale, 0.003 * pinScale, 0.07 * pinScale, 16);
                 const needleMaterial = new THREE.MeshPhongMaterial({
                     color: 0xe8e8e8,
                     emissive: 0x1a1a1a,
@@ -1003,7 +1003,7 @@
                     specular: 0xffffff
                 });
                 const needle = new THREE.Mesh(needleGeometry, needleMaterial);
-                needle.position.set(0, 0.035 * scale, 0);
+                needle.position.set(0, 0.035 * pinScale, 0);
                 needle.rotation.x = Math.PI; // Point downward
                 markerContainer.add(needle);
                 
@@ -1251,7 +1251,13 @@
             
             // Keep the current distance from earth center (no zoom change)
             const currentDistance = camera.position.length();
-            const targetPosition = latLongToVector3(album.latitude, album.longitude, currentDistance);
+            
+            // Account for the earth's accumulated rotation so the camera
+            // points at the actual current position of the location on the
+            // rotated globe, not where it would be at rotation=0.
+            const earthRotY = earth.rotation.y;
+            const adjustedLng = album.longitude + THREE.MathUtils.radToDeg(earthRotY);
+            const targetPosition = latLongToVector3(album.latitude, adjustedLng, currentDistance);
             
             // Use spherical coordinates for smooth rotation around the globe
             const startSpherical = new THREE.Spherical().setFromVector3(camera.position);
@@ -1325,7 +1331,7 @@
             // Slowly rotate Earth when not interacting and not paused
             const isPaused = Date.now() < autoRotationPausedUntil;
             if (!controls.enabled || (!isDragging && !isPaused)) {
-                earth.rotation.y += 0.001;
+                earth.rotation.y += 0.0003;
             }
             
             // Animate pins with gentle floating effect
