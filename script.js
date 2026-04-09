@@ -1035,6 +1035,12 @@ async function loadSavedImages() {
                 category: img.category
             }, true);
         });
+
+        // Preload full-res images in background for instant lightbox
+        highlighted.forEach(img => {
+            const preload = new Image();
+            preload.src = fixPath(img.path);
+        });
     } catch (error) {
         console.log('Running without server - images will not persist.');
     }
