@@ -837,17 +837,28 @@ function initGalleryImages() {
 function openLightboxByElement(element) {
     const img = element.querySelector('img');
     const fullres = img.dataset.fullres || img.src;
-    lightboxImage.style.opacity = '0';
-    lightboxImage.src = '';
+    const thumb = img.src;
+    
+    // Show thumbnail immediately as placeholder
+    lightboxImage.src = thumb;
+    lightboxImage.style.opacity = '1';
     lightbox.classList.add('active');
     document.body.style.overflow = 'hidden';
     
-    const preload = new Image();
-    preload.onload = () => {
-        lightboxImage.src = fullres;
-        lightboxImage.style.opacity = '1';
-    };
-    preload.src = fullres;
+    // Pause background preloading so this image gets full bandwidth
+    if (window._preloadPause) window._preloadPause();
+
+    // Load full-res and swap in when ready
+    if (fullres !== thumb) {
+        const preload = new Image();
+        preload.onload = () => {
+            lightboxImage.src = fullres;
+            if (window._preloadResume) window._preloadResume();
+        };
+        preload.src = fullres;
+    } else {
+        if (window._preloadResume) window._preloadResume();
+    }
     
     // Find current index by element reference
     currentImageIndex = galleryImages.findIndex(g => g.element === element);
@@ -921,16 +932,16 @@ function navigateLightbox(direction) {
     const slideClass = direction > 0 ? 'slide-left' : 'slide-right';
     lightboxImage.classList.add(slideClass);
     
-    // Preload new image, then swap
-    const preload = new Image();
-    preload.onload = () => {
-        lightboxImage.src = newSrc;
-        lightboxImage.classList.remove(slideClass);
-    };
-    // After slide-out animation, start loading
+    // After slide-out, show thumbnail immediately, then swap to full-res
+    const thumbSrc = newImg.src;
     setTimeout(() => {
-        lightboxImage.src = '';
-        preload.src = newSrc;
+        lightboxImage.src = thumbSrc;
+        lightboxImage.classList.remove(slideClass);
+        if (newSrc !== thumbSrc) {
+            const preload = new Image();
+            preload.onload = () => { lightboxImage.src = newSrc; };
+            preload.src = newSrc;
+        }
     }, 150);
 }
 
@@ -1036,11 +1047,24 @@ async function loadSavedImages() {
             }, true);
         });
 
-        // Preload full-res images in background for instant lightbox
-        highlighted.forEach(img => {
-            const preload = new Image();
-            preload.src = fixPath(img.path);
-        });
+        // Preload full-res images in background (staggered, pausable)
+        let preloadQueue = highlighted.map(img => fixPath(img.path));
+        let preloadPaused = false;
+        let preloadIndex = 0;
+
+        function preloadNext() {
+            if (preloadPaused || preloadIndex >= preloadQueue.length) return;
+            const src = preloadQueue[preloadIndex++];
+            const img = new Image();
+            img.onload = img.onerror = () => setTimeout(preloadNext, 50);
+            img.src = src;
+        }
+        // Start preloading after a short delay to let thumbnails load first
+        setTimeout(preloadNext, 500);
+
+        // Expose pause/resume for lightbox priority
+        window._preloadPause = () => { preloadPaused = true; };
+        window._preloadResume = () => { preloadPaused = false; preloadNext(); };
     } catch (error) {
         console.log('Running without server - images will not persist.');
     }
