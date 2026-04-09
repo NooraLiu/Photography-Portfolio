@@ -556,6 +556,11 @@
             <li><a href="owner.html">👤 Owner</a></li>
         </ul>
     </nav>
+    <script>
+        if (location.hostname !== 'localhost' && location.hostname !== '127.0.0.1') {
+            document.querySelectorAll('a[href="owner.html"]').forEach(a => a.parentElement.style.display = 'none');
+        }
+    </script>
 
     <!-- Globe Container -->
     <div id="globe-container"></div>
@@ -638,7 +643,13 @@
         // Load gallery data
         async function loadData() {
             try {
-                const response = await fetch('/api/images');
+                let response;
+                try {
+                    response = await fetch('/api/images');
+                } catch (e) {
+                    response = await fetch('gallery-data.json');
+                }
+                if (!response.ok) response = await fetch('gallery-data.json');
                 const data = await response.json();
                 
                 // API returns array directly or {images: [...]}

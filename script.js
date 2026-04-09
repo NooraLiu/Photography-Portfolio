@@ -986,7 +986,13 @@ document.querySelectorAll('section').forEach(section => {
 // ===== Load Saved Images from Server =====
 async function loadSavedImages() {
     try {
-        const response = await fetch('/api/images');
+        let response;
+        try {
+            response = await fetch('/api/images');
+        } catch (e) {
+            response = await fetch('gallery-data.json');
+        }
+        if (!response.ok) response = await fetch('gallery-data.json');
         const data = await response.json();
         const images = data.images || [];
         
