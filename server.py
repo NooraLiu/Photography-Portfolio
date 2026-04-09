@@ -17,7 +17,7 @@ import shutil
 import random
 
 try:
-    from PIL import Image
+    from PIL import Image, ImageOps
     HAS_PIL = True
 except ImportError:
     HAS_PIL = False
@@ -384,6 +384,7 @@ class PortfolioHandler(http.server.SimpleHTTPRequestHandler):
                 os.makedirs(THUMB_DIR)
             thumb_filepath = os.path.join(THUMB_DIR, filename)
             with Image.open(filepath) as img:
+                img = ImageOps.exif_transpose(img)
                 img.thumbnail((THUMB_SIZE, THUMB_SIZE), Image.LANCZOS)
                 # Convert RGBA to RGB for JPEG
                 if img.mode in ('RGBA', 'P'):
