@@ -740,12 +740,17 @@ function addToGallery(fileData, isUserUploaded = true) {
     }
     
     galleryItem.innerHTML = `
-        <img src="${fileData.preview}" alt="Gallery image">
+        <img src="${fileData.preview}" data-fullres="${fileData.fullres || fileData.preview}" alt="Gallery image" loading="lazy">
         <div class="gallery-overlay">
             <span class="view-btn">View</span>
         </div>
     `;
     
+    // Fade in when loaded
+    const img = galleryItem.querySelector('img');
+    if (img.complete) img.classList.add('loaded');
+    else img.addEventListener('load', () => img.classList.add('loaded'));
+
     // Insert at the beginning of the gallery
     galleryGrid.insertBefore(galleryItem, galleryGrid.firstChild);
     
@@ -831,7 +836,7 @@ function initGalleryImages() {
 // Open lightbox by element reference (more reliable)
 function openLightboxByElement(element) {
     const img = element.querySelector('img');
-    lightboxImage.src = img.src;
+    lightboxImage.src = img.dataset.fullres || img.src;
     lightbox.classList.add('active');
     document.body.style.overflow = 'hidden';
     
@@ -877,7 +882,9 @@ function navigateLightbox(direction) {
     // Find current position in visible images
     let currentVisibleIndex = -1;
     for (let i = 0; i < visibleImages.length; i++) {
-        if (visibleImages[i].element.querySelector('img').src === lightboxImage.src) {
+        const elImg = visibleImages[i].element.querySelector('img');
+        const fullres = elImg.dataset.fullres || elImg.src;
+        if (fullres === lightboxImage.src) {
             currentVisibleIndex = i;
             break;
         }
@@ -896,8 +903,8 @@ function navigateLightbox(direction) {
     if (newIndex >= visibleImages.length) newIndex = 0;
     
     const newImage = visibleImages[newIndex];
-    const newSrc = newImage.element.querySelector('img').src;
-    
+    const newImg = newImage.element.querySelector('img');
+    const newSrc = newImg.dataset.fullres || newImg.src;
     // Update currentImageIndex to match
     currentImageIndex = galleryImages.findIndex(img => img.element === newImage.element);
     
@@ -1008,7 +1015,8 @@ async function loadSavedImages() {
         highlighted.reverse().forEach(img => {
             addToGallery({
                 id: img.id,
-                preview: fixPath(img.path),
+                preview: fixPath(img.thumbnailPath || img.path),
+                fullres: fixPath(img.path),
                 category: img.category
             }, true);
         });
