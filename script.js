@@ -871,35 +871,26 @@ function preloadAdjacent(visibleImages, currentIdx) {
 function openLightboxByElement(element) {
     const img = element.querySelector('img');
     const fullres = img.dataset.fullres || img.src;
-    const thumb = img.src;
-    const alreadyCached = fullres === thumb;
 
-    // Pin the lightbox image to the final display dimensions so the
-    // thumbnail placeholder occupies exactly the same space as full-res.
-    // This eliminates the size jump when full-res swaps in.
-    if (img.naturalWidth && img.naturalHeight) {
-        const { w, h } = computeLightboxSize(img.naturalWidth, img.naturalHeight);
-        lightboxImage.style.width = w + 'px';
-        lightboxImage.style.height = h + 'px';
-    }
-
-    lightboxImage.src = thumb;
-    lightboxImage.style.opacity = '1';
+    // Hide any stale image immediately — show only the loader
+    lightboxImage.src = '';
+    lightboxImage.style.opacity = '0';
+    lightboxImage.style.width = '';
+    lightboxImage.style.height = '';
     lightbox.classList.add('active');
     document.body.style.overflow = 'hidden';
+    if (shutterLoader) shutterLoader.classList.add('visible');
 
-    if (!alreadyCached) {
-        // Show shutter loader while full-res downloads
-        if (shutterLoader) shutterLoader.classList.add('visible');
-        const preload = new Image();
-        preload.onload = () => {
-            lightboxImage.src = fullres;
-            lightboxImage.style.width = '';
-            lightboxImage.style.height = '';
-            if (shutterLoader) shutterLoader.classList.remove('visible');
-        };
-        preload.src = fullres;
-    }
+    const preload = new Image();
+    preload.onload = () => {
+        lightboxImage.src = fullres;
+        lightboxImage.style.opacity = '1';
+        if (shutterLoader) shutterLoader.classList.remove('visible');
+    };
+    preload.onerror = () => {
+        if (shutterLoader) shutterLoader.classList.remove('visible');
+    };
+    preload.src = fullres;
 
     currentImageIndex = galleryImages.findIndex(g => g.element === element);
 
@@ -980,26 +971,23 @@ function navigateLightbox(direction) {
     
     // After slide-out, show thumbnail pinned to full-res display size, then swap in full-res
     setTimeout(() => {
-        const thumbSrc = newImg.src;
-        if (newImg.naturalWidth && newImg.naturalHeight) {
-            const { w, h } = computeLightboxSize(newImg.naturalWidth, newImg.naturalHeight);
-            lightboxImage.style.width = w + 'px';
-            lightboxImage.style.height = h + 'px';
-        }
-        lightboxImage.src = thumbSrc;
-        lightboxImage.style.opacity = '1';
         lightboxImage.classList.remove(slideClass);
-        if (newSrc !== thumbSrc) {
-            if (shutterLoader) shutterLoader.classList.add('visible');
-            const preload = new Image();
-            preload.onload = () => {
-                lightboxImage.src = newSrc;
-                lightboxImage.style.width = '';
-                lightboxImage.style.height = '';
-                if (shutterLoader) shutterLoader.classList.remove('visible');
-            };
-            preload.src = newSrc;
-        }
+        // Hide stale image, show only loader while new full-res loads
+        lightboxImage.src = '';
+        lightboxImage.style.opacity = '0';
+        lightboxImage.style.width = '';
+        lightboxImage.style.height = '';
+        if (shutterLoader) shutterLoader.classList.add('visible');
+        const preload = new Image();
+        preload.onload = () => {
+            lightboxImage.src = newSrc;
+            lightboxImage.style.opacity = '1';
+            if (shutterLoader) shutterLoader.classList.remove('visible');
+        };
+        preload.onerror = () => {
+            if (shutterLoader) shutterLoader.classList.remove('visible');
+        };
+        preload.src = newSrc;
         // Preload the image after this one
         const visibleImages = galleryImages.filter(img => !img.element.classList.contains('hidden'));
         const newVisIdx = visibleImages.findIndex(img => img.element === newImage.element);

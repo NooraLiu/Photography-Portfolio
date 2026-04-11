@@ -1015,11 +1015,12 @@ img {
     transform-origin: 40px 40px;
     animation: shutter-spin 3s linear infinite;
 }
-/* Each blade pivots from its outer end — real aperture iris mechanics */
+/* Each blade pivots from center — aperture iris mechanics */
 .aperture-blade {
-    fill: #1a1a1a;
+    fill: #c9a962;
+    opacity: 0.9;
     transform-box: fill-box;
-    transform-origin: 100% 50%;
+    transform-origin: 0% 100%;
     animation: iris-pivot 2.4s ease-in-out infinite;
 }
 @keyframes shutter-spin {
@@ -1027,8 +1028,10 @@ img {
     to   { transform: rotate(360deg); }
 }
 @keyframes iris-pivot {
+    /* closed: blades overlap heavily, small center hole */
     0%, 15%   { transform: rotate(0deg); }
-    40%, 60%  { transform: rotate(-22deg); }
+    /* open: blades pivot back, large center hole */
+    40%, 60%  { transform: rotate(-28deg); }
     85%, 100% { transform: rotate(0deg); }
 }
 
