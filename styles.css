@@ -1013,11 +1013,29 @@ img {
 }
 .shutter-blades {
     transform-origin: 40px 40px;
-    animation: shutter-spin 2.4s linear infinite;
+    animation: shutter-spin 3s linear infinite;
+}
+/* Each blade pulses narrow→wide (aperture opens→closes) */
+.shutter-blade {
+    animation: iris-open 2.4s ease-in-out infinite;
+}
+/* Center circle mirrors the blade width — big = closed, small = open */
+.shutter-center {
+    animation: center-iris 2.4s ease-in-out infinite;
 }
 @keyframes shutter-spin {
     from { transform: rotate(0deg); }
     to   { transform: rotate(360deg); }
+}
+@keyframes iris-open {
+    0%, 15%   { rx: 4; }
+    40%, 60%  { rx: 17; }
+    85%, 100% { rx: 4; }
+}
+@keyframes center-iris {
+    0%, 15%   { r: 3; }
+    40%, 60%  { r: 15; }
+    85%, 100% { r: 3; }
 }
 
 .lightbox.active {
