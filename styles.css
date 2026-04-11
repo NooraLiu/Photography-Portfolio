@@ -993,6 +993,33 @@ img {
                 visibility 0.4s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+/* Camera shutter loader */
+.shutter-loader {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.3s ease;
+    z-index: 1;
+}
+.shutter-loader.visible {
+    opacity: 1;
+}
+.shutter-svg {
+    width: 72px;
+    height: 72px;
+}
+.shutter-blades {
+    transform-origin: 40px 40px;
+    animation: shutter-spin 2.4s linear infinite;
+}
+@keyframes shutter-spin {
+    from { transform: rotate(0deg); }
+    to   { transform: rotate(360deg); }
+}
+
 .lightbox.active {
     opacity: 1;
     visibility: visible;

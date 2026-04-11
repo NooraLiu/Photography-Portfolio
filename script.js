@@ -22,6 +22,7 @@ const lightboxImage = document.getElementById('lightboxImage');
 const lightboxClose = document.getElementById('lightboxClose');
 const lightboxPrev = document.getElementById('lightboxPrev');
 const lightboxNext = document.getElementById('lightboxNext');
+const shutterLoader = document.getElementById('shutterLoader');
 const contactForm = document.getElementById('contactForm');
 
 // ===== State =====
@@ -871,6 +872,7 @@ function openLightboxByElement(element) {
     const img = element.querySelector('img');
     const fullres = img.dataset.fullres || img.src;
     const thumb = img.src;
+    const alreadyCached = fullres === thumb;
 
     // Pin the lightbox image to the final display dimensions so the
     // thumbnail placeholder occupies exactly the same space as full-res.
@@ -886,13 +888,15 @@ function openLightboxByElement(element) {
     lightbox.classList.add('active');
     document.body.style.overflow = 'hidden';
 
-    if (fullres !== thumb) {
+    if (!alreadyCached) {
+        // Show shutter loader while full-res downloads
+        if (shutterLoader) shutterLoader.classList.add('visible');
         const preload = new Image();
         preload.onload = () => {
             lightboxImage.src = fullres;
-            // Clear inline dimensions — CSS takes over at identical size
             lightboxImage.style.width = '';
             lightboxImage.style.height = '';
+            if (shutterLoader) shutterLoader.classList.remove('visible');
         };
         preload.src = fullres;
     }
@@ -926,6 +930,7 @@ function openLightbox(src) {
 function closeLightbox() {
     lightbox.classList.remove('active');
     document.body.style.overflow = '';
+    if (shutterLoader) shutterLoader.classList.remove('visible');
 }
 
 if (lightboxClose) lightboxClose.addEventListener('click', closeLightbox);
@@ -985,11 +990,13 @@ function navigateLightbox(direction) {
         lightboxImage.style.opacity = '1';
         lightboxImage.classList.remove(slideClass);
         if (newSrc !== thumbSrc) {
+            if (shutterLoader) shutterLoader.classList.add('visible');
             const preload = new Image();
             preload.onload = () => {
                 lightboxImage.src = newSrc;
                 lightboxImage.style.width = '';
                 lightboxImage.style.height = '';
+                if (shutterLoader) shutterLoader.classList.remove('visible');
             };
             preload.src = newSrc;
         }
