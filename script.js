@@ -764,8 +764,15 @@ function addToGallery(fileData, isUserUploaded = true) {
     };
     galleryImages.unshift(imageData);
     
-    // Register with viewport preloader if ready
-    if (window._observeGalleryItem) window._observeGalleryItem(galleryItem);
+    // Hover preload: start fetching full-res the moment user hovers
+    galleryItem.addEventListener('mouseenter', () => {
+        const hImg = galleryItem.querySelector('img');
+        const fullres = hImg && hImg.dataset.fullres;
+        if (fullres && fullres !== hImg.src) {
+            const p = new Image();
+            p.src = fullres;
+        }
+    });
 
     // Add click handler for lightbox (using element reference)
     galleryItem.addEventListener('click', () => {
@@ -836,25 +843,66 @@ function initGalleryImages() {
     });
 }
 
+// Compute constrained display size matching .lightbox-content img CSS
+// (max-width: 95vw via container, max-height: 95vh)
+function computeLightboxSize(naturalWidth, naturalHeight) {
+    const maxW = window.innerWidth * 0.95;
+    const maxH = window.innerHeight * 0.95;
+    const ratio = naturalWidth / naturalHeight;
+    let w = naturalWidth, h = naturalHeight;
+    if (w > maxW) { w = maxW; h = w / ratio; }
+    if (h > maxH) { h = maxH; w = h * ratio; }
+    return { w: Math.round(w), h: Math.round(h) };
+}
+
+// Preload full-res of adjacent images while lightbox is open
+function preloadAdjacent(visibleImages, currentIdx) {
+    [-1, 1].forEach(offset => {
+        const adj = visibleImages[currentIdx + offset];
+        if (!adj) return;
+        const adjImg = adj.element.querySelector('img');
+        const src = adjImg && adjImg.dataset.fullres;
+        if (src) { const p = new Image(); p.src = src; }
+    });
+}
+
 // Open lightbox by element reference (more reliable)
 function openLightboxByElement(element) {
     const img = element.querySelector('img');
     const fullres = img.dataset.fullres || img.src;
+    const thumb = img.src;
 
-    lightboxImage.style.opacity = '0';
-    lightboxImage.src = '';
+    // Pin the lightbox image to the final display dimensions so the
+    // thumbnail placeholder occupies exactly the same space as full-res.
+    // This eliminates the size jump when full-res swaps in.
+    if (img.naturalWidth && img.naturalHeight) {
+        const { w, h } = computeLightboxSize(img.naturalWidth, img.naturalHeight);
+        lightboxImage.style.width = w + 'px';
+        lightboxImage.style.height = h + 'px';
+    }
+
+    lightboxImage.src = thumb;
+    lightboxImage.style.opacity = '1';
     lightbox.classList.add('active');
     document.body.style.overflow = 'hidden';
 
-    // If full-res is already cached by the viewport preloader, this fires instantly
-    const preload = new Image();
-    preload.onload = () => {
-        lightboxImage.src = fullres;
-        lightboxImage.style.opacity = '1';
-    };
-    preload.src = fullres;
+    if (fullres !== thumb) {
+        const preload = new Image();
+        preload.onload = () => {
+            lightboxImage.src = fullres;
+            // Clear inline dimensions — CSS takes over at identical size
+            lightboxImage.style.width = '';
+            lightboxImage.style.height = '';
+        };
+        preload.src = fullres;
+    }
 
     currentImageIndex = galleryImages.findIndex(g => g.element === element);
+
+    // Preload adjacent images in background
+    const visible = galleryImages.filter(g => !g.element.classList.contains('hidden'));
+    const visIdx = visible.findIndex(g => g.element === element);
+    if (visIdx !== -1) preloadAdjacent(visible, visIdx);
 }
 
 // Open lightbox by src (fallback)
@@ -925,17 +973,30 @@ function navigateLightbox(direction) {
     const slideClass = direction > 0 ? 'slide-left' : 'slide-right';
     lightboxImage.classList.add(slideClass);
     
-    // After slide-out, load full-res directly (likely cached by viewport preloader)
+    // After slide-out, show thumbnail pinned to full-res display size, then swap in full-res
     setTimeout(() => {
-        lightboxImage.src = '';
+        const thumbSrc = newImg.src;
+        if (newImg.naturalWidth && newImg.naturalHeight) {
+            const { w, h } = computeLightboxSize(newImg.naturalWidth, newImg.naturalHeight);
+            lightboxImage.style.width = w + 'px';
+            lightboxImage.style.height = h + 'px';
+        }
+        lightboxImage.src = thumbSrc;
+        lightboxImage.style.opacity = '1';
         lightboxImage.classList.remove(slideClass);
-        lightboxImage.style.opacity = '0';
-        const preload = new Image();
-        preload.onload = () => {
-            lightboxImage.src = newSrc;
-            lightboxImage.style.opacity = '1';
-        };
-        preload.src = newSrc;
+        if (newSrc !== thumbSrc) {
+            const preload = new Image();
+            preload.onload = () => {
+                lightboxImage.src = newSrc;
+                lightboxImage.style.width = '';
+                lightboxImage.style.height = '';
+            };
+            preload.src = newSrc;
+        }
+        // Preload the image after this one
+        const visibleImages = galleryImages.filter(img => !img.element.classList.contains('hidden'));
+        const newVisIdx = visibleImages.findIndex(img => img.element === newImage.element);
+        if (newVisIdx !== -1) preloadAdjacent(visibleImages, newVisIdx);
     }, 150);
 }
 
@@ -1041,29 +1102,7 @@ async function loadSavedImages() {
             }, true);
         });
 
-        // Preload full-res for gallery items visible in the viewport.
-        // As the user scrolls, newly visible items get preloaded automatically.
-        const preloadCache = new Set();
-        function preloadFullres(element) {
-            const img = element.querySelector('img');
-            const fullres = img && img.dataset.fullres;
-            if (!fullres || preloadCache.has(fullres)) return;
-            preloadCache.add(fullres);
-            const p = new Image();
-            p.src = fullres;
-        }
-
-        const viewportObserver = new IntersectionObserver((entries) => {
-            entries.forEach(entry => {
-                if (entry.isIntersecting) preloadFullres(entry.target);
-            });
-        }, { rootMargin: '200px' }); // start preloading 200px before entering view
-
-        // Observe every gallery item
-        document.querySelectorAll('.gallery-item').forEach(el => viewportObserver.observe(el));
-
-        // Also observe items added dynamically (e.g. after filter)
-        window._observeGalleryItem = (el) => viewportObserver.observe(el);
+        // No background preload — hover preload and adjacent preload handle it
     } catch (error) {
         console.log('Running without server - images will not persist.');
     }
