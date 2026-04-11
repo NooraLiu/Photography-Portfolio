@@ -1148,7 +1148,7 @@
             // Generate thumbnails
             thumbnailStrip.innerHTML = album.photos.map((photo, index) => `
                 <div class="thumbnail ${index === 0 ? 'active' : ''}" data-index="${index}">
-                    <img src="${fixPath(photo.path)}" alt="Photo ${index + 1}">
+                    <img src="${fixPath(photo.smallThumbnailPath || photo.thumbnailPath || photo.path)}" alt="Photo ${index + 1}">
                 </div>
             `).join('');
             
@@ -1248,7 +1248,7 @@
             
             listContainer.innerHTML = photoLocations.map((album, index) => `
                 <div class="location-item" onclick="openAlbumModal(${index})" onmouseenter="rotateToLocation(${index})">
-                    <img src="${fixPath(album.photos[0].path)}" alt="${album.locationName || 'Album'}">
+                    <img src="${fixPath(album.photos[0].smallThumbnailPath || album.photos[0].thumbnailPath || album.photos[0].path)}" alt="${album.locationName || 'Album'}">
                     <div class="location-item-info">
                         <h4>${album.locationName || 'Unknown Location'}</h4>
                         <p>${album.photos.length} photo${album.photos.length > 1 ? 's' : ''}</p>

@@ -481,7 +481,7 @@
                     <div class="album-grid" data-loc="${album.locationName}">
                         ${album.photos.map(photo => `
                             <div class="photo-card ${photo.highlight ? 'highlighted' : ''} ${selectedIds.has(photo.id) ? 'selected' : ''}" data-id="${photo.id}">
-                                <img src="${photo.thumbnailPath || photo.path}" alt="${photo.locationName}" loading="lazy">
+                                <img src="${photo.smallThumbnailPath || photo.thumbnailPath || photo.path}" alt="${photo.locationName}" loading="lazy">
                                 <div class="select-check">✓</div>
                                 <div class="highlight-badge">★</div>
                                 <div class="category-tag">${photo.category || 'uncategorized'}</div>

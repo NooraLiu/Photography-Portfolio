@@ -26,6 +26,8 @@ PORT = 8080
 UPLOAD_DIR = "uploads"
 THUMB_DIR = "uploads/thumbs"
 THUMB_SIZE = 800
+THUMB_DIR_SMALL = "uploads/thumbs300"
+THUMB_SIZE_SMALL = 300
 DATA_FILE = "gallery-data.json"
 
 class PortfolioHandler(http.server.SimpleHTTPRequestHandler):
@@ -97,6 +99,8 @@ class PortfolioHandler(http.server.SimpleHTTPRequestHandler):
             os.makedirs(UPLOAD_DIR)
         if not os.path.exists(THUMB_DIR):
             os.makedirs(THUMB_DIR)
+        if not os.path.exists(THUMB_DIR_SMALL):
+            os.makedirs(THUMB_DIR_SMALL)
         
         # Get categories
         categories = form.getlist('categories')
@@ -140,8 +144,8 @@ class PortfolioHandler(http.server.SimpleHTTPRequestHandler):
                 with open(filepath, 'wb') as f:
                     f.write(photo.file.read())
                 
-                # Generate thumbnail
-                thumb_path = self.create_thumbnail(filepath, unique_name)
+                # Generate thumbnails
+                thumb_path, thumb_path_small = self.create_thumbnails(filepath, unique_name)
                 
                 # Get data for this image
                 category = categories[i] if i < len(categories) else 'all'
@@ -168,6 +172,7 @@ class PortfolioHandler(http.server.SimpleHTTPRequestHandler):
                     'filename': unique_name,
                     'path': f'/uploads/{unique_name}',
                     'thumbnailPath': thumb_path,
+                    'smallThumbnailPath': thumb_path_small,
                     'category': category,
                     'photoName': photo_name,
                     'locationName': location_name,
@@ -202,12 +207,13 @@ class PortfolioHandler(http.server.SimpleHTTPRequestHandler):
                 if os.path.exists(filepath):
                     os.remove(filepath)
                 
-                # Delete thumbnail
-                thumb = image.get('thumbnailPath', '')
-                if thumb:
-                    thumbpath = os.path.join(os.getcwd(), thumb.lstrip('/'))
-                    if os.path.exists(thumbpath):
-                        os.remove(thumbpath)
+                # Delete thumbnails
+                for key in ('thumbnailPath', 'smallThumbnailPath'):
+                    thumb = image.get(key, '')
+                    if thumb:
+                        thumbpath = os.path.join(os.getcwd(), thumb.lstrip('/'))
+                        if os.path.exists(thumbpath):
+                            os.remove(thumbpath)
                 
                 # Remove from data
                 data['images'] = [img for img in data['images'] if img['id'] != image_id]
@@ -320,11 +326,12 @@ class PortfolioHandler(http.server.SimpleHTTPRequestHandler):
                 filepath = os.path.join(os.getcwd(), img['path'].lstrip('/'))
                 if os.path.exists(filepath):
                     os.remove(filepath)
-                thumb = img.get('thumbnailPath', '')
-                if thumb:
-                    thumbpath = os.path.join(os.getcwd(), thumb.lstrip('/'))
-                    if os.path.exists(thumbpath):
-                        os.remove(thumbpath)
+                for key in ('thumbnailPath', 'smallThumbnailPath'):
+                    thumb = img.get(key, '')
+                    if thumb:
+                        thumbpath = os.path.join(os.getcwd(), thumb.lstrip('/'))
+                        if os.path.exists(thumbpath):
+                            os.remove(thumbpath)
             data['images'] = [img for img in data['images'] if img['id'] not in ids]
             self.write_data(data)
             self.send_json_response({'success': True, 'deleted': len(to_delete)})
@@ -375,42 +382,52 @@ class PortfolioHandler(http.server.SimpleHTTPRequestHandler):
         self.wfile.write(response)
     
     @staticmethod
-    def create_thumbnail(filepath, filename):
-        """Create a thumbnail and return its URL path."""
+    def create_thumbnails(filepath, filename):
+        """Create 800px and 300px thumbnails. Returns (thumb_path, small_thumb_path)."""
         if not HAS_PIL:
-            return ''
+            return '', ''
         try:
-            if not os.path.exists(THUMB_DIR):
-                os.makedirs(THUMB_DIR)
-            thumb_filepath = os.path.join(THUMB_DIR, filename)
+            for d in (THUMB_DIR, THUMB_DIR_SMALL):
+                if not os.path.exists(d):
+                    os.makedirs(d)
             with Image.open(filepath) as img:
                 img = ImageOps.exif_transpose(img)
-                img.thumbnail((THUMB_SIZE, THUMB_SIZE), Image.LANCZOS)
-                # Convert RGBA to RGB for JPEG
                 if img.mode in ('RGBA', 'P'):
                     img = img.convert('RGB')
-                img.save(thumb_filepath, quality=80, optimize=True)
-            return f'/uploads/thumbs/{filename}'
+                # 800px
+                img800 = img.copy()
+                img800.thumbnail((THUMB_SIZE, THUMB_SIZE), Image.LANCZOS)
+                img800.save(os.path.join(THUMB_DIR, filename), quality=80, optimize=True)
+                # 300px
+                img300 = img.copy()
+                img300.thumbnail((THUMB_SIZE_SMALL, THUMB_SIZE_SMALL), Image.LANCZOS)
+                img300.save(os.path.join(THUMB_DIR_SMALL, filename), quality=75, optimize=True)
+            return f'/uploads/thumbs/{filename}', f'/uploads/thumbs300/{filename}'
         except Exception as e:
             print(f'Thumbnail error for {filename}: {e}')
-            return ''
+            return '', ''
+
+    @staticmethod
+    def create_thumbnail(filepath, filename):
+        """Legacy single-thumbnail helper (800px only)."""
+        path, _ = PortfolioHandler.create_thumbnails(filepath, filename)
+        return path
     
     def handle_generate_thumbnails(self):
-        """Generate thumbnails for all existing images that don't have one."""
+        """Generate 800px and 300px thumbnails for all images."""
         if not HAS_PIL:
             self.send_json_response({'success': False, 'error': 'Pillow not installed'}, 500)
             return
         data = self.read_data()
         generated = 0
         for img in data['images']:
-            if img.get('thumbnailPath'):
-                continue
             src = os.path.join(os.getcwd(), img['path'].lstrip('/'))
             if not os.path.exists(src):
                 continue
-            thumb_path = self.create_thumbnail(src, img['filename'])
+            thumb_path, small_path = self.create_thumbnails(src, img['filename'])
             if thumb_path:
                 img['thumbnailPath'] = thumb_path
+                img['smallThumbnailPath'] = small_path
                 generated += 1
         self.write_data(data)
         self.send_json_response({'success': True, 'generated': generated})

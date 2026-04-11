@@ -11,7 +11,8 @@
       "latitude": 28.8514,
       "longitude": -113.5361,
       "uploadedAt": "2026-04-09T10:03:22.708884",
-      "highlight": true
+      "highlight": true,
+      "smallThumbnailPath": "/uploads/thumbs300/cbc35e1b0f924e54ba969fd9cfc36afa.jpg"
     },
     {
       "id": 1775754202681,
@@ -23,7 +24,8 @@
       "locationName": "Baja California, Mexico",
       "latitude": 28.8514,
       "longitude": -113.5361,
-      "uploadedAt": "2026-04-09T10:03:22.681859"
+      "uploadedAt": "2026-04-09T10:03:22.681859",
+      "smallThumbnailPath": "/uploads/thumbs300/04f18d88eae2493c851f1cdb90217396.jpg"
     },
     {
       "id": 1775754162932,
@@ -35,7 +37,8 @@
       "locationName": "Bryce Canyon, USA",
       "latitude": 37.593,
       "longitude": -112.1871,
-      "uploadedAt": "2026-04-09T10:02:42.932700"
+      "uploadedAt": "2026-04-09T10:02:42.932700",
+      "smallThumbnailPath": "/uploads/thumbs300/9bf1fa7759664cd381159979d8d1b7c6.jpg"
     },
     {
       "id": 1775754162902,
@@ -47,7 +50,8 @@
       "locationName": "Bryce Canyon, USA",
       "latitude": 37.593,
       "longitude": -112.1871,
-      "uploadedAt": "2026-04-09T10:02:42.902849"
+      "uploadedAt": "2026-04-09T10:02:42.902849",
+      "smallThumbnailPath": "/uploads/thumbs300/78de9946456b4dcb809cb5b91a51536a.jpg"
     },
     {
       "id": 1775754162878,
@@ -59,7 +63,8 @@
       "locationName": "Bryce Canyon, USA",
       "latitude": 37.593,
       "longitude": -112.1871,
-      "uploadedAt": "2026-04-09T10:02:42.878199"
+      "uploadedAt": "2026-04-09T10:02:42.878199",
+      "smallThumbnailPath": "/uploads/thumbs300/4f428792db9c4579b78b51af253af0b7.jpg"
     },
     {
       "id": 1775754162856,
@@ -71,7 +76,8 @@
       "locationName": "Antelope Canyon, USA",
       "latitude": 36.8619,
       "longitude": -111.3743,
-      "uploadedAt": "2026-04-09T10:02:42.856417"
+      "uploadedAt": "2026-04-09T10:02:42.856417",
+      "smallThumbnailPath": "/uploads/thumbs300/cb9176dc6f1947bcb6d4cbf90523cc6d.jpg"
     },
     {
       "id": 1775754162836,
@@ -83,7 +89,8 @@
       "locationName": "Monument Valley, USA",
       "latitude": 36.9983,
       "longitude": -110.0985,
-      "uploadedAt": "2026-04-09T10:02:42.836412"
+      "uploadedAt": "2026-04-09T10:02:42.836412",
+      "smallThumbnailPath": "/uploads/thumbs300/ece4a97c8c45452f9255edab33064d5e.jpg"
     },
     {
       "id": 1775754162814,
@@ -95,7 +102,8 @@
       "locationName": "Monument Valley, USA",
       "latitude": 36.9983,
       "longitude": -110.0985,
-      "uploadedAt": "2026-04-09T10:02:42.814944"
+      "uploadedAt": "2026-04-09T10:02:42.814944",
+      "smallThumbnailPath": "/uploads/thumbs300/f525bc647e394c3aa8ed7669e991bdf7.jpg"
     },
     {
       "id": 1775754162791,
@@ -107,7 +115,8 @@
       "locationName": "Grand Canyon, USA",
       "latitude": 36.1069,
       "longitude": -112.1129,
-      "uploadedAt": "2026-04-09T10:02:42.791245"
+      "uploadedAt": "2026-04-09T10:02:42.791245",
+      "smallThumbnailPath": "/uploads/thumbs300/d7cff6169d4f4924920412d7179a2f74.jpg"
     },
     {
       "id": 1775754162769,
@@ -119,7 +128,8 @@
       "locationName": "Arches, USA",
       "latitude": 38.7331,
       "longitude": -109.5925,
-      "uploadedAt": "2026-04-09T10:02:42.769956"
+      "uploadedAt": "2026-04-09T10:02:42.769956",
+      "smallThumbnailPath": "/uploads/thumbs300/377dc41fb82c4deba797e09e85638b62.jpg"
     },
     {
       "id": 1775754162745,
@@ -131,7 +141,8 @@
       "locationName": "Arches, USA",
       "latitude": 38.7331,
       "longitude": -109.5925,
-      "uploadedAt": "2026-04-09T10:02:42.745208"
+      "uploadedAt": "2026-04-09T10:02:42.745208",
+      "smallThumbnailPath": "/uploads/thumbs300/fe0fdfd86e444050a13ab45bbb2a9caa.jpg"
     },
     {
       "id": 1775754162719,
@@ -143,7 +154,8 @@
       "locationName": "Arches, USA",
       "latitude": 38.7331,
       "longitude": -109.5925,
-      "uploadedAt": "2026-04-09T10:02:42.719141"
+      "uploadedAt": "2026-04-09T10:02:42.719141",
+      "smallThumbnailPath": "/uploads/thumbs300/de068d9371ec419f9ea804596fd1cac1.jpg"
     },
     {
       "id": 1775754162697,
@@ -155,7 +167,8 @@
       "locationName": "Bryce Canyon, USA",
       "latitude": 37.593,
       "longitude": -112.1871,
-      "uploadedAt": "2026-04-09T10:02:42.697743"
+      "uploadedAt": "2026-04-09T10:02:42.697743",
+      "smallThumbnailPath": "/uploads/thumbs300/ce1122674b324dc8b5336087e4d13248.jpg"
     },
     {
       "id": 1775754162675,
@@ -168,7 +181,8 @@
       "latitude": 44.428,
       "longitude": -110.5885,
       "uploadedAt": "2026-04-09T10:02:42.675011",
-      "highlight": true
+      "highlight": true,
+      "smallThumbnailPath": "/uploads/thumbs300/c5152e9d406d472a9b16e5d68af29cb4.jpg"
     },
     {
       "id": 1775754162657,
@@ -180,7 +194,8 @@
       "locationName": "Yellowstone, USA",
       "latitude": 44.428,
       "longitude": -110.5885,
-      "uploadedAt": "2026-04-09T10:02:42.657816"
+      "uploadedAt": "2026-04-09T10:02:42.657816",
+      "smallThumbnailPath": "/uploads/thumbs300/87bf5687ba6b4ec5b8a594c92723e23b.jpg"
     },
     {
       "id": 1775754162638,
@@ -192,7 +207,8 @@
       "locationName": "Yellowstone, USA",
       "latitude": 44.428,
       "longitude": -110.5885,
-      "uploadedAt": "2026-04-09T10:02:42.638899"
+      "uploadedAt": "2026-04-09T10:02:42.638899",
+      "smallThumbnailPath": "/uploads/thumbs300/8a53e191bd5c48bb9f7c76ad0c749201.jpg"
     },
     {
       "id": 1775754162612,
@@ -204,7 +220,8 @@
       "locationName": "Yellowstone, USA",
       "latitude": 44.428,
       "longitude": -110.5885,
-      "uploadedAt": "2026-04-09T10:02:42.612635"
+      "uploadedAt": "2026-04-09T10:02:42.612635",
+      "smallThumbnailPath": "/uploads/thumbs300/734ae480bfce444f98d30161d067caf5.jpg"
     },
     {
       "id": 1775754162595,
@@ -216,7 +233,8 @@
       "locationName": "Yellowstone, USA",
       "latitude": 44.428,
       "longitude": -110.5885,
-      "uploadedAt": "2026-04-09T10:02:42.595967"
+      "uploadedAt": "2026-04-09T10:02:42.595967",
+      "smallThumbnailPath": "/uploads/thumbs300/3347eaa29bb343138656766ca674274c.jpg"
     },
     {
       "id": 1775754162570,
@@ -228,7 +246,8 @@
       "locationName": "Yellowstone, USA",
       "latitude": 44.428,
       "longitude": -110.5885,
-      "uploadedAt": "2026-04-09T10:02:42.570076"
+      "uploadedAt": "2026-04-09T10:02:42.570076",
+      "smallThumbnailPath": "/uploads/thumbs300/ecef938e1a8045008fc710d48b39605f.jpg"
     },
     {
       "id": 1775754162549,
@@ -240,7 +259,8 @@
       "locationName": "Yellowstone, USA",
       "latitude": 44.428,
       "longitude": -110.5885,
-      "uploadedAt": "2026-04-09T10:02:42.549699"
+      "uploadedAt": "2026-04-09T10:02:42.549699",
+      "smallThumbnailPath": "/uploads/thumbs300/296e492fda004f5898c49502b6b1ca29.jpg"
     },
     {
       "id": 1775754162519,
@@ -252,7 +272,8 @@
       "locationName": "Yellowstone, USA",
       "latitude": 44.428,
       "longitude": -110.5885,
-      "uploadedAt": "2026-04-09T10:02:42.519107"
+      "uploadedAt": "2026-04-09T10:02:42.519107",
+      "smallThumbnailPath": "/uploads/thumbs300/e7ad6dacbd3845aaa85e2b8b4efaf95a.jpg"
     },
     {
       "id": 1775754162471,
@@ -264,7 +285,8 @@
       "locationName": "Yellowstone, USA",
       "latitude": 44.428,
       "longitude": -110.5885,
-      "uploadedAt": "2026-04-09T10:02:42.471981"
+      "uploadedAt": "2026-04-09T10:02:42.471981",
+      "smallThumbnailPath": "/uploads/thumbs300/22725b965f9b422db73917b1c87fe715.jpg"
     },
     {
       "id": 1775754162406,
@@ -276,7 +298,8 @@
       "locationName": "Yellowstone, USA",
       "latitude": 44.428,
       "longitude": -110.5885,
-      "uploadedAt": "2026-04-09T10:02:42.406998"
+      "uploadedAt": "2026-04-09T10:02:42.406998",
+      "smallThumbnailPath": "/uploads/thumbs300/ec77a1b2def04f658fdf53bd51786858.jpg"
     },
     {
       "id": 1775754162377,
@@ -288,7 +311,8 @@
       "locationName": "Yellowstone, USA",
       "latitude": 44.428,
       "longitude": -110.5885,
-      "uploadedAt": "2026-04-09T10:02:42.377170"
+      "uploadedAt": "2026-04-09T10:02:42.377170",
+      "smallThumbnailPath": "/uploads/thumbs300/d6d6920be39741f18fd4a09f3f63bf2d.jpg"
     },
     {
       "id": 1775754162352,
@@ -300,7 +324,8 @@
       "locationName": "Yellowstone, USA",
       "latitude": 44.428,
       "longitude": -110.5885,
-      "uploadedAt": "2026-04-09T10:02:42.352584"
+      "uploadedAt": "2026-04-09T10:02:42.352584",
+      "smallThumbnailPath": "/uploads/thumbs300/b7713710317f4f3b98e335ced27d426e.jpg"
     },
     {
       "id": 1775754162332,
@@ -312,7 +337,8 @@
       "locationName": "Yellowstone, USA",
       "latitude": 44.428,
       "longitude": -110.5885,
-      "uploadedAt": "2026-04-09T10:02:42.332952"
+      "uploadedAt": "2026-04-09T10:02:42.332952",
+      "smallThumbnailPath": "/uploads/thumbs300/1df905fbfd4546f1a4f8cbd8defa09d9.jpg"
     },
     {
       "id": 1775754162307,
@@ -325,7 +351,8 @@
       "latitude": 44.428,
       "longitude": -110.5885,
       "uploadedAt": "2026-04-09T10:02:42.307692",
-      "highlight": true
+      "highlight": true,
+      "smallThumbnailPath": "/uploads/thumbs300/9a30b177f7c44db5b37fb508443b35eb.jpg"
     },
     {
       "id": 1775754162259,
@@ -337,7 +364,8 @@
       "locationName": "Yellowstone, USA",
       "latitude": 44.428,
       "longitude": -110.5885,
-      "uploadedAt": "2026-04-09T10:02:42.259051"
+      "uploadedAt": "2026-04-09T10:02:42.259051",
+      "smallThumbnailPath": "/uploads/thumbs300/083b81efd02e4a3b8b1cb6847200b47e.jpg"
     },
     {
       "id": 1775754162225,
@@ -349,7 +377,8 @@
       "locationName": "Yellowstone, USA",
       "latitude": 44.428,
       "longitude": -110.5885,
-      "uploadedAt": "2026-04-09T10:02:42.225958"
+      "uploadedAt": "2026-04-09T10:02:42.225958",
+      "smallThumbnailPath": "/uploads/thumbs300/bca609b677734cf88bed6bd7612308d8.jpg"
     },
     {
       "id": 1775754162185,
@@ -362,7 +391,8 @@
       "latitude": 44.428,
       "longitude": -110.5885,
       "uploadedAt": "2026-04-09T10:02:42.185301",
-      "highlight": true
+      "highlight": true,
+      "smallThumbnailPath": "/uploads/thumbs300/2c7a3d6a1b154563a3826d17c9367216.jpg"
     },
     {
       "id": 1775754162161,
@@ -374,7 +404,8 @@
       "locationName": "Yellowstone, USA",
       "latitude": 44.428,
       "longitude": -110.5885,
-      "uploadedAt": "2026-04-09T10:02:42.161104"
+      "uploadedAt": "2026-04-09T10:02:42.161104",
+      "smallThumbnailPath": "/uploads/thumbs300/28b9f9c918484a5a8e80644066649261.jpg"
     },
     {
       "id": 1775754162142,
@@ -387,7 +418,8 @@
       "latitude": 44.428,
       "longitude": -110.5885,
       "uploadedAt": "2026-04-09T10:02:42.142537",
-      "highlight": false
+      "highlight": false,
+      "smallThumbnailPath": "/uploads/thumbs300/6028c18ebfa24efe9a0ee4dc4549e2ed.jpg"
     },
     {
       "id": 1775754162123,
@@ -399,7 +431,8 @@
       "locationName": "Yellowstone, USA",
       "latitude": 44.428,
       "longitude": -110.5885,
-      "uploadedAt": "2026-04-09T10:02:42.123382"
+      "uploadedAt": "2026-04-09T10:02:42.123382",
+      "smallThumbnailPath": "/uploads/thumbs300/b6e42bd6af4b4253bdc1f1f00e8d2f58.jpg"
     },
     {
       "id": 1775754162101,
@@ -411,7 +444,8 @@
       "locationName": "Yellowstone, USA",
       "latitude": 44.428,
       "longitude": -110.5885,
-      "uploadedAt": "2026-04-09T10:02:42.101532"
+      "uploadedAt": "2026-04-09T10:02:42.101532",
+      "smallThumbnailPath": "/uploads/thumbs300/b5afa6e0aeeb43119ed1b6b1222a66c7.jpg"
     },
     {
       "id": 1775754162074,
@@ -423,7 +457,8 @@
       "locationName": "Yellowstone, USA",
       "latitude": 44.428,
       "longitude": -110.5885,
-      "uploadedAt": "2026-04-09T10:02:42.074891"
+      "uploadedAt": "2026-04-09T10:02:42.074891",
+      "smallThumbnailPath": "/uploads/thumbs300/bb09f26d16344b8a95a90db3771d98d3.jpg"
     },
     {
       "id": 1775754162051,
@@ -435,7 +470,8 @@
       "locationName": "Grand Teton, USA",
       "latitude": 43.7904,
       "longitude": -110.6818,
-      "uploadedAt": "2026-04-09T10:02:42.051575"
+      "uploadedAt": "2026-04-09T10:02:42.051575",
+      "smallThumbnailPath": "/uploads/thumbs300/0413c19e5aaf4d9fbc026bbdc0078115.jpg"
     },
     {
       "id": 1775754162033,
@@ -447,7 +483,8 @@
       "locationName": "Grand Teton, USA",
       "latitude": 43.7904,
       "longitude": -110.6818,
-      "uploadedAt": "2026-04-09T10:02:42.033255"
+      "uploadedAt": "2026-04-09T10:02:42.033255",
+      "smallThumbnailPath": "/uploads/thumbs300/499673c95a564a32840c0638a1e9d678.jpg"
     },
     {
       "id": 1775754162020,
@@ -459,7 +496,8 @@
       "locationName": "Grand Teton, USA",
       "latitude": 43.7904,
       "longitude": -110.6818,
-      "uploadedAt": "2026-04-09T10:02:42.020570"
+      "uploadedAt": "2026-04-09T10:02:42.020570",
+      "smallThumbnailPath": "/uploads/thumbs300/8e0682885c664ea2aa8486db000b1aee.jpg"
     },
     {
       "id": 1775754161992,
@@ -472,7 +510,8 @@
       "latitude": 44.428,
       "longitude": -110.5885,
       "uploadedAt": "2026-04-09T10:02:41.992531",
-      "highlight": true
+      "highlight": true,
+      "smallThumbnailPath": "/uploads/thumbs300/aa3a0e59748c4cafb6beafe868938fc3.jpg"
     },
     {
       "id": 1775754161964,
@@ -484,7 +523,8 @@
       "locationName": "Yellowstone, USA",
       "latitude": 44.428,
       "longitude": -110.5885,
-      "uploadedAt": "2026-04-09T10:02:41.965002"
+      "uploadedAt": "2026-04-09T10:02:41.965002",
+      "smallThumbnailPath": "/uploads/thumbs300/6ab9f8c0cb44407980e4041677627d75.jpg"
     },
     {
       "id": 1775754161940,
@@ -496,7 +536,8 @@
       "locationName": "Grand Teton, USA",
       "latitude": 43.7904,
       "longitude": -110.6818,
-      "uploadedAt": "2026-04-09T10:02:41.940900"
+      "uploadedAt": "2026-04-09T10:02:41.940900",
+      "smallThumbnailPath": "/uploads/thumbs300/7f30cc90a62f4a09a0ff8079921a2b84.jpg"
     },
     {
       "id": 1775754161919,
@@ -508,7 +549,8 @@
       "locationName": "Grand Teton, USA",
       "latitude": 43.7904,
       "longitude": -110.6818,
-      "uploadedAt": "2026-04-09T10:02:41.919737"
+      "uploadedAt": "2026-04-09T10:02:41.919737",
+      "smallThumbnailPath": "/uploads/thumbs300/328ef32739f54d079ae1b35d88c1a390.jpg"
     },
     {
       "id": 1775754161903,
@@ -520,7 +562,8 @@
       "locationName": "Grand Teton, USA",
       "latitude": 43.7904,
       "longitude": -110.6818,
-      "uploadedAt": "2026-04-09T10:02:41.903058"
+      "uploadedAt": "2026-04-09T10:02:41.903058",
+      "smallThumbnailPath": "/uploads/thumbs300/f4be56bde1634f53928c9806f3a24bf5.jpg"
     },
     {
       "id": 1775754161880,
@@ -532,7 +575,8 @@
       "locationName": "Grand Teton, USA",
       "latitude": 43.7904,
       "longitude": -110.6818,
-      "uploadedAt": "2026-04-09T10:02:41.880754"
+      "uploadedAt": "2026-04-09T10:02:41.880754",
+      "smallThumbnailPath": "/uploads/thumbs300/a674b65defca4c62a8880ae0bccac2ad.jpg"
     },
     {
       "id": 1775754161858,
@@ -545,7 +589,8 @@
       "latitude": 62.454,
       "longitude": -114.3718,
       "uploadedAt": "2026-04-09T10:02:41.858628",
-      "highlight": true
+      "highlight": true,
+      "smallThumbnailPath": "/uploads/thumbs300/b3159f5516574938933aea4ff0e670bf.jpg"
     },
     {
       "id": 1775754161843,
@@ -557,7 +602,8 @@
       "locationName": "Yellowknife, Canada",
       "latitude": 62.454,
       "longitude": -114.3718,
-      "uploadedAt": "2026-04-09T10:02:41.843393"
+      "uploadedAt": "2026-04-09T10:02:41.843393",
+      "smallThumbnailPath": "/uploads/thumbs300/31cdacb9e26945259f727f0de8b3514a.jpg"
     },
     {
       "id": 1775754161826,
@@ -569,7 +615,8 @@
       "locationName": "Yellowknife, Canada",
       "latitude": 62.454,
       "longitude": -114.3718,
-      "uploadedAt": "2026-04-09T10:02:41.826636"
+      "uploadedAt": "2026-04-09T10:02:41.826636",
+      "smallThumbnailPath": "/uploads/thumbs300/7cdfaa06fef442c5af20bb077431d0cb.jpg"
     },
     {
       "id": 1775754161812,
@@ -581,7 +628,8 @@
       "locationName": "Yellowknife, Canada",
       "latitude": 62.454,
       "longitude": -114.3718,
-      "uploadedAt": "2026-04-09T10:02:41.812901"
+      "uploadedAt": "2026-04-09T10:02:41.812901",
+      "smallThumbnailPath": "/uploads/thumbs300/ad1834b7282b4a268b1a35a779158c97.jpg"
     },
     {
       "id": 1775754161797,
@@ -593,7 +641,8 @@
       "locationName": "Yellowknife, Canada",
       "latitude": 62.454,
       "longitude": -114.3718,
-      "uploadedAt": "2026-04-09T10:02:41.797732"
+      "uploadedAt": "2026-04-09T10:02:41.797732",
+      "smallThumbnailPath": "/uploads/thumbs300/dc334dde7bbe4be581dc44386aec422d.jpg"
     },
     {
       "id": 1775754161779,
@@ -606,7 +655,8 @@
       "latitude": 62.454,
       "longitude": -114.3718,
       "uploadedAt": "2026-04-09T10:02:41.779698",
-      "highlight": false
+      "highlight": false,
+      "smallThumbnailPath": "/uploads/thumbs300/927fd4adc4434a2e86e45fd8b3073c0e.jpg"
     },
     {
       "id": 1775754161760,
@@ -618,7 +668,8 @@
       "locationName": "Baja California, Mexico",
       "latitude": 28.8514,
       "longitude": -113.5361,
-      "uploadedAt": "2026-04-09T10:02:41.760372"
+      "uploadedAt": "2026-04-09T10:02:41.760372",
+      "smallThumbnailPath": "/uploads/thumbs300/63dbf7bc75d84c7f8eb1ed86c74c9cff.jpg"
     },
     {
       "id": 1775754161736,
@@ -631,7 +682,8 @@
       "latitude": 62.454,
       "longitude": -114.3718,
       "uploadedAt": "2026-04-09T10:02:41.736019",
-      "highlight": true
+      "highlight": true,
+      "smallThumbnailPath": "/uploads/thumbs300/70b0d4f376e546b484fd02f8cec67f54.jpg"
     },
     {
       "id": 1775716963147,
@@ -643,7 +695,8 @@
       "latitude": -2.6527,
       "longitude": 37.2606,
       "uploadedAt": "2026-04-08T23:42:43.147722",
-      "thumbnailPath": "/uploads/thumbs/dd22d8e2411f4ca6ac55aab0cd32983d.jpg"
+      "thumbnailPath": "/uploads/thumbs/dd22d8e2411f4ca6ac55aab0cd32983d.jpg",
+      "smallThumbnailPath": "/uploads/thumbs300/dd22d8e2411f4ca6ac55aab0cd32983d.jpg"
     },
     {
       "id": 1775716963171,
@@ -656,7 +709,8 @@
       "longitude": 37.2606,
       "uploadedAt": "2026-04-08T23:42:43.172007",
       "highlight": true,
-      "thumbnailPath": "/uploads/thumbs/7420fd31f206468db21f9f83c45a169f.jpg"
+      "thumbnailPath": "/uploads/thumbs/7420fd31f206468db21f9f83c45a169f.jpg",
+      "smallThumbnailPath": "/uploads/thumbs300/7420fd31f206468db21f9f83c45a169f.jpg"
     },
     {
       "id": 1775716963182,
@@ -669,7 +723,8 @@
       "longitude": 37.2606,
       "uploadedAt": "2026-04-08T23:42:43.182114",
       "highlight": true,
-      "thumbnailPath": "/uploads/thumbs/b17f571a83784070a7b267e66e21fb20.jpg"
+      "thumbnailPath": "/uploads/thumbs/b17f571a83784070a7b267e66e21fb20.jpg",
+      "smallThumbnailPath": "/uploads/thumbs300/b17f571a83784070a7b267e66e21fb20.jpg"
     },
     {
       "id": 1775716963197,
@@ -681,7 +736,8 @@
       "latitude": -2.6527,
       "longitude": 37.2606,
       "uploadedAt": "2026-04-08T23:42:43.197627",
-      "thumbnailPath": "/uploads/thumbs/aa600b31cd09479d90a958f3d5d1e070.jpg"
+      "thumbnailPath": "/uploads/thumbs/aa600b31cd09479d90a958f3d5d1e070.jpg",
+      "smallThumbnailPath": "/uploads/thumbs300/aa600b31cd09479d90a958f3d5d1e070.jpg"
     },
     {
       "id": 1775716963205,
@@ -694,7 +750,8 @@
       "longitude": 37.2606,
       "uploadedAt": "2026-04-08T23:42:43.205285",
       "highlight": true,
-      "thumbnailPath": "/uploads/thumbs/039d416084074288b258aa581d1494b4.jpg"
+      "thumbnailPath": "/uploads/thumbs/039d416084074288b258aa581d1494b4.jpg",
+      "smallThumbnailPath": "/uploads/thumbs300/039d416084074288b258aa581d1494b4.jpg"
     },
     {
       "id": 1775716963236,
@@ -707,7 +764,8 @@
       "longitude": 37.2606,
       "uploadedAt": "2026-04-08T23:42:43.236859",
       "highlight": true,
-      "thumbnailPath": "/uploads/thumbs/14ad13181d0e41819fd4d88b80695a72.jpg"
+      "thumbnailPath": "/uploads/thumbs/14ad13181d0e41819fd4d88b80695a72.jpg",
+      "smallThumbnailPath": "/uploads/thumbs300/14ad13181d0e41819fd4d88b80695a72.jpg"
     },
     {
       "id": 1775716963264,
@@ -719,7 +777,8 @@
       "latitude": -2.6527,
       "longitude": 37.2606,
       "uploadedAt": "2026-04-08T23:42:43.264289",
-      "thumbnailPath": "/uploads/thumbs/c5810d9dd6ec49369a9464cca5a242ca.jpg"
+      "thumbnailPath": "/uploads/thumbs/c5810d9dd6ec49369a9464cca5a242ca.jpg",
+      "smallThumbnailPath": "/uploads/thumbs300/c5810d9dd6ec49369a9464cca5a242ca.jpg"
     },
     {
       "id": 1775716963309,
@@ -731,7 +790,8 @@
       "latitude": -2.6527,
       "longitude": 37.2606,
       "uploadedAt": "2026-04-08T23:42:43.309230",
-      "thumbnailPath": "/uploads/thumbs/9303ff46070a4ba8b2db9c0f3959570c.jpg"
+      "thumbnailPath": "/uploads/thumbs/9303ff46070a4ba8b2db9c0f3959570c.jpg",
+      "smallThumbnailPath": "/uploads/thumbs300/9303ff46070a4ba8b2db9c0f3959570c.jpg"
     },
     {
       "id": 1775716963364,
@@ -743,7 +803,8 @@
       "latitude": -2.6527,
       "longitude": 37.2606,
       "uploadedAt": "2026-04-08T23:42:43.364324",
-      "thumbnailPath": "/uploads/thumbs/af0dac863dd449cfa025f0f356858b92.jpg"
+      "thumbnailPath": "/uploads/thumbs/af0dac863dd449cfa025f0f356858b92.jpg",
+      "smallThumbnailPath": "/uploads/thumbs300/af0dac863dd449cfa025f0f356858b92.jpg"
     },
     {
       "id": 1775716963433,
@@ -756,7 +817,8 @@
       "longitude": 37.2606,
       "uploadedAt": "2026-04-08T23:42:43.433978",
       "thumbnailPath": "/uploads/thumbs/e43f3e76ff434594b16e05a134c373f4.jpg",
-      "highlight": true
+      "highlight": true,
+      "smallThumbnailPath": "/uploads/thumbs300/e43f3e76ff434594b16e05a134c373f4.jpg"
     },
     {
       "id": 1775716963729,
@@ -768,7 +830,8 @@
       "latitude": -2.6527,
       "longitude": 37.2606,
       "uploadedAt": "2026-04-08T23:42:43.729943",
-      "thumbnailPath": "/uploads/thumbs/f54f53acbf634e4f986e8456cb2e8960.jpg"
+      "thumbnailPath": "/uploads/thumbs/f54f53acbf634e4f986e8456cb2e8960.jpg",
+      "smallThumbnailPath": "/uploads/thumbs300/f54f53acbf634e4f986e8456cb2e8960.jpg"
     },
     {
       "id": 1775716963770,
@@ -780,7 +843,8 @@
       "latitude": -2.6527,
       "longitude": 37.2606,
       "uploadedAt": "2026-04-08T23:42:43.770807",
-      "thumbnailPath": "/uploads/thumbs/cc9ba377ed574bedaccaf39c2be79171.jpg"
+      "thumbnailPath": "/uploads/thumbs/cc9ba377ed574bedaccaf39c2be79171.jpg",
+      "smallThumbnailPath": "/uploads/thumbs300/cc9ba377ed574bedaccaf39c2be79171.jpg"
     },
     {
       "id": 1775716963902,
@@ -792,7 +856,8 @@
       "latitude": -2.6527,
       "longitude": 37.2606,
       "uploadedAt": "2026-04-08T23:42:43.902695",
-      "thumbnailPath": "/uploads/thumbs/3eab2bbac46d4269bdba9a240240bbf3.jpg"
+      "thumbnailPath": "/uploads/thumbs/3eab2bbac46d4269bdba9a240240bbf3.jpg",
+      "smallThumbnailPath": "/uploads/thumbs300/3eab2bbac46d4269bdba9a240240bbf3.jpg"
     },
     {
       "id": 1775716963971,
@@ -804,7 +869,8 @@
       "latitude": -2.6527,
       "longitude": 37.2606,
       "uploadedAt": "2026-04-08T23:42:43.971773",
-      "thumbnailPath": "/uploads/thumbs/ee9450f82af5446b8bd11716884292b3.jpg"
+      "thumbnailPath": "/uploads/thumbs/ee9450f82af5446b8bd11716884292b3.jpg",
+      "smallThumbnailPath": "/uploads/thumbs300/ee9450f82af5446b8bd11716884292b3.jpg"
     },
     {
       "id": 1775716964021,
@@ -816,7 +882,8 @@
       "latitude": -2.6527,
       "longitude": 37.2606,
       "uploadedAt": "2026-04-08T23:42:44.021864",
-      "thumbnailPath": "/uploads/thumbs/0877e2018b4a45c68127594030b9f023.jpg"
+      "thumbnailPath": "/uploads/thumbs/0877e2018b4a45c68127594030b9f023.jpg",
+      "smallThumbnailPath": "/uploads/thumbs300/0877e2018b4a45c68127594030b9f023.jpg"
     },
     {
       "id": 1775716964056,
@@ -828,7 +895,8 @@
       "latitude": -2.6527,
       "longitude": 37.2606,
       "uploadedAt": "2026-04-08T23:42:44.056245",
-      "thumbnailPath": "/uploads/thumbs/2ec1f8f0e70b4d90895d1c098f981468.jpg"
+      "thumbnailPath": "/uploads/thumbs/2ec1f8f0e70b4d90895d1c098f981468.jpg",
+      "smallThumbnailPath": "/uploads/thumbs300/2ec1f8f0e70b4d90895d1c098f981468.jpg"
     },
     {
       "id": 1775716964098,
@@ -840,7 +908,8 @@
       "latitude": -2.6527,
       "longitude": 37.2606,
       "uploadedAt": "2026-04-08T23:42:44.098749",
-      "thumbnailPath": "/uploads/thumbs/f8f1c36b5327424cab497cb0f2a25484.jpg"
+      "thumbnailPath": "/uploads/thumbs/f8f1c36b5327424cab497cb0f2a25484.jpg",
+      "smallThumbnailPath": "/uploads/thumbs300/f8f1c36b5327424cab497cb0f2a25484.jpg"
     },
     {
       "id": 1775716964117,
@@ -853,7 +922,8 @@
       "longitude": 37.2606,
       "uploadedAt": "2026-04-08T23:42:44.117682",
       "highlight": true,
-      "thumbnailPath": "/uploads/thumbs/478ba53e0abb43d9b47544f5947014cb.jpg"
+      "thumbnailPath": "/uploads/thumbs/478ba53e0abb43d9b47544f5947014cb.jpg",
+      "smallThumbnailPath": "/uploads/thumbs300/478ba53e0abb43d9b47544f5947014cb.jpg"
     },
     {
       "id": 1775716964150,
@@ -866,7 +936,8 @@
       "longitude": 37.2606,
       "uploadedAt": "2026-04-08T23:42:44.150975",
       "highlight": true,
-      "thumbnailPath": "/uploads/thumbs/37af69f0dca9410980ad0388caa8445e.jpg"
+      "thumbnailPath": "/uploads/thumbs/37af69f0dca9410980ad0388caa8445e.jpg",
+      "smallThumbnailPath": "/uploads/thumbs300/37af69f0dca9410980ad0388caa8445e.jpg"
     },
     {
       "id": 1775716964183,
@@ -878,7 +949,8 @@
       "latitude": -2.6527,
       "longitude": 37.2606,
       "uploadedAt": "2026-04-08T23:42:44.183532",
-      "thumbnailPath": "/uploads/thumbs/a9bac6b0546348c1ae1baebe4e9222e4.jpg"
+      "thumbnailPath": "/uploads/thumbs/a9bac6b0546348c1ae1baebe4e9222e4.jpg",
+      "smallThumbnailPath": "/uploads/thumbs300/a9bac6b0546348c1ae1baebe4e9222e4.jpg"
     },
     {
       "id": 1775716964218,
@@ -891,7 +963,8 @@
       "longitude": 37.2606,
       "uploadedAt": "2026-04-08T23:42:44.218886",
       "highlight": true,
-      "thumbnailPath": "/uploads/thumbs/4cc55801563d4df99ed118af956ebda8.jpg"
+      "thumbnailPath": "/uploads/thumbs/4cc55801563d4df99ed118af956ebda8.jpg",
+      "smallThumbnailPath": "/uploads/thumbs300/4cc55801563d4df99ed118af956ebda8.jpg"
     },
     {
       "id": 1775716964282,
@@ -903,7 +976,8 @@
       "latitude": -2.6527,
       "longitude": 37.2606,
       "uploadedAt": "2026-04-08T23:42:44.282194",
-      "thumbnailPath": "/uploads/thumbs/faea8108f7204cb88b58a9394e97c9e6.jpg"
+      "thumbnailPath": "/uploads/thumbs/faea8108f7204cb88b58a9394e97c9e6.jpg",
+      "smallThumbnailPath": "/uploads/thumbs300/faea8108f7204cb88b58a9394e97c9e6.jpg"
     },
     {
       "id": 1775716964376,
@@ -915,7 +989,8 @@
       "latitude": -2.6527,
       "longitude": 37.2606,
       "uploadedAt": "2026-04-08T23:42:44.376990",
-      "thumbnailPath": "/uploads/thumbs/f07a7fe042884dfb8d1b7814b3d8f9a4.jpg"
+      "thumbnailPath": "/uploads/thumbs/f07a7fe042884dfb8d1b7814b3d8f9a4.jpg",
+      "smallThumbnailPath": "/uploads/thumbs300/f07a7fe042884dfb8d1b7814b3d8f9a4.jpg"
     },
     {
       "id": 1775716964443,
@@ -927,7 +1002,8 @@
       "latitude": -2.6527,
       "longitude": 37.2606,
       "uploadedAt": "2026-04-08T23:42:44.443986",
-      "thumbnailPath": "/uploads/thumbs/9e453370f8914617994e90d26f3afd51.jpg"
+      "thumbnailPath": "/uploads/thumbs/9e453370f8914617994e90d26f3afd51.jpg",
+      "smallThumbnailPath": "/uploads/thumbs300/9e453370f8914617994e90d26f3afd51.jpg"
     },
     {
       "id": 1775716964493,
@@ -939,7 +1015,8 @@
       "latitude": -2.6527,
       "longitude": 37.2606,
       "uploadedAt": "2026-04-08T23:42:44.493069",
-      "thumbnailPath": "/uploads/thumbs/b86414cede804e3689d4fc53f4862a03.jpg"
+      "thumbnailPath": "/uploads/thumbs/b86414cede804e3689d4fc53f4862a03.jpg",
+      "smallThumbnailPath": "/uploads/thumbs300/b86414cede804e3689d4fc53f4862a03.jpg"
     },
     {
       "id": 1775716964534,
@@ -951,7 +1028,8 @@
       "latitude": -2.6527,
       "longitude": 37.2606,
       "uploadedAt": "2026-04-08T23:42:44.534969",
-      "thumbnailPath": "/uploads/thumbs/a7f7bfaa6f564c9bbf978fcbb9df45a6.jpg"
+      "thumbnailPath": "/uploads/thumbs/a7f7bfaa6f564c9bbf978fcbb9df45a6.jpg",
+      "smallThumbnailPath": "/uploads/thumbs300/a7f7bfaa6f564c9bbf978fcbb9df45a6.jpg"
     },
     {
       "id": 1775716964573,
@@ -963,7 +1041,8 @@
       "latitude": -2.6527,
       "longitude": 37.2606,
       "uploadedAt": "2026-04-08T23:42:44.573293",
-      "thumbnailPath": "/uploads/thumbs/4bbd8af550d64dd084773a45888f7e20.jpg"
+      "thumbnailPath": "/uploads/thumbs/4bbd8af550d64dd084773a45888f7e20.jpg",
+      "smallThumbnailPath": "/uploads/thumbs300/4bbd8af550d64dd084773a45888f7e20.jpg"
     },
     {
       "id": 1775716964645,
@@ -975,7 +1054,8 @@
       "latitude": -2.6527,
       "longitude": 37.2606,
       "uploadedAt": "2026-04-08T23:42:44.645703",
-      "thumbnailPath": "/uploads/thumbs/49e8fd25510041bba59282602c8a277d.jpg"
+      "thumbnailPath": "/uploads/thumbs/49e8fd25510041bba59282602c8a277d.jpg",
+      "smallThumbnailPath": "/uploads/thumbs300/49e8fd25510041bba59282602c8a277d.jpg"
     },
     {
       "id": 1775716964675,
@@ -987,7 +1067,8 @@
       "latitude": -2.6527,
       "longitude": 37.2606,
       "uploadedAt": "2026-04-08T23:42:44.675976",
-      "thumbnailPath": "/uploads/thumbs/9abbcfeceb0c4d35907d8876dc153201.jpg"
+      "thumbnailPath": "/uploads/thumbs/9abbcfeceb0c4d35907d8876dc153201.jpg",
+      "smallThumbnailPath": "/uploads/thumbs300/9abbcfeceb0c4d35907d8876dc153201.jpg"
     },
     {
       "id": 1775716964728,
@@ -999,7 +1080,8 @@
       "latitude": -2.6527,
       "longitude": 37.2606,
       "uploadedAt": "2026-04-08T23:42:44.728394",
-      "thumbnailPath": "/uploads/thumbs/3f1a50f5a0e747a381cbad5abe2798bd.jpg"
+      "thumbnailPath": "/uploads/thumbs/3f1a50f5a0e747a381cbad5abe2798bd.jpg",
+      "smallThumbnailPath": "/uploads/thumbs300/3f1a50f5a0e747a381cbad5abe2798bd.jpg"
     },
     {
       "id": 1775716964749,
@@ -1012,7 +1094,8 @@
       "longitude": 37.2606,
       "uploadedAt": "2026-04-08T23:42:44.749494",
       "highlight": true,
-      "thumbnailPath": "/uploads/thumbs/da93387abfbe4bde97531079778bb202.jpg"
+      "thumbnailPath": "/uploads/thumbs/da93387abfbe4bde97531079778bb202.jpg",
+      "smallThumbnailPath": "/uploads/thumbs300/da93387abfbe4bde97531079778bb202.jpg"
     },
     {
       "id": 1775716964799,
@@ -1024,7 +1107,8 @@
       "latitude": -2.6527,
       "longitude": 37.2606,
       "uploadedAt": "2026-04-08T23:42:44.799242",
-      "thumbnailPath": "/uploads/thumbs/824c78a8af3942149b8e24c67db4bcec.jpg"
+      "thumbnailPath": "/uploads/thumbs/824c78a8af3942149b8e24c67db4bcec.jpg",
+      "smallThumbnailPath": "/uploads/thumbs300/824c78a8af3942149b8e24c67db4bcec.jpg"
     },
     {
       "id": 1775716964854,
@@ -1036,7 +1120,8 @@
       "latitude": -2.6527,
       "longitude": 37.2606,
       "uploadedAt": "2026-04-08T23:42:44.854029",
-      "thumbnailPath": "/uploads/thumbs/31a8dc03e37247dba3b1530e39e64cf6.jpg"
+      "thumbnailPath": "/uploads/thumbs/31a8dc03e37247dba3b1530e39e64cf6.jpg",
+      "smallThumbnailPath": "/uploads/thumbs300/31a8dc03e37247dba3b1530e39e64cf6.jpg"
     },
     {
       "id": 1775716964914,
@@ -1048,7 +1133,8 @@
       "latitude": -2.6527,
       "longitude": 37.2606,
       "uploadedAt": "2026-04-08T23:42:44.914367",
-      "thumbnailPath": "/uploads/thumbs/15578982817e4d1ebff63eb36cf4b8c2.jpg"
+      "thumbnailPath": "/uploads/thumbs/15578982817e4d1ebff63eb36cf4b8c2.jpg",
+      "smallThumbnailPath": "/uploads/thumbs300/15578982817e4d1ebff63eb36cf4b8c2.jpg"
     },
     {
       "id": 1775716965056,
@@ -1060,7 +1146,8 @@
       "latitude": -2.6527,
       "longitude": 37.2606,
       "uploadedAt": "2026-04-08T23:42:45.056995",
-      "thumbnailPath": "/uploads/thumbs/24aadc69ee29425fa17f892c92d62e6f.jpg"
+      "thumbnailPath": "/uploads/thumbs/24aadc69ee29425fa17f892c92d62e6f.jpg",
+      "smallThumbnailPath": "/uploads/thumbs300/24aadc69ee29425fa17f892c92d62e6f.jpg"
     },
     {
       "id": 1775716965128,
@@ -1072,7 +1159,8 @@
       "latitude": -2.6527,
       "longitude": 37.2606,
       "uploadedAt": "2026-04-08T23:42:45.128300",
-      "thumbnailPath": "/uploads/thumbs/ade9eca0146c47daadf9443559be44fc.jpg"
+      "thumbnailPath": "/uploads/thumbs/ade9eca0146c47daadf9443559be44fc.jpg",
+      "smallThumbnailPath": "/uploads/thumbs300/ade9eca0146c47daadf9443559be44fc.jpg"
     },
     {
       "id": 1775716965203,
@@ -1084,7 +1172,8 @@
       "latitude": -2.6527,
       "longitude": 37.2606,
       "uploadedAt": "2026-04-08T23:42:45.203661",
-      "thumbnailPath": "/uploads/thumbs/e2942032a2a34901b841403d5d3990a8.jpg"
+      "thumbnailPath": "/uploads/thumbs/e2942032a2a34901b841403d5d3990a8.jpg",
+      "smallThumbnailPath": "/uploads/thumbs300/e2942032a2a34901b841403d5d3990a8.jpg"
     },
     {
       "id": 1775716965297,
@@ -1097,7 +1186,8 @@
       "longitude": 37.2606,
       "uploadedAt": "2026-04-08T23:42:45.297013",
       "highlight": true,
-      "thumbnailPath": "/uploads/thumbs/999cf4821ecc490a9dd60c842ccc1887.jpg"
+      "thumbnailPath": "/uploads/thumbs/999cf4821ecc490a9dd60c842ccc1887.jpg",
+      "smallThumbnailPath": "/uploads/thumbs300/999cf4821ecc490a9dd60c842ccc1887.jpg"
     },
     {
       "id": 1775716965388,
@@ -1110,7 +1200,8 @@
       "longitude": 37.2606,
       "uploadedAt": "2026-04-08T23:42:45.388982",
       "highlight": true,
-      "thumbnailPath": "/uploads/thumbs/3b676fa1a01046deaad06c2373b91e76.jpg"
+      "thumbnailPath": "/uploads/thumbs/3b676fa1a01046deaad06c2373b91e76.jpg",
+      "smallThumbnailPath": "/uploads/thumbs300/3b676fa1a01046deaad06c2373b91e76.jpg"
     },
     {
       "id": 1775716965449,
@@ -1123,7 +1214,8 @@
       "longitude": 37.2606,
       "uploadedAt": "2026-04-08T23:42:45.449264",
       "highlight": true,
-      "thumbnailPath": "/uploads/thumbs/3b2da1220b0a447fbd0f5106d551f22b.jpg"
+      "thumbnailPath": "/uploads/thumbs/3b2da1220b0a447fbd0f5106d551f22b.jpg",
+      "smallThumbnailPath": "/uploads/thumbs300/3b2da1220b0a447fbd0f5106d551f22b.jpg"
     },
     {
       "id": 1775716965514,
@@ -1135,7 +1227,8 @@
       "latitude": -2.6527,
       "longitude": 37.2606,
       "uploadedAt": "2026-04-08T23:42:45.514071",
-      "thumbnailPath": "/uploads/thumbs/c45e70a155504c0195c7c56b4f91d2e2.jpg"
+      "thumbnailPath": "/uploads/thumbs/c45e70a155504c0195c7c56b4f91d2e2.jpg",
+      "smallThumbnailPath": "/uploads/thumbs300/c45e70a155504c0195c7c56b4f91d2e2.jpg"
     },
     {
       "id": 1775716965558,
@@ -1147,7 +1240,8 @@
       "latitude": -2.6527,
       "longitude": 37.2606,
       "uploadedAt": "2026-04-08T23:42:45.558850",
-      "thumbnailPath": "/uploads/thumbs/63996b140916492281ee09ed10659892.jpg"
+      "thumbnailPath": "/uploads/thumbs/63996b140916492281ee09ed10659892.jpg",
+      "smallThumbnailPath": "/uploads/thumbs300/63996b140916492281ee09ed10659892.jpg"
     },
     {
       "id": 1775716965626,
@@ -1160,7 +1254,8 @@
       "longitude": 37.2606,
       "uploadedAt": "2026-04-08T23:42:45.626681",
       "highlight": true,
-      "thumbnailPath": "/uploads/thumbs/b2195d797e1f41d1b37f036dc0192ec4.jpg"
+      "thumbnailPath": "/uploads/thumbs/b2195d797e1f41d1b37f036dc0192ec4.jpg",
+      "smallThumbnailPath": "/uploads/thumbs300/b2195d797e1f41d1b37f036dc0192ec4.jpg"
     },
     {
       "id": 1775716965640,
@@ -1173,7 +1268,8 @@
       "longitude": 37.2606,
       "uploadedAt": "2026-04-08T23:42:45.640181",
       "highlight": true,
-      "thumbnailPath": "/uploads/thumbs/c53d38d573364aa183049f15181bb707.jpg"
+      "thumbnailPath": "/uploads/thumbs/c53d38d573364aa183049f15181bb707.jpg",
+      "smallThumbnailPath": "/uploads/thumbs300/c53d38d573364aa183049f15181bb707.jpg"
     },
     {
       "id": 1775716965662,
@@ -1186,7 +1282,8 @@
       "longitude": 37.2606,
       "uploadedAt": "2026-04-08T23:42:45.662493",
       "highlight": true,
-      "thumbnailPath": "/uploads/thumbs/46674b640dc94a5a83eca0340563a94c.jpg"
+      "thumbnailPath": "/uploads/thumbs/46674b640dc94a5a83eca0340563a94c.jpg",
+      "smallThumbnailPath": "/uploads/thumbs300/46674b640dc94a5a83eca0340563a94c.jpg"
     },
     {
       "id": 1775716965707,
@@ -1198,7 +1295,8 @@
       "latitude": -2.6527,
       "longitude": 37.2606,
       "uploadedAt": "2026-04-08T23:42:45.707369",
-      "thumbnailPath": "/uploads/thumbs/239b6f7e07164f349b3408589139ea6b.jpg"
+      "thumbnailPath": "/uploads/thumbs/239b6f7e07164f349b3408589139ea6b.jpg",
+      "smallThumbnailPath": "/uploads/thumbs300/239b6f7e07164f349b3408589139ea6b.jpg"
     },
     {
       "id": 1775716965792,
@@ -1210,7 +1308,8 @@
       "latitude": -2.6527,
       "longitude": 37.2606,
       "uploadedAt": "2026-04-08T23:42:45.792098",
-      "thumbnailPath": "/uploads/thumbs/6140f63c0f674382b73ea5fe1cf90377.jpg"
+      "thumbnailPath": "/uploads/thumbs/6140f63c0f674382b73ea5fe1cf90377.jpg",
+      "smallThumbnailPath": "/uploads/thumbs300/6140f63c0f674382b73ea5fe1cf90377.jpg"
     },
     {
       "id": 1775716965854,
@@ -1222,7 +1321,8 @@
       "latitude": -2.6527,
       "longitude": 37.2606,
       "uploadedAt": "2026-04-08T23:42:45.854892",
-      "thumbnailPath": "/uploads/thumbs/dec64e237c0640abbe926cab2d17d585.jpg"
+      "thumbnailPath": "/uploads/thumbs/dec64e237c0640abbe926cab2d17d585.jpg",
+      "smallThumbnailPath": "/uploads/thumbs300/dec64e237c0640abbe926cab2d17d585.jpg"
     },
     {
       "id": 1775716965947,
@@ -1234,7 +1334,8 @@
       "latitude": -2.6527,
       "longitude": 37.2606,
       "uploadedAt": "2026-04-08T23:42:45.947043",
-      "thumbnailPath": "/uploads/thumbs/495fcc0aa637483290c4b69dd8d1e34f.jpg"
+      "thumbnailPath": "/uploads/thumbs/495fcc0aa637483290c4b69dd8d1e34f.jpg",
+      "smallThumbnailPath": "/uploads/thumbs300/495fcc0aa637483290c4b69dd8d1e34f.jpg"
     },
     {
       "id": 1775716966134,
@@ -1246,7 +1347,8 @@
       "latitude": -2.6527,
       "longitude": 37.2606,
       "uploadedAt": "2026-04-08T23:42:46.134366",
-      "thumbnailPath": "/uploads/thumbs/32e18e7d79f341e78839e02aafb4cbad.jpg"
+      "thumbnailPath": "/uploads/thumbs/32e18e7d79f341e78839e02aafb4cbad.jpg",
+      "smallThumbnailPath": "/uploads/thumbs300/32e18e7d79f341e78839e02aafb4cbad.jpg"
     },
     {
       "id": 1775716966224,
@@ -1259,7 +1361,8 @@
       "longitude": 37.2606,
       "uploadedAt": "2026-04-08T23:42:46.224674",
       "highlight": false,
-      "thumbnailPath": "/uploads/thumbs/5ff48146c93246728f5d9641a128758f.jpg"
+      "thumbnailPath": "/uploads/thumbs/5ff48146c93246728f5d9641a128758f.jpg",
+      "smallThumbnailPath": "/uploads/thumbs300/5ff48146c93246728f5d9641a128758f.jpg"
     },
     {
       "id": 1775718898785,
@@ -1272,7 +1375,8 @@
       "longitude": 37.2606,
       "uploadedAt": "2026-04-09T00:14:58.785361",
       "highlight": true,
-      "thumbnailPath": "/uploads/thumbs/a0b05b01f48c47cf85540af95d3dd1bd.jpg"
+      "thumbnailPath": "/uploads/thumbs/a0b05b01f48c47cf85540af95d3dd1bd.jpg",
+      "smallThumbnailPath": "/uploads/thumbs300/a0b05b01f48c47cf85540af95d3dd1bd.jpg"
     },
     {
       "id": 1775721984364,
@@ -1284,7 +1388,8 @@
       "locationName": "Amboseli, Kenya",
       "latitude": -2.6527,
       "longitude": 37.2606,
-      "uploadedAt": "2026-04-09T01:06:24.364937"
+      "uploadedAt": "2026-04-09T01:06:24.364937",
+      "smallThumbnailPath": "/uploads/thumbs300/22e77578e9ab4910aca60352af46a009.jpg"
     },
     {
       "id": 1775721984458,
@@ -1297,7 +1402,8 @@
       "latitude": -2.6527,
       "longitude": 37.2606,
       "uploadedAt": "2026-04-09T01:06:24.458577",
-      "highlight": true
+      "highlight": true,
+      "smallThumbnailPath": "/uploads/thumbs300/d31ca22795e740958f6890c8b00cd8d3.jpg"
     },
     {
       "id": 1775721984545,
@@ -1310,7 +1416,8 @@
       "latitude": -2.6527,
       "longitude": 37.2606,
       "uploadedAt": "2026-04-09T01:06:24.545619",
-      "highlight": true
+      "highlight": true,
+      "smallThumbnailPath": "/uploads/thumbs300/d97903ca3dc6406ab882e642c50416cf.jpg"
     },
     {
       "id": 1775721984695,
@@ -1323,7 +1430,8 @@
       "latitude": -2.6527,
       "longitude": 37.2606,
       "uploadedAt": "2026-04-09T01:06:24.695776",
-      "highlight": true
+      "highlight": true,
+      "smallThumbnailPath": "/uploads/thumbs300/ce791d5e73c54fab92b9d07cdac1fcde.jpg"
     },
     {
       "id": 1775721984870,
@@ -1335,7 +1443,8 @@
       "locationName": "Amboseli, Kenya",
       "latitude": -2.6527,
       "longitude": 37.2606,
-      "uploadedAt": "2026-04-09T01:06:24.870357"
+      "uploadedAt": "2026-04-09T01:06:24.870357",
+      "smallThumbnailPath": "/uploads/thumbs300/810435ddfeab4673823daa67688b79e3.jpg"
     },
     {
       "id": 1775721984930,
@@ -1347,7 +1456,8 @@
       "locationName": "Amboseli, Kenya",
       "latitude": -2.6527,
       "longitude": 37.2606,
-      "uploadedAt": "2026-04-09T01:06:24.930706"
+      "uploadedAt": "2026-04-09T01:06:24.930706",
+      "smallThumbnailPath": "/uploads/thumbs300/00e9658cee7341fdb834fe844da80972.jpg"
     },
     {
       "id": 1775721985088,
@@ -1359,7 +1469,8 @@
       "locationName": "Amboseli, Kenya",
       "latitude": -2.6527,
       "longitude": 37.2606,
-      "uploadedAt": "2026-04-09T01:06:25.088025"
+      "uploadedAt": "2026-04-09T01:06:25.088025",
+      "smallThumbnailPath": "/uploads/thumbs300/d9a11cf1777b4756bfa31e24d02233e1.jpg"
     },
     {
       "id": 1775721985270,
@@ -1372,7 +1483,8 @@
       "latitude": -2.6527,
       "longitude": 37.2606,
       "uploadedAt": "2026-04-09T01:06:25.270102",
-      "highlight": true
+      "highlight": true,
+      "smallThumbnailPath": "/uploads/thumbs300/1f60e960219c4249a8964235cfcc252d.jpg"
     },
     {
       "id": 1775721985472,
@@ -1384,7 +1496,8 @@
       "locationName": "Amboseli, Kenya",
       "latitude": -2.6527,
       "longitude": 37.2606,
-      "uploadedAt": "2026-04-09T01:06:25.472592"
+      "uploadedAt": "2026-04-09T01:06:25.472592",
+      "smallThumbnailPath": "/uploads/thumbs300/a662fed27d304fdaaebfa8806a082906.jpg"
     },
     {
       "id": 1775721985660,
@@ -1396,7 +1509,8 @@
       "locationName": "Amboseli, Kenya",
       "latitude": -2.6527,
       "longitude": 37.2606,
-      "uploadedAt": "2026-04-09T01:06:25.660912"
+      "uploadedAt": "2026-04-09T01:06:25.660912",
+      "smallThumbnailPath": "/uploads/thumbs300/764deda81b344f158bc024f4e6667ad7.jpg"
     },
     {
       "id": 1775721985717,
@@ -1409,7 +1523,8 @@
       "latitude": -2.6527,
       "longitude": 37.2606,
       "uploadedAt": "2026-04-09T01:06:25.717595",
-      "highlight": true
+      "highlight": true,
+      "smallThumbnailPath": "/uploads/thumbs300/daa439af8e8f4b40b4e10c3b41432206.jpg"
     },
     {
       "id": 1775721985881,
@@ -1422,7 +1537,8 @@
       "latitude": -2.6527,
       "longitude": 37.2606,
       "uploadedAt": "2026-04-09T01:06:25.881611",
-      "highlight": true
+      "highlight": true,
+      "smallThumbnailPath": "/uploads/thumbs300/6fbfc4afa99a4364bf4d5d31566d35a6.jpg"
     },
     {
       "id": 1775721986013,
@@ -1434,7 +1550,8 @@
       "locationName": "Amboseli, Kenya",
       "latitude": -2.6527,
       "longitude": 37.2606,
-      "uploadedAt": "2026-04-09T01:06:26.013786"
+      "uploadedAt": "2026-04-09T01:06:26.013786",
+      "smallThumbnailPath": "/uploads/thumbs300/49f131c5a1074bcc817ef080b0291e4c.jpg"
     },
     {
       "id": 1775721986083,
@@ -1446,7 +1563,8 @@
       "locationName": "Amboseli, Kenya",
       "latitude": -2.6527,
       "longitude": 37.2606,
-      "uploadedAt": "2026-04-09T01:06:26.083901"
+      "uploadedAt": "2026-04-09T01:06:26.083901",
+      "smallThumbnailPath": "/uploads/thumbs300/6f64acaee324412fba340d2198c7eff3.jpg"
     },
     {
       "id": 1775721986269,
@@ -1459,7 +1577,8 @@
       "latitude": -2.6527,
       "longitude": 37.2606,
       "uploadedAt": "2026-04-09T01:06:26.269648",
-      "highlight": true
+      "highlight": true,
+      "smallThumbnailPath": "/uploads/thumbs300/6c947459b4cb44a1966ad52c813da516.jpg"
     },
     {
       "id": 1775721986337,
@@ -1471,7 +1590,8 @@
       "locationName": "Amboseli, Kenya",
       "latitude": -2.6527,
       "longitude": 37.2606,
-      "uploadedAt": "2026-04-09T01:06:26.337231"
+      "uploadedAt": "2026-04-09T01:06:26.337231",
+      "smallThumbnailPath": "/uploads/thumbs300/73e3dfb93fd74815bda1b12aca19bdb8.jpg"
     },
     {
       "id": 1775721986494,
@@ -1484,7 +1604,8 @@
       "latitude": -2.6527,
       "longitude": 37.2606,
       "uploadedAt": "2026-04-09T01:06:26.494733",
-      "highlight": true
+      "highlight": true,
+      "smallThumbnailPath": "/uploads/thumbs300/f6ff5ea9cc524bbf9b4dda77c53543b1.jpg"
     },
     {
       "id": 1775721986552,
@@ -1496,7 +1617,8 @@
       "locationName": "Amboseli, Kenya",
       "latitude": -2.6527,
       "longitude": 37.2606,
-      "uploadedAt": "2026-04-09T01:06:26.552830"
+      "uploadedAt": "2026-04-09T01:06:26.552830",
+      "smallThumbnailPath": "/uploads/thumbs300/13a7bbf58cad49bab6b41f1bf584e0c7.jpg"
     },
     {
       "id": 1775721986755,
@@ -1508,7 +1630,8 @@
       "locationName": "Amboseli, Kenya",
       "latitude": -2.6527,
       "longitude": 37.2606,
-      "uploadedAt": "2026-04-09T01:06:26.755572"
+      "uploadedAt": "2026-04-09T01:06:26.755572",
+      "smallThumbnailPath": "/uploads/thumbs300/4ff20a9ba8db4499b5025bdc6e9b45be.jpg"
     },
     {
       "id": 1775721986999,
@@ -1521,7 +1644,8 @@
       "latitude": -2.6527,
       "longitude": 37.2606,
       "uploadedAt": "2026-04-09T01:06:26.999468",
-      "highlight": false
+      "highlight": false,
+      "smallThumbnailPath": "/uploads/thumbs300/faf6105877f4472f98b17c8fb5b9b468.jpg"
     },
     {
       "id": 1775721987191,
@@ -1534,7 +1658,8 @@
       "latitude": -2.6527,
       "longitude": 37.2606,
       "uploadedAt": "2026-04-09T01:06:27.191913",
-      "highlight": true
+      "highlight": true,
+      "smallThumbnailPath": "/uploads/thumbs300/c3edcc373ec84007a120e9b0a8703a84.jpg"
     },
     {
       "id": 1775721987392,
@@ -1547,7 +1672,8 @@
       "latitude": -2.6527,
       "longitude": 37.2606,
       "uploadedAt": "2026-04-09T01:06:27.392493",
-      "highlight": true
+      "highlight": true,
+      "smallThumbnailPath": "/uploads/thumbs300/7ac80502de304573a6573c42df4cb283.jpg"
     },
     {
       "id": 1775721987477,
@@ -1559,7 +1685,8 @@
       "locationName": "Amboseli, Kenya",
       "latitude": -2.6527,
       "longitude": 37.2606,
-      "uploadedAt": "2026-04-09T01:06:27.477894"
+      "uploadedAt": "2026-04-09T01:06:27.477894",
+      "smallThumbnailPath": "/uploads/thumbs300/0999620c44ac49a1b9bc5e0ebb3e2141.jpg"
     },
     {
       "id": 1775749933210,
@@ -1571,7 +1698,8 @@
       "locationName": "Antigua, Guatemala",
       "latitude": 14.5586,
       "longitude": -90.7295,
-      "uploadedAt": "2026-04-09T08:52:13.210359"
+      "uploadedAt": "2026-04-09T08:52:13.210359",
+      "smallThumbnailPath": "/uploads/thumbs300/36bf66ab0ac345d1833df707e98de9cc.jpg"
     },
     {
       "id": 1775749933229,
@@ -1583,7 +1711,8 @@
       "locationName": "Antigua, Guatemala",
       "latitude": 14.5586,
       "longitude": -90.7295,
-      "uploadedAt": "2026-04-09T08:52:13.229980"
+      "uploadedAt": "2026-04-09T08:52:13.229980",
+      "smallThumbnailPath": "/uploads/thumbs300/1a0f1893d4a547eeb4c439fa05355e6d.jpg"
     },
     {
       "id": 1775749933246,
@@ -1595,7 +1724,8 @@
       "locationName": "Antigua, Guatemala",
       "latitude": 14.5586,
       "longitude": -90.7295,
-      "uploadedAt": "2026-04-09T08:52:13.246149"
+      "uploadedAt": "2026-04-09T08:52:13.246149",
+      "smallThumbnailPath": "/uploads/thumbs300/e573655bea2b45618488b717b8a60937.jpg"
     },
     {
       "id": 1775749933263,
@@ -1608,7 +1738,8 @@
       "latitude": 14.5586,
       "longitude": -90.7295,
       "uploadedAt": "2026-04-09T08:52:13.263521",
-      "highlight": true
+      "highlight": true,
+      "smallThumbnailPath": "/uploads/thumbs300/b205210d2b344f0abeb855e7b75a273a.jpg"
     },
     {
       "id": 1775749933280,
@@ -1620,7 +1751,8 @@
       "locationName": "Antigua, Guatemala",
       "latitude": 14.5586,
       "longitude": -90.7295,
-      "uploadedAt": "2026-04-09T08:52:13.280277"
+      "uploadedAt": "2026-04-09T08:52:13.280277",
+      "smallThumbnailPath": "/uploads/thumbs300/1cc5f2676ddb42fab410446ad9649cda.jpg"
     },
     {
       "id": 1775749933298,
@@ -1632,7 +1764,8 @@
       "locationName": "Antigua, Guatemala",
       "latitude": 14.5586,
       "longitude": -90.7295,
-      "uploadedAt": "2026-04-09T08:52:13.298630"
+      "uploadedAt": "2026-04-09T08:52:13.298630",
+      "smallThumbnailPath": "/uploads/thumbs300/1a04d58ebed5448381d867b8512b79c3.jpg"
     },
     {
       "id": 1775749933314,
@@ -1645,7 +1778,8 @@
       "latitude": 14.5586,
       "longitude": -90.7295,
       "uploadedAt": "2026-04-09T08:52:13.314366",
-      "highlight": true
+      "highlight": true,
+      "smallThumbnailPath": "/uploads/thumbs300/0cd1bc19aff1446e95f9898ae2c068b4.jpg"
     },
     {
       "id": 1775749933335,
@@ -1657,7 +1791,8 @@
       "locationName": "Antigua, Guatemala",
       "latitude": 14.5586,
       "longitude": -90.7295,
-      "uploadedAt": "2026-04-09T08:52:13.335473"
+      "uploadedAt": "2026-04-09T08:52:13.335473",
+      "smallThumbnailPath": "/uploads/thumbs300/a93e57188231488c95898e0740b31d87.jpg"
     },
     {
       "id": 1775749933350,
@@ -1670,7 +1805,8 @@
       "latitude": 14.5586,
       "longitude": -90.7295,
       "uploadedAt": "2026-04-09T08:52:13.350649",
-      "highlight": false
+      "highlight": false,
+      "smallThumbnailPath": "/uploads/thumbs300/c3a8270301dc48e081c722e632ad7416.jpg"
     },
     {
       "id": 1775749933365,
@@ -1683,7 +1819,8 @@
       "latitude": 14.5586,
       "longitude": -90.7295,
       "uploadedAt": "2026-04-09T08:52:13.365680",
-      "highlight": true
+      "highlight": true,
+      "smallThumbnailPath": "/uploads/thumbs300/569feef9760b47ae9e4a129a2efbc55b.jpg"
     },
     {
       "id": 1775749933385,
@@ -1695,7 +1832,8 @@
       "locationName": "Antigua, Guatemala",
       "latitude": 14.5586,
       "longitude": -90.7295,
-      "uploadedAt": "2026-04-09T08:52:13.385639"
+      "uploadedAt": "2026-04-09T08:52:13.385639",
+      "smallThumbnailPath": "/uploads/thumbs300/327a1fb75f18432588f4e05774262afd.jpg"
     },
     {
       "id": 1775749933404,
@@ -1707,7 +1845,8 @@
       "locationName": "Antigua, Guatemala",
       "latitude": 14.5586,
       "longitude": -90.7295,
-      "uploadedAt": "2026-04-09T08:52:13.404867"
+      "uploadedAt": "2026-04-09T08:52:13.404867",
+      "smallThumbnailPath": "/uploads/thumbs300/4ce35412889140e99b7a821dd296492f.jpg"
     },
     {
       "id": 1775749933421,
@@ -1719,7 +1858,8 @@
       "locationName": "Antigua, Guatemala",
       "latitude": 14.5586,
       "longitude": -90.7295,
-      "uploadedAt": "2026-04-09T08:52:13.421716"
+      "uploadedAt": "2026-04-09T08:52:13.421716",
+      "smallThumbnailPath": "/uploads/thumbs300/d47fbe51e1054464903e1a34bf488c59.jpg"
     },
     {
       "id": 1775749933459,
@@ -1731,7 +1871,8 @@
       "locationName": "Antigua, Guatemala",
       "latitude": 14.5586,
       "longitude": -90.7295,
-      "uploadedAt": "2026-04-09T08:52:13.459934"
+      "uploadedAt": "2026-04-09T08:52:13.459934",
+      "smallThumbnailPath": "/uploads/thumbs300/0dcdc5a153a34b80bf70a0c028c02b99.jpg"
     },
     {
       "id": 1775749933491,
@@ -1743,7 +1884,8 @@
       "locationName": "Antigua, Guatemala",
       "latitude": 14.5586,
       "longitude": -90.7295,
-      "uploadedAt": "2026-04-09T08:52:13.491930"
+      "uploadedAt": "2026-04-09T08:52:13.491930",
+      "smallThumbnailPath": "/uploads/thumbs300/5f83490226b74ac393dc2305cc602073.jpg"
     },
     {
       "id": 1775749933514,
@@ -1755,7 +1897,8 @@
       "locationName": "Antigua, Guatemala",
       "latitude": 14.5586,
       "longitude": -90.7295,
-      "uploadedAt": "2026-04-09T08:52:13.514703"
+      "uploadedAt": "2026-04-09T08:52:13.514703",
+      "smallThumbnailPath": "/uploads/thumbs300/751d805e987547129d6ce8fbf5992103.jpg"
     },
     {
       "id": 1775749933532,
@@ -1767,7 +1910,8 @@
       "locationName": "Antigua, Guatemala",
       "latitude": 14.5586,
       "longitude": -90.7295,
-      "uploadedAt": "2026-04-09T08:52:13.532686"
+      "uploadedAt": "2026-04-09T08:52:13.532686",
+      "smallThumbnailPath": "/uploads/thumbs300/3a900ef9761a481b986ee55feaaab843.jpg"
     },
     {
       "id": 1775749933553,
@@ -1779,7 +1923,8 @@
       "locationName": "Antigua, Guatemala",
       "latitude": 14.5586,
       "longitude": -90.7295,
-      "uploadedAt": "2026-04-09T08:52:13.553308"
+      "uploadedAt": "2026-04-09T08:52:13.553308",
+      "smallThumbnailPath": "/uploads/thumbs300/4c00c0a7dd4b428eaa601227a97cef11.jpg"
     },
     {
       "id": 1775722471160,
@@ -1792,7 +1937,8 @@
       "latitude": -3.3869,
       "longitude": 36.683,
       "uploadedAt": "2026-04-09T01:14:31.160859",
-      "highlight": true
+      "highlight": true,
+      "smallThumbnailPath": "/uploads/thumbs300/b96390f39b374561ac479ec9904f6603.jpg"
     },
     {
       "id": 1775722471391,
@@ -1804,7 +1950,8 @@
       "locationName": "Arusha, Tanzania",
       "latitude": -3.3869,
       "longitude": 36.683,
-      "uploadedAt": "2026-04-09T01:14:31.391804"
+      "uploadedAt": "2026-04-09T01:14:31.391804",
+      "smallThumbnailPath": "/uploads/thumbs300/2849f7f1aabb4d929f477db72dd989c4.jpg"
     },
     {
       "id": 1775722471509,
@@ -1816,7 +1963,8 @@
       "locationName": "Arusha, Tanzania",
       "latitude": -3.3869,
       "longitude": 36.683,
-      "uploadedAt": "2026-04-09T01:14:31.509497"
+      "uploadedAt": "2026-04-09T01:14:31.509497",
+      "smallThumbnailPath": "/uploads/thumbs300/9004e2c4bed44db3ad2ac6708bf32f6c.jpg"
     },
     {
       "id": 1775722471766,
@@ -1828,7 +1976,8 @@
       "locationName": "Arusha, Tanzania",
       "latitude": -3.3869,
       "longitude": 36.683,
-      "uploadedAt": "2026-04-09T01:14:31.766386"
+      "uploadedAt": "2026-04-09T01:14:31.766386",
+      "smallThumbnailPath": "/uploads/thumbs300/c5faf2b1c0254e39b1f7b517b52839ee.jpg"
     },
     {
       "id": 1775722471968,
@@ -1841,7 +1990,8 @@
       "latitude": -3.3869,
       "longitude": 36.683,
       "uploadedAt": "2026-04-09T01:14:31.968651",
-      "highlight": true
+      "highlight": true,
+      "smallThumbnailPath": "/uploads/thumbs300/28f036421ce64b50b321cc01333e2658.jpg"
     },
     {
       "id": 1775722472244,
@@ -1853,7 +2003,8 @@
       "locationName": "Arusha, Tanzania",
       "latitude": -3.3869,
       "longitude": 36.683,
-      "uploadedAt": "2026-04-09T01:14:32.244196"
+      "uploadedAt": "2026-04-09T01:14:32.244196",
+      "smallThumbnailPath": "/uploads/thumbs300/cdeb3194534c48bba87607af013c1d17.jpg"
     },
     {
       "id": 1775722472485,
@@ -1866,7 +2017,8 @@
       "latitude": -3.3869,
       "longitude": 36.683,
       "uploadedAt": "2026-04-09T01:14:32.485616",
-      "highlight": true
+      "highlight": true,
+      "smallThumbnailPath": "/uploads/thumbs300/561562b5f5aa4c888530f93ffb05c6a5.jpg"
     },
     {
       "id": 1775722472984,
@@ -1879,7 +2031,8 @@
       "latitude": -3.3869,
       "longitude": 36.683,
       "uploadedAt": "2026-04-09T01:14:32.984771",
-      "highlight": true
+      "highlight": true,
+      "smallThumbnailPath": "/uploads/thumbs300/6ec27cbb75c5403d9b9a10d055af1a07.jpg"
     },
     {
       "id": 1775722473299,
@@ -1891,7 +2044,8 @@
       "locationName": "Arusha, Tanzania",
       "latitude": -3.3869,
       "longitude": 36.683,
-      "uploadedAt": "2026-04-09T01:14:33.299642"
+      "uploadedAt": "2026-04-09T01:14:33.299642",
+      "smallThumbnailPath": "/uploads/thumbs300/3c03b527738d44f5af33caca6447d017.jpg"
     },
     {
       "id": 1775722473832,
@@ -1903,7 +2057,8 @@
       "locationName": "Arusha, Tanzania",
       "latitude": -3.3869,
       "longitude": 36.683,
-      "uploadedAt": "2026-04-09T01:14:33.832090"
+      "uploadedAt": "2026-04-09T01:14:33.832090",
+      "smallThumbnailPath": "/uploads/thumbs300/f667b0bb081e458c8969d40ef0680e78.jpg"
     },
     {
       "id": 1775722474022,
@@ -1915,7 +2070,8 @@
       "locationName": "Arusha, Tanzania",
       "latitude": -3.3869,
       "longitude": 36.683,
-      "uploadedAt": "2026-04-09T01:14:34.022805"
+      "uploadedAt": "2026-04-09T01:14:34.022805",
+      "smallThumbnailPath": "/uploads/thumbs300/275f4dd2c6374fe7818d4e2fc72dd7e8.jpg"
     },
     {
       "id": 1775722474183,
@@ -1927,7 +2083,8 @@
       "locationName": "Arusha, Tanzania",
       "latitude": -3.3869,
       "longitude": 36.683,
-      "uploadedAt": "2026-04-09T01:14:34.183593"
+      "uploadedAt": "2026-04-09T01:14:34.183593",
+      "smallThumbnailPath": "/uploads/thumbs300/ba9dd1fd04cc45f28b2a67675218330a.jpg"
     },
     {
       "id": 1775722474349,
@@ -1939,7 +2096,8 @@
       "locationName": "Arusha, Tanzania",
       "latitude": -3.3869,
       "longitude": 36.683,
-      "uploadedAt": "2026-04-09T01:14:34.349162"
+      "uploadedAt": "2026-04-09T01:14:34.349162",
+      "smallThumbnailPath": "/uploads/thumbs300/ce5ee3921c8d4d1aace16505c44dc0f5.jpg"
     },
     {
       "id": 1775722474508,
@@ -1951,7 +2109,8 @@
       "locationName": "Arusha, Tanzania",
       "latitude": -3.3869,
       "longitude": 36.683,
-      "uploadedAt": "2026-04-09T01:14:34.508973"
+      "uploadedAt": "2026-04-09T01:14:34.508973",
+      "smallThumbnailPath": "/uploads/thumbs300/301bf22445ef4f2184f4e230e63318ff.jpg"
     },
     {
       "id": 1775722544106,
@@ -1964,7 +2123,8 @@
       "latitude": -3.3869,
       "longitude": 36.683,
       "uploadedAt": "2026-04-09T01:15:44.106973",
-      "highlight": true
+      "highlight": true,
+      "smallThumbnailPath": "/uploads/thumbs300/8efee3263c634fd8b262d40055e92eb7.jpg"
     },
     {
       "id": 1775722597231,
@@ -1976,7 +2136,8 @@
       "locationName": "Arusha, Tanzania",
       "latitude": -3.3869,
       "longitude": 36.683,
-      "uploadedAt": "2026-04-09T01:16:37.231427"
+      "uploadedAt": "2026-04-09T01:16:37.231427",
+      "smallThumbnailPath": "/uploads/thumbs300/d862dfa02d004e0da7775b93f8c6e0f5.jpg"
     },
     {
       "id": 1775752145237,
@@ -1989,7 +2150,8 @@
       "latitude": -23.8634,
       "longitude": -69.1328,
       "uploadedAt": "2026-04-09T09:29:05.237013",
-      "highlight": true
+      "highlight": true,
+      "smallThumbnailPath": "/uploads/thumbs300/32fea8fc177840408d0dc71c96ef57fe.jpg"
     },
     {
       "id": 1775752145258,
@@ -2001,7 +2163,8 @@
       "locationName": "Atacama Desert, Chile",
       "latitude": -23.8634,
       "longitude": -69.1328,
-      "uploadedAt": "2026-04-09T09:29:05.258152"
+      "uploadedAt": "2026-04-09T09:29:05.258152",
+      "smallThumbnailPath": "/uploads/thumbs300/5672cd56fb0944528f234ce29c550e67.jpg"
     },
     {
       "id": 1775752145282,
@@ -2014,7 +2177,8 @@
       "latitude": -23.8634,
       "longitude": -69.1328,
       "uploadedAt": "2026-04-09T09:29:05.282184",
-      "highlight": true
+      "highlight": true,
+      "smallThumbnailPath": "/uploads/thumbs300/8a961c5bcac046f1be1476f49c55e296.jpg"
     },
     {
       "id": 1775752145312,
@@ -2026,7 +2190,8 @@
       "locationName": "Atacama Desert, Chile",
       "latitude": -23.8634,
       "longitude": -69.1328,
-      "uploadedAt": "2026-04-09T09:29:05.312502"
+      "uploadedAt": "2026-04-09T09:29:05.312502",
+      "smallThumbnailPath": "/uploads/thumbs300/b6a5ce7c0212433ca0e0eca000fce7fc.jpg"
     },
     {
       "id": 1775752145336,
@@ -2039,7 +2204,8 @@
       "latitude": -23.8634,
       "longitude": -69.1328,
       "uploadedAt": "2026-04-09T09:29:05.336965",
-      "highlight": true
+      "highlight": true,
+      "smallThumbnailPath": "/uploads/thumbs300/8310c925d92b4162b473f8615407e770.jpg"
     },
     {
       "id": 1775752145359,
@@ -2051,7 +2217,8 @@
       "locationName": "Atacama Desert, Chile",
       "latitude": -23.8634,
       "longitude": -69.1328,
-      "uploadedAt": "2026-04-09T09:29:05.359949"
+      "uploadedAt": "2026-04-09T09:29:05.359949",
+      "smallThumbnailPath": "/uploads/thumbs300/439618606d3444f48c42a2741c2f1dab.jpg"
     },
     {
       "id": 1775752145382,
@@ -2063,7 +2230,8 @@
       "locationName": "Atacama Desert, Chile",
       "latitude": -23.8634,
       "longitude": -69.1328,
-      "uploadedAt": "2026-04-09T09:29:05.382296"
+      "uploadedAt": "2026-04-09T09:29:05.382296",
+      "smallThumbnailPath": "/uploads/thumbs300/6e8daf4a199244138294f16cd1d5eb5e.jpg"
     },
     {
       "id": 1775752144364,
@@ -2076,7 +2244,8 @@
       "latitude": 28.8514,
       "longitude": -113.5361,
       "uploadedAt": "2026-04-09T09:29:04.364854",
-      "highlight": true
+      "highlight": true,
+      "smallThumbnailPath": "/uploads/thumbs300/24153468c9ad4ba681ea26a2659eabb4.jpg"
     },
     {
       "id": 1775752144390,
@@ -2088,7 +2257,8 @@
       "locationName": "Baja California, Mexico",
       "latitude": 28.8514,
       "longitude": -113.5361,
-      "uploadedAt": "2026-04-09T09:29:04.390479"
+      "uploadedAt": "2026-04-09T09:29:04.390479",
+      "smallThumbnailPath": "/uploads/thumbs300/120abf7cc4f54388922e7ce2656550a0.jpg"
     },
     {
       "id": 1775752144458,
@@ -2101,7 +2271,8 @@
       "latitude": 28.8514,
       "longitude": -113.5361,
       "uploadedAt": "2026-04-09T09:29:04.458820",
-      "highlight": true
+      "highlight": true,
+      "smallThumbnailPath": "/uploads/thumbs300/6c0814455e10448fb3948de0b21af347.png"
     },
     {
       "id": 1775752144654,
@@ -2114,7 +2285,8 @@
       "latitude": 28.8514,
       "longitude": -113.5361,
       "uploadedAt": "2026-04-09T09:29:04.654273",
-      "highlight": true
+      "highlight": true,
+      "smallThumbnailPath": "/uploads/thumbs300/95edbb73137f405d819a68336452c8d8.jpg"
     },
     {
       "id": 1775752144680,
@@ -2127,7 +2299,8 @@
       "latitude": 28.8514,
       "longitude": -113.5361,
       "uploadedAt": "2026-04-09T09:29:04.680414",
-      "highlight": true
+      "highlight": true,
+      "smallThumbnailPath": "/uploads/thumbs300/a660d66aacc94c6fb88a0ee22928c441.jpg"
     },
     {
       "id": 1775752144718,
@@ -2140,7 +2313,8 @@
       "latitude": 28.8514,
       "longitude": -113.5361,
       "uploadedAt": "2026-04-09T09:29:04.718971",
-      "highlight": true
+      "highlight": true,
+      "smallThumbnailPath": "/uploads/thumbs300/1fc66f19dbde409ca7a906f50fee5213.jpg"
     },
     {
       "id": 1775752144740,
@@ -2152,7 +2326,8 @@
       "locationName": "Baja California, Mexico",
       "latitude": 28.8514,
       "longitude": -113.5361,
-      "uploadedAt": "2026-04-09T09:29:04.740678"
+      "uploadedAt": "2026-04-09T09:29:04.740678",
+      "smallThumbnailPath": "/uploads/thumbs300/b25da3dac43a47c59577f5728fe2b8a0.jpg"
     },
     {
       "id": 1775752144760,
@@ -2164,7 +2339,8 @@
       "locationName": "Baja California, Mexico",
       "latitude": 28.8514,
       "longitude": -113.5361,
-      "uploadedAt": "2026-04-09T09:29:04.760473"
+      "uploadedAt": "2026-04-09T09:29:04.760473",
+      "smallThumbnailPath": "/uploads/thumbs300/37b5ddb83dc04469944f6e2cab6668fc.jpg"
     },
     {
       "id": 1775752146591,
@@ -2177,7 +2353,8 @@
       "latitude": 28.8514,
       "longitude": -113.5361,
       "uploadedAt": "2026-04-09T09:29:06.591498",
-      "highlight": false
+      "highlight": false,
+      "smallThumbnailPath": "/uploads/thumbs300/51ad28d60ca24795a1a6f5cd9b0ef205.jpg"
     },
     {
       "id": 1775752146605,
@@ -2190,7 +2367,8 @@
       "latitude": 28.8514,
       "longitude": -113.5361,
       "uploadedAt": "2026-04-09T09:29:06.605873",
-      "highlight": true
+      "highlight": true,
+      "smallThumbnailPath": "/uploads/thumbs300/8643d8e63a294ceab27a436323240e7e.jpg"
     },
     {
       "id": 1775752146620,
@@ -2202,7 +2380,8 @@
       "locationName": "Baja California, Mexico",
       "latitude": 28.8514,
       "longitude": -113.5361,
-      "uploadedAt": "2026-04-09T09:29:06.620549"
+      "uploadedAt": "2026-04-09T09:29:06.620549",
+      "smallThumbnailPath": "/uploads/thumbs300/356a6af14d8c42a4952da52edbb63c23.jpg"
     },
     {
       "id": 1775752146635,
@@ -2214,7 +2393,8 @@
       "locationName": "Baja California, Mexico",
       "latitude": 28.8514,
       "longitude": -113.5361,
-      "uploadedAt": "2026-04-09T09:29:06.635649"
+      "uploadedAt": "2026-04-09T09:29:06.635649",
+      "smallThumbnailPath": "/uploads/thumbs300/625c298186044227a7b55a94642d304c.jpg"
     },
     {
       "id": 1775752146675,
@@ -2227,7 +2407,8 @@
       "latitude": 28.8514,
       "longitude": -113.5361,
       "uploadedAt": "2026-04-09T09:29:06.675053",
-      "highlight": true
+      "highlight": true,
+      "smallThumbnailPath": "/uploads/thumbs300/e4080cc36d214484b26570625b470228.jpg"
     },
     {
       "id": 1775752146511,
@@ -2239,7 +2420,8 @@
       "locationName": "Buenos Aires, Argentina",
       "latitude": -34.6037,
       "longitude": -58.3816,
-      "uploadedAt": "2026-04-09T09:29:06.511194"
+      "uploadedAt": "2026-04-09T09:29:06.511194",
+      "smallThumbnailPath": "/uploads/thumbs300/6d8dda38769f4b80a74fb175a162cf67.jpg"
     },
     {
       "id": 1775752146531,
@@ -2251,7 +2433,8 @@
       "locationName": "Buenos Aires, Argentina",
       "latitude": -34.6037,
       "longitude": -58.3816,
-      "uploadedAt": "2026-04-09T09:29:06.531487"
+      "uploadedAt": "2026-04-09T09:29:06.531487",
+      "smallThumbnailPath": "/uploads/thumbs300/c255719e724a4ff792b34f5e8c157081.jpg"
     },
     {
       "id": 1775752146550,
@@ -2263,7 +2446,8 @@
       "locationName": "Buenos Aires, Argentina",
       "latitude": -34.6037,
       "longitude": -58.3816,
-      "uploadedAt": "2026-04-09T09:29:06.550134"
+      "uploadedAt": "2026-04-09T09:29:06.550134",
+      "smallThumbnailPath": "/uploads/thumbs300/af043c5d4b384232b12129829d777502.jpg"
     },
     {
       "id": 1775752146569,
@@ -2275,7 +2459,8 @@
       "locationName": "Buenos Aires, Argentina",
       "latitude": -34.6037,
       "longitude": -58.3816,
-      "uploadedAt": "2026-04-09T09:29:06.569656"
+      "uploadedAt": "2026-04-09T09:29:06.569656",
+      "smallThumbnailPath": "/uploads/thumbs300/a7d39f100f7145739a9f2897d4a68583.jpg"
     },
     {
       "id": 1775750942445,
@@ -2287,7 +2472,8 @@
       "locationName": "Cuyabeno, Ecuador",
       "latitude": 0.0833,
       "longitude": -76.1833,
-      "uploadedAt": "2026-04-09T09:09:02.445076"
+      "uploadedAt": "2026-04-09T09:09:02.445076",
+      "smallThumbnailPath": "/uploads/thumbs300/961245cdf10f44ea8f5e83ce4660587d.jpg"
     },
     {
       "id": 1775750942456,
@@ -2299,7 +2485,8 @@
       "locationName": "Cuyabeno, Ecuador",
       "latitude": 0.0833,
       "longitude": -76.1833,
-      "uploadedAt": "2026-04-09T09:09:02.456773"
+      "uploadedAt": "2026-04-09T09:09:02.456773",
+      "smallThumbnailPath": "/uploads/thumbs300/ab824b66954443f1bda3e7319171dbb2.jpg"
     },
     {
       "id": 1775750942487,
@@ -2311,7 +2498,8 @@
       "locationName": "Cuyabeno, Ecuador",
       "latitude": 0.0833,
       "longitude": -76.1833,
-      "uploadedAt": "2026-04-09T09:09:02.487214"
+      "uploadedAt": "2026-04-09T09:09:02.487214",
+      "smallThumbnailPath": "/uploads/thumbs300/983d2b2945f74fe6a6616ca3d1d32259.jpg"
     },
     {
       "id": 1775750942515,
@@ -2323,7 +2511,8 @@
       "locationName": "Cuyabeno, Ecuador",
       "latitude": 0.0833,
       "longitude": -76.1833,
-      "uploadedAt": "2026-04-09T09:09:02.515546"
+      "uploadedAt": "2026-04-09T09:09:02.515546",
+      "smallThumbnailPath": "/uploads/thumbs300/1202ec08263a4f93ae3c66ad01be1f6a.jpg"
     },
     {
       "id": 1775750942540,
@@ -2336,7 +2525,8 @@
       "latitude": 0.0833,
       "longitude": -76.1833,
       "uploadedAt": "2026-04-09T09:09:02.540873",
-      "highlight": true
+      "highlight": true,
+      "smallThumbnailPath": "/uploads/thumbs300/7a22046f5b584898871f030242e2875f.jpg"
     },
     {
       "id": 1775750942564,
@@ -2348,7 +2538,8 @@
       "locationName": "Cuyabeno, Ecuador",
       "latitude": 0.0833,
       "longitude": -76.1833,
-      "uploadedAt": "2026-04-09T09:09:02.564309"
+      "uploadedAt": "2026-04-09T09:09:02.564309",
+      "smallThumbnailPath": "/uploads/thumbs300/26074b342c1e4d28aee31f42a8d01b2b.jpg"
     },
     {
       "id": 1775750942594,
@@ -2360,7 +2551,8 @@
       "locationName": "Cuyabeno, Ecuador",
       "latitude": 0.0833,
       "longitude": -76.1833,
-      "uploadedAt": "2026-04-09T09:09:02.594627"
+      "uploadedAt": "2026-04-09T09:09:02.594627",
+      "smallThumbnailPath": "/uploads/thumbs300/f80ed4e27b144e5bb0b85537a6f21c63.jpg"
     },
     {
       "id": 1775750942614,
@@ -2373,7 +2565,8 @@
       "latitude": 0.0833,
       "longitude": -76.1833,
       "uploadedAt": "2026-04-09T09:09:02.614935",
-      "highlight": true
+      "highlight": true,
+      "smallThumbnailPath": "/uploads/thumbs300/7ddca863aa3c4797acd2375c51b93df0.jpg"
     },
     {
       "id": 1775750942631,
@@ -2385,7 +2578,8 @@
       "locationName": "Cuyabeno, Ecuador",
       "latitude": 0.0833,
       "longitude": -76.1833,
-      "uploadedAt": "2026-04-09T09:09:02.631288"
+      "uploadedAt": "2026-04-09T09:09:02.631288",
+      "smallThumbnailPath": "/uploads/thumbs300/fdf6091e5a9c4ef7a272d629ee989406.jpg"
     },
     {
       "id": 1775750942648,
@@ -2398,7 +2592,8 @@
       "latitude": 0.0833,
       "longitude": -76.1833,
       "uploadedAt": "2026-04-09T09:09:02.648488",
-      "highlight": true
+      "highlight": true,
+      "smallThumbnailPath": "/uploads/thumbs300/ad3d527c6e7446a2ab9dfaf4c03a4c26.jpg"
     },
     {
       "id": 1775750942677,
@@ -2410,7 +2605,8 @@
       "locationName": "Cuyabeno, Ecuador",
       "latitude": 0.0833,
       "longitude": -76.1833,
-      "uploadedAt": "2026-04-09T09:09:02.677399"
+      "uploadedAt": "2026-04-09T09:09:02.677399",
+      "smallThumbnailPath": "/uploads/thumbs300/e96ffc7e0a5a4c9aae4eb1ed4571e0af.jpg"
     },
     {
       "id": 1775750942689,
@@ -2422,7 +2618,8 @@
       "locationName": "Cuyabeno, Ecuador",
       "latitude": 0.0833,
       "longitude": -76.1833,
-      "uploadedAt": "2026-04-09T09:09:02.689393"
+      "uploadedAt": "2026-04-09T09:09:02.689393",
+      "smallThumbnailPath": "/uploads/thumbs300/ec64c9a8e58c486b991cf9d6880e0ae5.jpg"
     },
     {
       "id": 1775750942712,
@@ -2435,7 +2632,8 @@
       "latitude": 0.0833,
       "longitude": -76.1833,
       "uploadedAt": "2026-04-09T09:09:02.712172",
-      "highlight": true
+      "highlight": true,
+      "smallThumbnailPath": "/uploads/thumbs300/1d06481fd85743cd9328504e558bdbf3.jpg"
     },
     {
       "id": 1775750942735,
@@ -2447,7 +2645,8 @@
       "locationName": "Cuyabeno, Ecuador",
       "latitude": 0.0833,
       "longitude": -76.1833,
-      "uploadedAt": "2026-04-09T09:09:02.735786"
+      "uploadedAt": "2026-04-09T09:09:02.735786",
+      "smallThumbnailPath": "/uploads/thumbs300/fbb459f5a78944d0966f67bbdbe1bf63.jpg"
     },
     {
       "id": 1775750942760,
@@ -2460,7 +2659,8 @@
       "latitude": 0.0833,
       "longitude": -76.1833,
       "uploadedAt": "2026-04-09T09:09:02.760418",
-      "highlight": true
+      "highlight": true,
+      "smallThumbnailPath": "/uploads/thumbs300/159b48754bde4f5fb1d5d4f8573b2f09.jpg"
     },
     {
       "id": 1775750942774,
@@ -2472,7 +2672,8 @@
       "locationName": "Cuyabeno, Ecuador",
       "latitude": 0.0833,
       "longitude": -76.1833,
-      "uploadedAt": "2026-04-09T09:09:02.774307"
+      "uploadedAt": "2026-04-09T09:09:02.774307",
+      "smallThumbnailPath": "/uploads/thumbs300/0d63db22e3a743e0a8156e1459f7eb55.jpg"
     },
     {
       "id": 1775750942790,
@@ -2484,7 +2685,8 @@
       "locationName": "Cuyabeno, Ecuador",
       "latitude": 0.0833,
       "longitude": -76.1833,
-      "uploadedAt": "2026-04-09T09:09:02.790285"
+      "uploadedAt": "2026-04-09T09:09:02.790285",
+      "smallThumbnailPath": "/uploads/thumbs300/aa89c5c1e0814df6b079dc415c319063.jpg"
     },
     {
       "id": 1775750942805,
@@ -2497,7 +2699,8 @@
       "latitude": 0.0833,
       "longitude": -76.1833,
       "uploadedAt": "2026-04-09T09:09:02.805528",
-      "highlight": true
+      "highlight": true,
+      "smallThumbnailPath": "/uploads/thumbs300/2121d53cd28b48f8a8e980796bdf8a02.jpg"
     },
     {
       "id": 1775750942823,
@@ -2509,7 +2712,8 @@
       "locationName": "Cuyabeno, Ecuador",
       "latitude": 0.0833,
       "longitude": -76.1833,
-      "uploadedAt": "2026-04-09T09:09:02.823314"
+      "uploadedAt": "2026-04-09T09:09:02.823314",
+      "smallThumbnailPath": "/uploads/thumbs300/dc9cf22734cf4ca4b9b2579984a6d9f5.jpg"
     },
     {
       "id": 1775750942847,
@@ -2521,7 +2725,8 @@
       "locationName": "Cuyabeno, Ecuador",
       "latitude": 0.0833,
       "longitude": -76.1833,
-      "uploadedAt": "2026-04-09T09:09:02.847352"
+      "uploadedAt": "2026-04-09T09:09:02.847352",
+      "smallThumbnailPath": "/uploads/thumbs300/44bbb281cc164956b2b9704ad937924f.jpg"
     },
     {
       "id": 1775750942874,
@@ -2533,7 +2738,8 @@
       "locationName": "Cuyabeno, Ecuador",
       "latitude": 0.0833,
       "longitude": -76.1833,
-      "uploadedAt": "2026-04-09T09:09:02.874303"
+      "uploadedAt": "2026-04-09T09:09:02.874303",
+      "smallThumbnailPath": "/uploads/thumbs300/7fbc1244e741411dad68efff12a36117.jpg"
     },
     {
       "id": 1775750942892,
@@ -2545,7 +2751,8 @@
       "locationName": "Cuyabeno, Ecuador",
       "latitude": 0.0833,
       "longitude": -76.1833,
-      "uploadedAt": "2026-04-09T09:09:02.892931"
+      "uploadedAt": "2026-04-09T09:09:02.892931",
+      "smallThumbnailPath": "/uploads/thumbs300/20ff7d59e4fa46fdbba1f1c6cea4bdc3.jpg"
     },
     {
       "id": 1775750942915,
@@ -2558,7 +2765,8 @@
       "latitude": 0.0833,
       "longitude": -76.1833,
       "uploadedAt": "2026-04-09T09:09:02.915845",
-      "highlight": true
+      "highlight": true,
+      "smallThumbnailPath": "/uploads/thumbs300/bbf04080196d46118e5892ed4492439e.jpg"
     },
     {
       "id": 1775750942934,
@@ -2571,7 +2779,8 @@
       "latitude": 0.0833,
       "longitude": -76.1833,
       "uploadedAt": "2026-04-09T09:09:02.934409",
-      "highlight": true
+      "highlight": true,
+      "smallThumbnailPath": "/uploads/thumbs300/f692b02660814acb8b91b65358004e11.jpg"
     },
     {
       "id": 1775750943484,
@@ -2583,7 +2792,8 @@
       "locationName": "Cuyabeno, Ecuador",
       "latitude": 0.0833,
       "longitude": -76.1833,
-      "uploadedAt": "2026-04-09T09:09:03.484760"
+      "uploadedAt": "2026-04-09T09:09:03.484760",
+      "smallThumbnailPath": "/uploads/thumbs300/eafb8c18d102462c93b12cff07f9b281.jpg"
     },
     {
       "id": 1775750943520,
@@ -2595,7 +2805,8 @@
       "locationName": "Cuyabeno, Ecuador",
       "latitude": 0.0833,
       "longitude": -76.1833,
-      "uploadedAt": "2026-04-09T09:09:03.520165"
+      "uploadedAt": "2026-04-09T09:09:03.520165",
+      "smallThumbnailPath": "/uploads/thumbs300/9aa8dcf8ccaa435aa9049bd90dc6a090.jpg"
     },
     {
       "id": 1775750943593,
@@ -2607,7 +2818,8 @@
       "locationName": "Cuyabeno, Ecuador",
       "latitude": 0.0833,
       "longitude": -76.1833,
-      "uploadedAt": "2026-04-09T09:09:03.593665"
+      "uploadedAt": "2026-04-09T09:09:03.593665",
+      "smallThumbnailPath": "/uploads/thumbs300/73ec8165736f443f95b91a796ca217a3.jpg"
     },
     {
       "id": 1775750943673,
@@ -2620,7 +2832,8 @@
       "latitude": 0.0833,
       "longitude": -76.1833,
       "uploadedAt": "2026-04-09T09:09:03.673833",
-      "highlight": true
+      "highlight": true,
+      "smallThumbnailPath": "/uploads/thumbs300/726b1ce5e88245f89996d51b3d5686e1.jpg"
     },
     {
       "id": 1775750943773,
@@ -2633,7 +2846,8 @@
       "latitude": 0.0833,
       "longitude": -76.1833,
       "uploadedAt": "2026-04-09T09:09:03.773454",
-      "highlight": true
+      "highlight": true,
+      "smallThumbnailPath": "/uploads/thumbs300/559d7dbb94cd406dbafd92f47961ac9e.jpg"
     },
     {
       "id": 1775750943862,
@@ -2645,7 +2859,8 @@
       "locationName": "Cuyabeno, Ecuador",
       "latitude": 0.0833,
       "longitude": -76.1833,
-      "uploadedAt": "2026-04-09T09:09:03.862373"
+      "uploadedAt": "2026-04-09T09:09:03.862373",
+      "smallThumbnailPath": "/uploads/thumbs300/2dfc544672bc448984df6160d6132591.jpg"
     },
     {
       "id": 1775750943954,
@@ -2657,7 +2872,8 @@
       "locationName": "Cuyabeno, Ecuador",
       "latitude": 0.0833,
       "longitude": -76.1833,
-      "uploadedAt": "2026-04-09T09:09:03.954617"
+      "uploadedAt": "2026-04-09T09:09:03.954617",
+      "smallThumbnailPath": "/uploads/thumbs300/1bed73b167404d75bb1f4cbd32012904.jpg"
     },
     {
       "id": 1775750943980,
@@ -2670,7 +2886,8 @@
       "latitude": 0.0833,
       "longitude": -76.1833,
       "uploadedAt": "2026-04-09T09:09:03.980489",
-      "highlight": true
+      "highlight": true,
+      "smallThumbnailPath": "/uploads/thumbs300/c4eb25fd89364cf6b5dada8dfb7b641f.jpg"
     },
     {
       "id": 1775750944065,
@@ -2683,7 +2900,8 @@
       "latitude": 0.0833,
       "longitude": -76.1833,
       "uploadedAt": "2026-04-09T09:09:04.065328",
-      "highlight": true
+      "highlight": true,
+      "smallThumbnailPath": "/uploads/thumbs300/2ec07b05251242678a248478dcda9162.jpg"
     },
     {
       "id": 1775750941588,
@@ -2696,7 +2914,8 @@
       "latitude": -0.9538,
       "longitude": -90.9656,
       "uploadedAt": "2026-04-09T09:09:01.588016",
-      "highlight": true
+      "highlight": true,
+      "smallThumbnailPath": "/uploads/thumbs300/8ecfca363b904f8aaef3506a387cda93.jpg"
     },
     {
       "id": 1775750941619,
@@ -2708,7 +2927,8 @@
       "locationName": "Galapagos Islands, Ecuador",
       "latitude": -0.9538,
       "longitude": -90.9656,
-      "uploadedAt": "2026-04-09T09:09:01.619615"
+      "uploadedAt": "2026-04-09T09:09:01.619615",
+      "smallThumbnailPath": "/uploads/thumbs300/70ee3174fe904014b5bbb104bbe56831.jpg"
     },
     {
       "id": 1775750941643,
@@ -2721,7 +2941,8 @@
       "latitude": -0.9538,
       "longitude": -90.9656,
       "uploadedAt": "2026-04-09T09:09:01.643614",
-      "highlight": true
+      "highlight": true,
+      "smallThumbnailPath": "/uploads/thumbs300/ac204c7352134d5ca8a0e0ad9339ab3b.jpg"
     },
     {
       "id": 1775750941665,
@@ -2733,7 +2954,8 @@
       "locationName": "Galapagos Islands, Ecuador",
       "latitude": -0.9538,
       "longitude": -90.9656,
-      "uploadedAt": "2026-04-09T09:09:01.665221"
+      "uploadedAt": "2026-04-09T09:09:01.665221",
+      "smallThumbnailPath": "/uploads/thumbs300/5b135361cf684a1eac8da5201b42544d.jpg"
     },
     {
       "id": 1775750941683,
@@ -2745,7 +2967,8 @@
       "locationName": "Galapagos Islands, Ecuador",
       "latitude": -0.9538,
       "longitude": -90.9656,
-      "uploadedAt": "2026-04-09T09:09:01.683745"
+      "uploadedAt": "2026-04-09T09:09:01.683745",
+      "smallThumbnailPath": "/uploads/thumbs300/dac26823cefa47e7a607fa3504e2da1f.jpg"
     },
     {
       "id": 1775750941702,
@@ -2758,7 +2981,8 @@
       "latitude": -0.9538,
       "longitude": -90.9656,
       "uploadedAt": "2026-04-09T09:09:01.702543",
-      "highlight": true
+      "highlight": true,
+      "smallThumbnailPath": "/uploads/thumbs300/0921242370854424af999413cdead354.jpg"
     },
     {
       "id": 1775750941720,
@@ -2770,7 +2994,8 @@
       "locationName": "Galapagos Islands, Ecuador",
       "latitude": -0.9538,
       "longitude": -90.9656,
-      "uploadedAt": "2026-04-09T09:09:01.720454"
+      "uploadedAt": "2026-04-09T09:09:01.720454",
+      "smallThumbnailPath": "/uploads/thumbs300/dd2dc45182cb44c4ac0b10ae6b7d27ec.jpg"
     },
     {
       "id": 1775750941737,
@@ -2782,7 +3007,8 @@
       "locationName": "Galapagos Islands, Ecuador",
       "latitude": -0.9538,
       "longitude": -90.9656,
-      "uploadedAt": "2026-04-09T09:09:01.737569"
+      "uploadedAt": "2026-04-09T09:09:01.737569",
+      "smallThumbnailPath": "/uploads/thumbs300/2a3d31f4d9504fa4869a55cf1d68715f.jpg"
     },
     {
       "id": 1775750941756,
@@ -2795,7 +3021,8 @@
       "latitude": -0.9538,
       "longitude": -90.9656,
       "uploadedAt": "2026-04-09T09:09:01.756822",
-      "highlight": true
+      "highlight": true,
+      "smallThumbnailPath": "/uploads/thumbs300/c73901940b1f45cd81fa571b30fb00a2.jpg"
     },
     {
       "id": 1775750941777,
@@ -2807,7 +3034,8 @@
       "locationName": "Galapagos Islands, Ecuador",
       "latitude": -0.9538,
       "longitude": -90.9656,
-      "uploadedAt": "2026-04-09T09:09:01.777362"
+      "uploadedAt": "2026-04-09T09:09:01.777362",
+      "smallThumbnailPath": "/uploads/thumbs300/2579c10cf83e4213a993938ae090d512.jpg"
     },
     {
       "id": 1775750941797,
@@ -2819,7 +3047,8 @@
       "locationName": "Galapagos Islands, Ecuador",
       "latitude": -0.9538,
       "longitude": -90.9656,
-      "uploadedAt": "2026-04-09T09:09:01.797300"
+      "uploadedAt": "2026-04-09T09:09:01.797300",
+      "smallThumbnailPath": "/uploads/thumbs300/8e76d701e9474cfaa00695b77c929d56.jpg"
     },
     {
       "id": 1775750941814,
@@ -2831,7 +3060,8 @@
       "locationName": "Galapagos Islands, Ecuador",
       "latitude": -0.9538,
       "longitude": -90.9656,
-      "uploadedAt": "2026-04-09T09:09:01.814742"
+      "uploadedAt": "2026-04-09T09:09:01.814742",
+      "smallThumbnailPath": "/uploads/thumbs300/9b58cf9492cb4c8883e17b6e14a9276c.jpg"
     },
     {
       "id": 1775750941835,
@@ -2844,7 +3074,8 @@
       "latitude": -0.9538,
       "longitude": -90.9656,
       "uploadedAt": "2026-04-09T09:09:01.835226",
-      "highlight": true
+      "highlight": true,
+      "smallThumbnailPath": "/uploads/thumbs300/a0829e127b394ea68d6d934f975b9178.jpg"
     },
     {
       "id": 1775750941845,
@@ -2856,7 +3087,8 @@
       "locationName": "Galapagos Islands, Ecuador",
       "latitude": -0.9538,
       "longitude": -90.9656,
-      "uploadedAt": "2026-04-09T09:09:01.845785"
+      "uploadedAt": "2026-04-09T09:09:01.845785",
+      "smallThumbnailPath": "/uploads/thumbs300/6890c2f331d046fa9def6f3f40f7ae00.jpg"
     },
     {
       "id": 1775750941863,
@@ -2868,7 +3100,8 @@
       "locationName": "Galapagos Islands, Ecuador",
       "latitude": -0.9538,
       "longitude": -90.9656,
-      "uploadedAt": "2026-04-09T09:09:01.863542"
+      "uploadedAt": "2026-04-09T09:09:01.863542",
+      "smallThumbnailPath": "/uploads/thumbs300/70fd74e3b982453cb449e27a2f9857d8.jpg"
     },
     {
       "id": 1775750941880,
@@ -2880,7 +3113,8 @@
       "locationName": "Galapagos Islands, Ecuador",
       "latitude": -0.9538,
       "longitude": -90.9656,
-      "uploadedAt": "2026-04-09T09:09:01.880753"
+      "uploadedAt": "2026-04-09T09:09:01.880753",
+      "smallThumbnailPath": "/uploads/thumbs300/ac3c7066d977402e9abfd57908b3662f.jpg"
     },
     {
       "id": 1775750941900,
@@ -2893,7 +3127,8 @@
       "latitude": -0.9538,
       "longitude": -90.9656,
       "uploadedAt": "2026-04-09T09:09:01.900190",
-      "highlight": true
+      "highlight": true,
+      "smallThumbnailPath": "/uploads/thumbs300/e5e5ca60ed894ebfa52e1e1014094de8.jpg"
     },
     {
       "id": 1775750941925,
@@ -2905,7 +3140,8 @@
       "locationName": "Galapagos Islands, Ecuador",
       "latitude": -0.9538,
       "longitude": -90.9656,
-      "uploadedAt": "2026-04-09T09:09:01.925070"
+      "uploadedAt": "2026-04-09T09:09:01.925070",
+      "smallThumbnailPath": "/uploads/thumbs300/fd51e93f0f3b47c39f066ad933837762.jpg"
     },
     {
       "id": 1775750941956,
@@ -2917,7 +3153,8 @@
       "locationName": "Galapagos Islands, Ecuador",
       "latitude": -0.9538,
       "longitude": -90.9656,
-      "uploadedAt": "2026-04-09T09:09:01.956373"
+      "uploadedAt": "2026-04-09T09:09:01.956373",
+      "smallThumbnailPath": "/uploads/thumbs300/eaa768e8c8a04b5fb56d42f554aac28a.jpg"
     },
     {
       "id": 1775750941976,
@@ -2930,7 +3167,8 @@
       "latitude": -0.9538,
       "longitude": -90.9656,
       "uploadedAt": "2026-04-09T09:09:01.976818",
-      "highlight": true
+      "highlight": true,
+      "smallThumbnailPath": "/uploads/thumbs300/df34fc19f9c44b4bac3ab45cbe379f3d.jpg"
     },
     {
       "id": 1775750941995,
@@ -2942,7 +3180,8 @@
       "locationName": "Galapagos Islands, Ecuador",
       "latitude": -0.9538,
       "longitude": -90.9656,
-      "uploadedAt": "2026-04-09T09:09:01.995419"
+      "uploadedAt": "2026-04-09T09:09:01.995419",
+      "smallThumbnailPath": "/uploads/thumbs300/590085f79cbb46c6840cc2050d351a95.jpg"
     },
     {
       "id": 1775750942013,
@@ -2954,7 +3193,8 @@
       "locationName": "Galapagos Islands, Ecuador",
       "latitude": -0.9538,
       "longitude": -90.9656,
-      "uploadedAt": "2026-04-09T09:09:02.013663"
+      "uploadedAt": "2026-04-09T09:09:02.013663",
+      "smallThumbnailPath": "/uploads/thumbs300/d38b0b7c4c7f42deae1c75568ee80daa.jpg"
     },
     {
       "id": 1775750942033,
@@ -2966,7 +3206,8 @@
       "locationName": "Galapagos Islands, Ecuador",
       "latitude": -0.9538,
       "longitude": -90.9656,
-      "uploadedAt": "2026-04-09T09:09:02.033593"
+      "uploadedAt": "2026-04-09T09:09:02.033593",
+      "smallThumbnailPath": "/uploads/thumbs300/ca47bbe8b8304b52b59b36f6bd87b0ef.jpg"
     },
     {
       "id": 1775750942055,
@@ -2978,7 +3219,8 @@
       "locationName": "Galapagos Islands, Ecuador",
       "latitude": -0.9538,
       "longitude": -90.9656,
-      "uploadedAt": "2026-04-09T09:09:02.055082"
+      "uploadedAt": "2026-04-09T09:09:02.055082",
+      "smallThumbnailPath": "/uploads/thumbs300/4c5754eda1cc499c8041d97a54d41663.jpg"
     },
     {
       "id": 1775750942070,
@@ -2990,7 +3232,8 @@
       "locationName": "Galapagos Islands, Ecuador",
       "latitude": -0.9538,
       "longitude": -90.9656,
-      "uploadedAt": "2026-04-09T09:09:02.070344"
+      "uploadedAt": "2026-04-09T09:09:02.070344",
+      "smallThumbnailPath": "/uploads/thumbs300/005396f080d646659ab7673fbb0fd299.jpg"
     },
     {
       "id": 1775750942090,
@@ -3003,7 +3246,8 @@
       "latitude": -0.9538,
       "longitude": -90.9656,
       "uploadedAt": "2026-04-09T09:09:02.090199",
-      "highlight": true
+      "highlight": true,
+      "smallThumbnailPath": "/uploads/thumbs300/4f6bfc39210b4177a580d89c4bba738d.jpg"
     },
     {
       "id": 1775750942120,
@@ -3016,7 +3260,8 @@
       "latitude": -0.9538,
       "longitude": -90.9656,
       "uploadedAt": "2026-04-09T09:09:02.120913",
-      "highlight": true
+      "highlight": true,
+      "smallThumbnailPath": "/uploads/thumbs300/7cf9a9b33ee6422b96edf2c0f2962e27.jpg"
     },
     {
       "id": 1775750942137,
@@ -3028,7 +3273,8 @@
       "locationName": "Galapagos Islands, Ecuador",
       "latitude": -0.9538,
       "longitude": -90.9656,
-      "uploadedAt": "2026-04-09T09:09:02.137048"
+      "uploadedAt": "2026-04-09T09:09:02.137048",
+      "smallThumbnailPath": "/uploads/thumbs300/9ad16aa8ec3645c7a497302f7f5bb473.jpg"
     },
     {
       "id": 1775750942158,
@@ -3040,7 +3286,8 @@
       "locationName": "Galapagos Islands, Ecuador",
       "latitude": -0.9538,
       "longitude": -90.9656,
-      "uploadedAt": "2026-04-09T09:09:02.158065"
+      "uploadedAt": "2026-04-09T09:09:02.158065",
+      "smallThumbnailPath": "/uploads/thumbs300/12ed1bf4591c45d9802ce8a2f2323d30.jpg"
     },
     {
       "id": 1775750942179,
@@ -3052,7 +3299,8 @@
       "locationName": "Galapagos Islands, Ecuador",
       "latitude": -0.9538,
       "longitude": -90.9656,
-      "uploadedAt": "2026-04-09T09:09:02.179396"
+      "uploadedAt": "2026-04-09T09:09:02.179396",
+      "smallThumbnailPath": "/uploads/thumbs300/31a962630c80476384112091641a0490.jpg"
     },
     {
       "id": 1775750942194,
@@ -3064,7 +3312,8 @@
       "locationName": "Galapagos Islands, Ecuador",
       "latitude": -0.9538,
       "longitude": -90.9656,
-      "uploadedAt": "2026-04-09T09:09:02.194127"
+      "uploadedAt": "2026-04-09T09:09:02.194127",
+      "smallThumbnailPath": "/uploads/thumbs300/3e9ee3368bcd417d8354816bd2fd4c9d.jpg"
     },
     {
       "id": 1775750942214,
@@ -3076,7 +3325,8 @@
       "locationName": "Galapagos Islands, Ecuador",
       "latitude": -0.9538,
       "longitude": -90.9656,
-      "uploadedAt": "2026-04-09T09:09:02.214718"
+      "uploadedAt": "2026-04-09T09:09:02.214718",
+      "smallThumbnailPath": "/uploads/thumbs300/e7e95c62e3c0406289ba6733269150b4.jpg"
     },
     {
       "id": 1775750942230,
@@ -3088,7 +3338,8 @@
       "locationName": "Galapagos Islands, Ecuador",
       "latitude": -0.9538,
       "longitude": -90.9656,
-      "uploadedAt": "2026-04-09T09:09:02.230523"
+      "uploadedAt": "2026-04-09T09:09:02.230523",
+      "smallThumbnailPath": "/uploads/thumbs300/034aa3609b5f4081af1dfbbe7069e2fb.jpg"
     },
     {
       "id": 1775750942246,
@@ -3101,7 +3352,8 @@
       "latitude": -0.9538,
       "longitude": -90.9656,
       "uploadedAt": "2026-04-09T09:09:02.246822",
-      "highlight": true
+      "highlight": true,
+      "smallThumbnailPath": "/uploads/thumbs300/67b9f85228614522aa2b90e1ca63a197.jpg"
     },
     {
       "id": 1775750942263,
@@ -3113,7 +3365,8 @@
       "locationName": "Galapagos Islands, Ecuador",
       "latitude": -0.9538,
       "longitude": -90.9656,
-      "uploadedAt": "2026-04-09T09:09:02.263491"
+      "uploadedAt": "2026-04-09T09:09:02.263491",
+      "smallThumbnailPath": "/uploads/thumbs300/81646fcbbdef49a284a651d70e828549.jpg"
     },
     {
       "id": 1775750942284,
@@ -3126,7 +3379,8 @@
       "latitude": -0.9538,
       "longitude": -90.9656,
       "uploadedAt": "2026-04-09T09:09:02.284837",
-      "highlight": true
+      "highlight": true,
+      "smallThumbnailPath": "/uploads/thumbs300/3f19455205634b9baa52f95fcf7be3c7.jpg"
     },
     {
       "id": 1775750942305,
@@ -3138,7 +3392,8 @@
       "locationName": "Galapagos Islands, Ecuador",
       "latitude": -0.9538,
       "longitude": -90.9656,
-      "uploadedAt": "2026-04-09T09:09:02.305970"
+      "uploadedAt": "2026-04-09T09:09:02.305970",
+      "smallThumbnailPath": "/uploads/thumbs300/6805ec5c6e4e42a2b27ea92a18dd515d.jpg"
     },
     {
       "id": 1775750942327,
@@ -3150,7 +3405,8 @@
       "locationName": "Galapagos Islands, Ecuador",
       "latitude": -0.9538,
       "longitude": -90.9656,
-      "uploadedAt": "2026-04-09T09:09:02.327537"
+      "uploadedAt": "2026-04-09T09:09:02.327537",
+      "smallThumbnailPath": "/uploads/thumbs300/25de88d9fdde4285ae69af3c650beb09.jpg"
     },
     {
       "id": 1775750942346,
@@ -3162,7 +3418,8 @@
       "locationName": "Galapagos Islands, Ecuador",
       "latitude": -0.9538,
       "longitude": -90.9656,
-      "uploadedAt": "2026-04-09T09:09:02.346371"
+      "uploadedAt": "2026-04-09T09:09:02.346371",
+      "smallThumbnailPath": "/uploads/thumbs300/510d0c580216417f86ca8f3538c94347.jpg"
     },
     {
       "id": 1775750942365,
@@ -3175,7 +3432,8 @@
       "latitude": -0.9538,
       "longitude": -90.9656,
       "uploadedAt": "2026-04-09T09:09:02.365854",
-      "highlight": true
+      "highlight": true,
+      "smallThumbnailPath": "/uploads/thumbs300/ae8af538c93148ea9156e926fbd3fdf9.jpg"
     },
     {
       "id": 1775750942382,
@@ -3187,7 +3445,8 @@
       "locationName": "Galapagos Islands, Ecuador",
       "latitude": -0.9538,
       "longitude": -90.9656,
-      "uploadedAt": "2026-04-09T09:09:02.382927"
+      "uploadedAt": "2026-04-09T09:09:02.382927",
+      "smallThumbnailPath": "/uploads/thumbs300/78b0306f65bb4295b99f69ee7fe62536.jpg"
     },
     {
       "id": 1775750942404,
@@ -3199,7 +3458,8 @@
       "locationName": "Galapagos Islands, Ecuador",
       "latitude": -0.9538,
       "longitude": -90.9656,
-      "uploadedAt": "2026-04-09T09:09:02.404625"
+      "uploadedAt": "2026-04-09T09:09:02.404625",
+      "smallThumbnailPath": "/uploads/thumbs300/0dc4660fb95e4a47a26daf71ec365d2b.jpg"
     },
     {
       "id": 1775750942424,
@@ -3211,7 +3471,8 @@
       "locationName": "Galapagos Islands, Ecuador",
       "latitude": -0.9538,
       "longitude": -90.9656,
-      "uploadedAt": "2026-04-09T09:09:02.424580"
+      "uploadedAt": "2026-04-09T09:09:02.424580",
+      "smallThumbnailPath": "/uploads/thumbs300/dbbb699de3ff462aae0ddc6e52f3abe2.jpg"
     },
     {
       "id": 1775749121334,
@@ -3224,7 +3485,8 @@
       "latitude": -8.55,
       "longitude": 119.4833,
       "uploadedAt": "2026-04-09T08:38:41.334268",
-      "highlight": true
+      "highlight": true,
+      "smallThumbnailPath": "/uploads/thumbs300/39244389e7bc46ae9f959ed87422606e.jpg"
     },
     {
       "id": 1775749121354,
@@ -3236,7 +3498,8 @@
       "locationName": "Komodo Island, Indonesia",
       "latitude": -8.55,
       "longitude": 119.4833,
-      "uploadedAt": "2026-04-09T08:38:41.354646"
+      "uploadedAt": "2026-04-09T08:38:41.354646",
+      "smallThumbnailPath": "/uploads/thumbs300/3b99c10dde864b10903681b9e603f224.jpg"
     },
     {
       "id": 1775749121364,
@@ -3248,7 +3511,8 @@
       "locationName": "Komodo Island, Indonesia",
       "latitude": -8.55,
       "longitude": 119.4833,
-      "uploadedAt": "2026-04-09T08:38:41.364992"
+      "uploadedAt": "2026-04-09T08:38:41.364992",
+      "smallThumbnailPath": "/uploads/thumbs300/d2348010e4d548718197bf329f6755ca.jpg"
     },
     {
       "id": 1775749121400,
@@ -3260,7 +3524,8 @@
       "locationName": "Komodo Island, Indonesia",
       "latitude": -8.55,
       "longitude": 119.4833,
-      "uploadedAt": "2026-04-09T08:38:41.400672"
+      "uploadedAt": "2026-04-09T08:38:41.400672",
+      "smallThumbnailPath": "/uploads/thumbs300/8f38af52c9d940fca3f8875dd96557b5.jpg"
     },
     {
       "id": 1775749121456,
@@ -3273,7 +3538,8 @@
       "latitude": -8.55,
       "longitude": 119.4833,
       "uploadedAt": "2026-04-09T08:38:41.456770",
-      "highlight": true
+      "highlight": true,
+      "smallThumbnailPath": "/uploads/thumbs300/97a2c10d337e4d078429f0232dad9f6f.jpg"
     },
     {
       "id": 1775749122344,
@@ -3286,7 +3552,8 @@
       "latitude": -8.55,
       "longitude": 119.4833,
       "uploadedAt": "2026-04-09T08:38:42.344163",
-      "highlight": true
+      "highlight": true,
+      "smallThumbnailPath": "/uploads/thumbs300/0d98a2a0eba445248ed220f11ea135a7.jpg"
     },
     {
       "id": 1775749122365,
@@ -3298,7 +3565,8 @@
       "locationName": "Komodo Island, Indonesia",
       "latitude": -8.55,
       "longitude": 119.4833,
-      "uploadedAt": "2026-04-09T08:38:42.365519"
+      "uploadedAt": "2026-04-09T08:38:42.365519",
+      "smallThumbnailPath": "/uploads/thumbs300/f72e3ad89da64c839ab34bfe719ea4da.jpg"
     },
     {
       "id": 1775749122387,
@@ -3310,7 +3578,8 @@
       "locationName": "Komodo Island, Indonesia",
       "latitude": -8.55,
       "longitude": 119.4833,
-      "uploadedAt": "2026-04-09T08:38:42.387931"
+      "uploadedAt": "2026-04-09T08:38:42.387931",
+      "smallThumbnailPath": "/uploads/thumbs300/353d53b63010448a8b46c08673f6cdc4.jpg"
     },
     {
       "id": 1775749122412,
@@ -3323,7 +3592,8 @@
       "latitude": -8.55,
       "longitude": 119.4833,
       "uploadedAt": "2026-04-09T08:38:42.412421",
-      "highlight": true
+      "highlight": true,
+      "smallThumbnailPath": "/uploads/thumbs300/425b3b5bd768417da99887edd3a8a311.jpg"
     },
     {
       "id": 1775749122435,
@@ -3336,7 +3606,8 @@
       "latitude": -8.55,
       "longitude": 119.4833,
       "uploadedAt": "2026-04-09T08:38:42.435088",
-      "highlight": true
+      "highlight": true,
+      "smallThumbnailPath": "/uploads/thumbs300/4ace438646cb458e967ccc9934bec2f2.jpg"
     },
     {
       "id": 1775749122460,
@@ -3348,7 +3619,8 @@
       "locationName": "Komodo Island, Indonesia",
       "latitude": -8.55,
       "longitude": 119.4833,
-      "uploadedAt": "2026-04-09T08:38:42.460834"
+      "uploadedAt": "2026-04-09T08:38:42.460834",
+      "smallThumbnailPath": "/uploads/thumbs300/46982c3cfc4841729b33f79176c80b1f.jpg"
     },
     {
       "id": 1775749122484,
@@ -3360,7 +3632,8 @@
       "locationName": "Komodo Island, Indonesia",
       "latitude": -8.55,
       "longitude": 119.4833,
-      "uploadedAt": "2026-04-09T08:38:42.484438"
+      "uploadedAt": "2026-04-09T08:38:42.484438",
+      "smallThumbnailPath": "/uploads/thumbs300/6169a0a1fdaa478284f3c4bb195625e6.jpg"
     },
     {
       "id": 1775749122511,
@@ -3372,7 +3645,8 @@
       "locationName": "Komodo Island, Indonesia",
       "latitude": -8.55,
       "longitude": 119.4833,
-      "uploadedAt": "2026-04-09T08:38:42.511028"
+      "uploadedAt": "2026-04-09T08:38:42.511028",
+      "smallThumbnailPath": "/uploads/thumbs300/1b66c66581504e58b40d847c3c38d3bd.jpg"
     },
     {
       "id": 1775749122531,
@@ -3384,7 +3658,8 @@
       "locationName": "Komodo Island, Indonesia",
       "latitude": -8.55,
       "longitude": 119.4833,
-      "uploadedAt": "2026-04-09T08:38:42.531985"
+      "uploadedAt": "2026-04-09T08:38:42.531985",
+      "smallThumbnailPath": "/uploads/thumbs300/77de1e13317e44acbf18740677015972.jpg"
     },
     {
       "id": 1775749122555,
@@ -3396,7 +3671,8 @@
       "locationName": "Komodo Island, Indonesia",
       "latitude": -8.55,
       "longitude": 119.4833,
-      "uploadedAt": "2026-04-09T08:38:42.555659"
+      "uploadedAt": "2026-04-09T08:38:42.555659",
+      "smallThumbnailPath": "/uploads/thumbs300/d2c9d513deab4d6aa75e91c0f39a8c2e.jpg"
     },
     {
       "id": 1775749122581,
@@ -3409,7 +3685,8 @@
       "latitude": -8.55,
       "longitude": 119.4833,
       "uploadedAt": "2026-04-09T08:38:42.581615",
-      "highlight": true
+      "highlight": true,
+      "smallThumbnailPath": "/uploads/thumbs300/0f75d911b3c54640952573a5e17938f8.jpg"
     },
     {
       "id": 1775749122600,
@@ -3421,7 +3698,8 @@
       "locationName": "Komodo Island, Indonesia",
       "latitude": -8.55,
       "longitude": 119.4833,
-      "uploadedAt": "2026-04-09T08:38:42.600391"
+      "uploadedAt": "2026-04-09T08:38:42.600391",
+      "smallThumbnailPath": "/uploads/thumbs300/e3b1b02019d84262a29a3e912389d671.jpg"
     },
     {
       "id": 1775749122623,
@@ -3433,7 +3711,8 @@
       "locationName": "Komodo Island, Indonesia",
       "latitude": -8.55,
       "longitude": 119.4833,
-      "uploadedAt": "2026-04-09T08:38:42.623571"
+      "uploadedAt": "2026-04-09T08:38:42.623571",
+      "smallThumbnailPath": "/uploads/thumbs300/8a8e59fac93e4c5896812c43f710a254.jpg"
     },
     {
       "id": 1775749122642,
@@ -3446,7 +3725,8 @@
       "latitude": -8.55,
       "longitude": 119.4833,
       "uploadedAt": "2026-04-09T08:38:42.642237",
-      "highlight": true
+      "highlight": true,
+      "smallThumbnailPath": "/uploads/thumbs300/27da1864adba416d83721f68086733fa.jpg"
     },
     {
       "id": 1775749122660,
@@ -3458,7 +3738,8 @@
       "locationName": "Komodo Island, Indonesia",
       "latitude": -8.55,
       "longitude": 119.4833,
-      "uploadedAt": "2026-04-09T08:38:42.660325"
+      "uploadedAt": "2026-04-09T08:38:42.660325",
+      "smallThumbnailPath": "/uploads/thumbs300/5fcc75f8d47641bf95a6fef5191a0983.jpg"
     },
     {
       "id": 1775749122680,
@@ -3470,7 +3751,8 @@
       "locationName": "Komodo Island, Indonesia",
       "latitude": -8.55,
       "longitude": 119.4833,
-      "uploadedAt": "2026-04-09T08:38:42.680224"
+      "uploadedAt": "2026-04-09T08:38:42.680224",
+      "smallThumbnailPath": "/uploads/thumbs300/79e134f8ac814451bd73489428282a94.jpg"
     },
     {
       "id": 1775749122699,
@@ -3482,7 +3764,8 @@
       "locationName": "Komodo Island, Indonesia",
       "latitude": -8.55,
       "longitude": 119.4833,
-      "uploadedAt": "2026-04-09T08:38:42.699382"
+      "uploadedAt": "2026-04-09T08:38:42.699382",
+      "smallThumbnailPath": "/uploads/thumbs300/a7225b846cb542549ac782b48f48be3d.jpg"
     },
     {
       "id": 1775749122721,
@@ -3495,7 +3778,8 @@
       "latitude": -8.55,
       "longitude": 119.4833,
       "uploadedAt": "2026-04-09T08:38:42.721976",
-      "highlight": true
+      "highlight": true,
+      "smallThumbnailPath": "/uploads/thumbs300/bfb2db12aa044cd5b1bd66ff27df95fc.jpg"
     },
     {
       "id": 1775750943070,
@@ -3508,7 +3792,8 @@
       "latitude": -16.4897,
       "longitude": -68.1193,
       "uploadedAt": "2026-04-09T09:09:03.070766",
-      "highlight": true
+      "highlight": true,
+      "smallThumbnailPath": "/uploads/thumbs300/46910fd504db4c08a19b51dd574c3844.jpg"
     },
     {
       "id": 1775749121441,
@@ -3520,7 +3805,8 @@
       "locationName": "Lijiang, China",
       "latitude": 26.8721,
       "longitude": 100.2299,
-      "uploadedAt": "2026-04-09T08:38:41.441353"
+      "uploadedAt": "2026-04-09T08:38:41.441353",
+      "smallThumbnailPath": "/uploads/thumbs300/ea6f2ba1c4d24ba19508bbaab18b6964.jpg"
     },
     {
       "id": 1775749121525,
@@ -3532,7 +3818,8 @@
       "locationName": "Lijiang, China",
       "latitude": 26.8721,
       "longitude": 100.2299,
-      "uploadedAt": "2026-04-09T08:38:41.525982"
+      "uploadedAt": "2026-04-09T08:38:41.525982",
+      "smallThumbnailPath": "/uploads/thumbs300/5bf149e2af50400d92154ea35149fe02.jpg"
     },
     {
       "id": 1775749121583,
@@ -3544,7 +3831,8 @@
       "locationName": "Lijiang, China",
       "latitude": 26.8721,
       "longitude": 100.2299,
-      "uploadedAt": "2026-04-09T08:38:41.583107"
+      "uploadedAt": "2026-04-09T08:38:41.583107",
+      "smallThumbnailPath": "/uploads/thumbs300/a4a670cb5e164307bda3421d9c95dfd7.jpg"
     },
     {
       "id": 1775749121626,
@@ -3556,7 +3844,8 @@
       "locationName": "Lijiang, China",
       "latitude": 26.8721,
       "longitude": 100.2299,
-      "uploadedAt": "2026-04-09T08:38:41.626939"
+      "uploadedAt": "2026-04-09T08:38:41.626939",
+      "smallThumbnailPath": "/uploads/thumbs300/1dad6d60427249bf98ed0eade4d3e25e.jpg"
     },
     {
       "id": 1775749121716,
@@ -3568,7 +3857,8 @@
       "locationName": "Lijiang, China",
       "latitude": 26.8721,
       "longitude": 100.2299,
-      "uploadedAt": "2026-04-09T08:38:41.716787"
+      "uploadedAt": "2026-04-09T08:38:41.716787",
+      "smallThumbnailPath": "/uploads/thumbs300/258b67df654c43f0b69db49d6d9f1635.jpg"
     },
     {
       "id": 1775749121784,
@@ -3580,7 +3870,8 @@
       "locationName": "Lijiang, China",
       "latitude": 26.8721,
       "longitude": 100.2299,
-      "uploadedAt": "2026-04-09T08:38:41.784950"
+      "uploadedAt": "2026-04-09T08:38:41.784950",
+      "smallThumbnailPath": "/uploads/thumbs300/d5fbea1744154b14bf25de48e0e941a4.jpg"
     },
     {
       "id": 1775749121808,
@@ -3592,7 +3883,8 @@
       "locationName": "Lijiang, China",
       "latitude": 26.8721,
       "longitude": 100.2299,
-      "uploadedAt": "2026-04-09T08:38:41.808890"
+      "uploadedAt": "2026-04-09T08:38:41.808890",
+      "smallThumbnailPath": "/uploads/thumbs300/0188e5f888bd43c6a5019ef4149b07eb.jpg"
     },
     {
       "id": 1775749121828,
@@ -3605,7 +3897,8 @@
       "latitude": 26.8721,
       "longitude": 100.2299,
       "uploadedAt": "2026-04-09T08:38:41.828081",
-      "highlight": true
+      "highlight": true,
+      "smallThumbnailPath": "/uploads/thumbs300/0a58fa691f724eeea158c358022c0c70.jpg"
     },
     {
       "id": 1775749121860,
@@ -3617,7 +3910,8 @@
       "locationName": "Lijiang, China",
       "latitude": 26.8721,
       "longitude": 100.2299,
-      "uploadedAt": "2026-04-09T08:38:41.860408"
+      "uploadedAt": "2026-04-09T08:38:41.860408",
+      "smallThumbnailPath": "/uploads/thumbs300/7ff8a9fa798c469c85c75217a74c1c14.jpg"
     },
     {
       "id": 1775749121879,
@@ -3629,7 +3923,8 @@
       "locationName": "Lijiang, China",
       "latitude": 26.8721,
       "longitude": 100.2299,
-      "uploadedAt": "2026-04-09T08:38:41.879503"
+      "uploadedAt": "2026-04-09T08:38:41.879503",
+      "smallThumbnailPath": "/uploads/thumbs300/7cba71bb3e0a4889b59a8f987bdc00e5.jpg"
     },
     {
       "id": 1775749121909,
@@ -3641,7 +3936,8 @@
       "locationName": "Lijiang, China",
       "latitude": 26.8721,
       "longitude": 100.2299,
-      "uploadedAt": "2026-04-09T08:38:41.909270"
+      "uploadedAt": "2026-04-09T08:38:41.909270",
+      "smallThumbnailPath": "/uploads/thumbs300/760cdc211d0e493f83951104a76e12aa.jpg"
     },
     {
       "id": 1775749121931,
@@ -3653,7 +3949,8 @@
       "locationName": "Lijiang, China",
       "latitude": 26.8721,
       "longitude": 100.2299,
-      "uploadedAt": "2026-04-09T08:38:41.931583"
+      "uploadedAt": "2026-04-09T08:38:41.931583",
+      "smallThumbnailPath": "/uploads/thumbs300/6d1d86b6def044d4b3c0d38495ec853d.jpg"
     },
     {
       "id": 1775749121956,
@@ -3666,7 +3963,8 @@
       "latitude": 26.8721,
       "longitude": 100.2299,
       "uploadedAt": "2026-04-09T08:38:41.956734",
-      "highlight": true
+      "highlight": true,
+      "smallThumbnailPath": "/uploads/thumbs300/052341f278e247fda56075ab72df09a7.jpg"
     },
     {
       "id": 1775749121982,
@@ -3678,7 +3976,8 @@
       "locationName": "Lijiang, China",
       "latitude": 26.8721,
       "longitude": 100.2299,
-      "uploadedAt": "2026-04-09T08:38:41.982150"
+      "uploadedAt": "2026-04-09T08:38:41.982150",
+      "smallThumbnailPath": "/uploads/thumbs300/d5e9f9cde901436e8bf76deb3d663b2d.jpg"
     },
     {
       "id": 1775749122011,
@@ -3691,7 +3990,8 @@
       "latitude": 26.8721,
       "longitude": 100.2299,
       "uploadedAt": "2026-04-09T08:38:42.011553",
-      "highlight": true
+      "highlight": true,
+      "smallThumbnailPath": "/uploads/thumbs300/dbcd521da0144ee680c03950743b672a.jpg"
     },
     {
       "id": 1775749122037,
@@ -3703,7 +4003,8 @@
       "locationName": "Lijiang, China",
       "latitude": 26.8721,
       "longitude": 100.2299,
-      "uploadedAt": "2026-04-09T08:38:42.037392"
+      "uploadedAt": "2026-04-09T08:38:42.037392",
+      "smallThumbnailPath": "/uploads/thumbs300/2e924c29f63b4f129b64eb6b6af760f4.jpg"
     },
     {
       "id": 1775749122061,
@@ -3715,7 +4016,8 @@
       "locationName": "Lijiang, China",
       "latitude": 26.8721,
       "longitude": 100.2299,
-      "uploadedAt": "2026-04-09T08:38:42.061978"
+      "uploadedAt": "2026-04-09T08:38:42.061978",
+      "smallThumbnailPath": "/uploads/thumbs300/17d99f7e33934160a7d9f36d493d9070.jpg"
     },
     {
       "id": 1775749122078,
@@ -3728,7 +4030,8 @@
       "latitude": 26.8721,
       "longitude": 100.2299,
       "uploadedAt": "2026-04-09T08:38:42.078866",
-      "highlight": true
+      "highlight": true,
+      "smallThumbnailPath": "/uploads/thumbs300/2ab9a317d7804f96952dd933c356298e.jpg"
     },
     {
       "id": 1775749122104,
@@ -3740,7 +4043,8 @@
       "locationName": "Lijiang, China",
       "latitude": 26.8721,
       "longitude": 100.2299,
-      "uploadedAt": "2026-04-09T08:38:42.104708"
+      "uploadedAt": "2026-04-09T08:38:42.104708",
+      "smallThumbnailPath": "/uploads/thumbs300/4831cfd9a1f24aa598f9577abc3f57ba.jpg"
     },
     {
       "id": 1775749122133,
@@ -3752,7 +4056,8 @@
       "locationName": "Lijiang, China",
       "latitude": 26.8721,
       "longitude": 100.2299,
-      "uploadedAt": "2026-04-09T08:38:42.133436"
+      "uploadedAt": "2026-04-09T08:38:42.133436",
+      "smallThumbnailPath": "/uploads/thumbs300/17e343bb81ec40d3989f9e827ebaf770.jpg"
     },
     {
       "id": 1775749122160,
@@ -3764,7 +4069,8 @@
       "locationName": "Lijiang, China",
       "latitude": 26.8721,
       "longitude": 100.2299,
-      "uploadedAt": "2026-04-09T08:38:42.160973"
+      "uploadedAt": "2026-04-09T08:38:42.160973",
+      "smallThumbnailPath": "/uploads/thumbs300/8edfe20c4be84dd2bc10a898ba3fb541.jpg"
     },
     {
       "id": 1775749122187,
@@ -3777,7 +4083,8 @@
       "latitude": 26.8721,
       "longitude": 100.2299,
       "uploadedAt": "2026-04-09T08:38:42.187226",
-      "highlight": true
+      "highlight": true,
+      "smallThumbnailPath": "/uploads/thumbs300/c50585dfeabd4372b4276851311d7d94.jpg"
     },
     {
       "id": 1775749122210,
@@ -3789,7 +4096,8 @@
       "locationName": "Lijiang, China",
       "latitude": 26.8721,
       "longitude": 100.2299,
-      "uploadedAt": "2026-04-09T08:38:42.210907"
+      "uploadedAt": "2026-04-09T08:38:42.210907",
+      "smallThumbnailPath": "/uploads/thumbs300/f14e4612cf27424ab955a87ff824fb19.jpg"
     },
     {
       "id": 1775749122230,
@@ -3801,7 +4109,8 @@
       "locationName": "Lijiang, China",
       "latitude": 26.8721,
       "longitude": 100.2299,
-      "uploadedAt": "2026-04-09T08:38:42.230662"
+      "uploadedAt": "2026-04-09T08:38:42.230662",
+      "smallThumbnailPath": "/uploads/thumbs300/8afcd941369a47c6aff78dc4aa23c304.jpg"
     },
     {
       "id": 1775749122256,
@@ -3813,7 +4122,8 @@
       "locationName": "Lijiang, China",
       "latitude": 26.8721,
       "longitude": 100.2299,
-      "uploadedAt": "2026-04-09T08:38:42.256228"
+      "uploadedAt": "2026-04-09T08:38:42.256228",
+      "smallThumbnailPath": "/uploads/thumbs300/42448e876bd147f8b69bc8e30e27d2e7.jpg"
     },
     {
       "id": 1775749122287,
@@ -3825,7 +4135,8 @@
       "locationName": "Lijiang, China",
       "latitude": 26.8721,
       "longitude": 100.2299,
-      "uploadedAt": "2026-04-09T08:38:42.287151"
+      "uploadedAt": "2026-04-09T08:38:42.287151",
+      "smallThumbnailPath": "/uploads/thumbs300/8be5e4ec39c04021ae5a9a9664836245.jpg"
     },
     {
       "id": 1775749122316,
@@ -3837,7 +4148,8 @@
       "locationName": "Lijiang, China",
       "latitude": 26.8721,
       "longitude": 100.2299,
-      "uploadedAt": "2026-04-09T08:38:42.316132"
+      "uploadedAt": "2026-04-09T08:38:42.316132",
+      "smallThumbnailPath": "/uploads/thumbs300/b5b1bff2d52a4204ac542df1c67d8555.jpg"
     },
     {
       "id": 1775719283624,
@@ -3850,7 +4162,8 @@
       "longitude": 36.8219,
       "uploadedAt": "2026-04-09T00:21:23.624472",
       "thumbnailPath": "/uploads/thumbs/eeebc01bbcbd4ff392c6dd4a10cac836.jpg",
-      "highlight": false
+      "highlight": false,
+      "smallThumbnailPath": "/uploads/thumbs300/eeebc01bbcbd4ff392c6dd4a10cac836.jpg"
     },
     {
       "id": 1775719283840,
@@ -3863,7 +4176,8 @@
       "longitude": 36.8219,
       "uploadedAt": "2026-04-09T00:21:23.840852",
       "highlight": true,
-      "thumbnailPath": "/uploads/thumbs/583f7ad0d6e74880b3a1268b49ed39de.jpg"
+      "thumbnailPath": "/uploads/thumbs/583f7ad0d6e74880b3a1268b49ed39de.jpg",
+      "smallThumbnailPath": "/uploads/thumbs300/583f7ad0d6e74880b3a1268b49ed39de.jpg"
     },
     {
       "id": 1775719284061,
@@ -3876,7 +4190,8 @@
       "longitude": 36.8219,
       "uploadedAt": "2026-04-09T00:21:24.061651",
       "highlight": true,
-      "thumbnailPath": "/uploads/thumbs/368f1288549f4c1bafad5d77e87e7e41.jpg"
+      "thumbnailPath": "/uploads/thumbs/368f1288549f4c1bafad5d77e87e7e41.jpg",
+      "smallThumbnailPath": "/uploads/thumbs300/368f1288549f4c1bafad5d77e87e7e41.jpg"
     },
     {
       "id": 1775719284138,
@@ -3889,7 +4204,8 @@
       "longitude": 36.8219,
       "uploadedAt": "2026-04-09T00:21:24.138800",
       "highlight": true,
-      "thumbnailPath": "/uploads/thumbs/2d1efff70ed14840819c3c66e2f9421a.jpg"
+      "thumbnailPath": "/uploads/thumbs/2d1efff70ed14840819c3c66e2f9421a.jpg",
+      "smallThumbnailPath": "/uploads/thumbs300/2d1efff70ed14840819c3c66e2f9421a.jpg"
     },
     {
       "id": 1775719284386,
@@ -3902,7 +4218,8 @@
       "longitude": 36.8219,
       "uploadedAt": "2026-04-09T00:21:24.386792",
       "highlight": true,
-      "thumbnailPath": "/uploads/thumbs/dfdac0754606411294b74026d6616095.jpg"
+      "thumbnailPath": "/uploads/thumbs/dfdac0754606411294b74026d6616095.jpg",
+      "smallThumbnailPath": "/uploads/thumbs300/dfdac0754606411294b74026d6616095.jpg"
     },
     {
       "id": 1775722694226,
@@ -3915,7 +4232,8 @@
       "latitude": -2.9833,
       "longitude": 34.8667,
       "uploadedAt": "2026-04-09T01:18:14.226028",
-      "highlight": true
+      "highlight": true,
+      "smallThumbnailPath": "/uploads/thumbs300/0cadfe8064fa4ea19ae7f1a0207a3046.jpg"
     },
     {
       "id": 1775722694845,
@@ -3927,7 +4245,8 @@
       "locationName": "Ndutu, Tanzania",
       "latitude": -2.9833,
       "longitude": 34.8667,
-      "uploadedAt": "2026-04-09T01:18:14.845381"
+      "uploadedAt": "2026-04-09T01:18:14.845381",
+      "smallThumbnailPath": "/uploads/thumbs300/1513d40520714a43b6d3e01946b2f077.jpg"
     },
     {
       "id": 1775722695027,
@@ -3940,7 +4259,8 @@
       "latitude": -2.9833,
       "longitude": 34.8667,
       "uploadedAt": "2026-04-09T01:18:15.027701",
-      "highlight": true
+      "highlight": true,
+      "smallThumbnailPath": "/uploads/thumbs300/4c1e21d9054b4b8b8fc06f83bbc53f1f.jpg"
     },
     {
       "id": 1775722695216,
@@ -3952,7 +4272,8 @@
       "locationName": "Ndutu, Tanzania",
       "latitude": -2.9833,
       "longitude": 34.8667,
-      "uploadedAt": "2026-04-09T01:18:15.216114"
+      "uploadedAt": "2026-04-09T01:18:15.216114",
+      "smallThumbnailPath": "/uploads/thumbs300/942580e6ff7f49b6a3c963d4fd906b4d.jpg"
     },
     {
       "id": 1775722695422,
@@ -3964,7 +4285,8 @@
       "locationName": "Ndutu, Tanzania",
       "latitude": -2.9833,
       "longitude": 34.8667,
-      "uploadedAt": "2026-04-09T01:18:15.422970"
+      "uploadedAt": "2026-04-09T01:18:15.422970",
+      "smallThumbnailPath": "/uploads/thumbs300/e63e486cc6734ffcb8dcf4cbab2cd437.jpg"
     },
     {
       "id": 1775722695616,
@@ -3976,7 +4298,8 @@
       "locationName": "Ndutu, Tanzania",
       "latitude": -2.9833,
       "longitude": 34.8667,
-      "uploadedAt": "2026-04-09T01:18:15.616927"
+      "uploadedAt": "2026-04-09T01:18:15.616927",
+      "smallThumbnailPath": "/uploads/thumbs300/35ac24943f7847bea0e444ac7259efea.jpg"
     },
     {
       "id": 1775722695808,
@@ -3989,7 +4312,8 @@
       "latitude": -2.9833,
       "longitude": 34.8667,
       "uploadedAt": "2026-04-09T01:18:15.808999",
-      "highlight": true
+      "highlight": true,
+      "smallThumbnailPath": "/uploads/thumbs300/b27a6b3cc1f444e18dd96334019a2d83.jpg"
     },
     {
       "id": 1775722696002,
@@ -4001,7 +4325,8 @@
       "locationName": "Ndutu, Tanzania",
       "latitude": -2.9833,
       "longitude": 34.8667,
-      "uploadedAt": "2026-04-09T01:18:16.002844"
+      "uploadedAt": "2026-04-09T01:18:16.002844",
+      "smallThumbnailPath": "/uploads/thumbs300/0883d65fde1f419a9e7112c4b207300d.jpg"
     },
     {
       "id": 1775722696203,
@@ -4013,7 +4338,8 @@
       "locationName": "Ndutu, Tanzania",
       "latitude": -2.9833,
       "longitude": 34.8667,
-      "uploadedAt": "2026-04-09T01:18:16.203686"
+      "uploadedAt": "2026-04-09T01:18:16.203686",
+      "smallThumbnailPath": "/uploads/thumbs300/04af23e38d114720a353894c547846d4.jpg"
     },
     {
       "id": 1775722696403,
@@ -4025,7 +4351,8 @@
       "locationName": "Ndutu, Tanzania",
       "latitude": -2.9833,
       "longitude": 34.8667,
-      "uploadedAt": "2026-04-09T01:18:16.403558"
+      "uploadedAt": "2026-04-09T01:18:16.403558",
+      "smallThumbnailPath": "/uploads/thumbs300/9826e03073764e6c9c610f4959f67600.jpg"
     },
     {
       "id": 1775722696660,
@@ -4037,7 +4364,8 @@
       "locationName": "Ndutu, Tanzania",
       "latitude": -2.9833,
       "longitude": 34.8667,
-      "uploadedAt": "2026-04-09T01:18:16.660264"
+      "uploadedAt": "2026-04-09T01:18:16.660264",
+      "smallThumbnailPath": "/uploads/thumbs300/5bc88fbf3330457f8aabd6b8564df3f3.jpg"
     },
     {
       "id": 1775722696797,
@@ -4049,7 +4377,8 @@
       "locationName": "Ndutu, Tanzania",
       "latitude": -2.9833,
       "longitude": 34.8667,
-      "uploadedAt": "2026-04-09T01:18:16.797141"
+      "uploadedAt": "2026-04-09T01:18:16.797141",
+      "smallThumbnailPath": "/uploads/thumbs300/3e4207f1b7e042a9a04b1fdd37129ab4.jpg"
     },
     {
       "id": 1775722696867,
@@ -4062,7 +4391,8 @@
       "latitude": -2.9833,
       "longitude": 34.8667,
       "uploadedAt": "2026-04-09T01:18:16.867741",
-      "highlight": true
+      "highlight": true,
+      "smallThumbnailPath": "/uploads/thumbs300/95ed2da0695846029d45ccb3d660260c.jpg"
     },
     {
       "id": 1775722697071,
@@ -4074,7 +4404,8 @@
       "locationName": "Ndutu, Tanzania",
       "latitude": -2.9833,
       "longitude": 34.8667,
-      "uploadedAt": "2026-04-09T01:18:17.071613"
+      "uploadedAt": "2026-04-09T01:18:17.071613",
+      "smallThumbnailPath": "/uploads/thumbs300/3c8cfa1970314118b890cf498ac375e6.jpg"
     },
     {
       "id": 1775722697344,
@@ -4087,7 +4418,8 @@
       "latitude": -2.9833,
       "longitude": 34.8667,
       "uploadedAt": "2026-04-09T01:18:17.344949",
-      "highlight": true
+      "highlight": true,
+      "smallThumbnailPath": "/uploads/thumbs300/7c414035fa62443cb32e6c0efc895550.jpg"
     },
     {
       "id": 1775749933090,
@@ -4100,7 +4432,8 @@
       "latitude": 40.7128,
       "longitude": -74.006,
       "uploadedAt": "2026-04-09T08:52:13.090168",
-      "highlight": true
+      "highlight": true,
+      "smallThumbnailPath": "/uploads/thumbs300/98264c5e9ec74225a627fd698d52a700.jpg"
     },
     {
       "id": 1775749933111,
@@ -4112,7 +4445,8 @@
       "locationName": "New York, USA",
       "latitude": 40.7128,
       "longitude": -74.006,
-      "uploadedAt": "2026-04-09T08:52:13.111220"
+      "uploadedAt": "2026-04-09T08:52:13.111220",
+      "smallThumbnailPath": "/uploads/thumbs300/57e20ffcb382430aad450f9a4f7a54af.jpg"
     },
     {
       "id": 1775749933132,
@@ -4124,7 +4458,8 @@
       "locationName": "New York, USA",
       "latitude": 40.7128,
       "longitude": -74.006,
-      "uploadedAt": "2026-04-09T08:52:13.132134"
+      "uploadedAt": "2026-04-09T08:52:13.132134",
+      "smallThumbnailPath": "/uploads/thumbs300/1689f1f9416d4651862161b118f63e4b.jpg"
     },
     {
       "id": 1775749933153,
@@ -4136,7 +4471,8 @@
       "locationName": "New York, USA",
       "latitude": 40.7128,
       "longitude": -74.006,
-      "uploadedAt": "2026-04-09T08:52:13.153630"
+      "uploadedAt": "2026-04-09T08:52:13.153630",
+      "smallThumbnailPath": "/uploads/thumbs300/9c18d1dd3fac484992f0781bdab6c702.jpg"
     },
     {
       "id": 1775749933175,
@@ -4148,7 +4484,8 @@
       "locationName": "New York, USA",
       "latitude": 40.7128,
       "longitude": -74.006,
-      "uploadedAt": "2026-04-09T08:52:13.175898"
+      "uploadedAt": "2026-04-09T08:52:13.175898",
+      "smallThumbnailPath": "/uploads/thumbs300/5d7ece86f42349f0ab4c26f7bddad57f.jpg"
     },
     {
       "id": 1775749933192,
@@ -4160,7 +4497,8 @@
       "locationName": "New York, USA",
       "latitude": 40.7128,
       "longitude": -74.006,
-      "uploadedAt": "2026-04-09T08:52:13.192164"
+      "uploadedAt": "2026-04-09T08:52:13.192164",
+      "smallThumbnailPath": "/uploads/thumbs300/2115b50e428c4b3cac73a46ebe610974.jpg"
     },
     {
       "id": 1775749933576,
@@ -4172,7 +4510,8 @@
       "locationName": "New York, USA",
       "latitude": 40.7128,
       "longitude": -74.006,
-      "uploadedAt": "2026-04-09T08:52:13.576996"
+      "uploadedAt": "2026-04-09T08:52:13.576996",
+      "smallThumbnailPath": "/uploads/thumbs300/b74e547fdcb84c5e9fd2e8043a8f3fa3.jpg"
     },
     {
       "id": 1775749933600,
@@ -4184,7 +4523,8 @@
       "locationName": "New York, USA",
       "latitude": 40.7128,
       "longitude": -74.006,
-      "uploadedAt": "2026-04-09T08:52:13.600866"
+      "uploadedAt": "2026-04-09T08:52:13.600866",
+      "smallThumbnailPath": "/uploads/thumbs300/d566e58a2af94ab1b3809ce5dab2c3a0.jpg"
     },
     {
       "id": 1775749933624,
@@ -4196,7 +4536,8 @@
       "locationName": "New York, USA",
       "latitude": 40.7128,
       "longitude": -74.006,
-      "uploadedAt": "2026-04-09T08:52:13.624613"
+      "uploadedAt": "2026-04-09T08:52:13.624613",
+      "smallThumbnailPath": "/uploads/thumbs300/12ca4c4b1d8d481bb01a64c36cd02601.jpg"
     },
     {
       "id": 1775749933649,
@@ -4208,7 +4549,8 @@
       "locationName": "New York, USA",
       "latitude": 40.7128,
       "longitude": -74.006,
-      "uploadedAt": "2026-04-09T08:52:13.649082"
+      "uploadedAt": "2026-04-09T08:52:13.649082",
+      "smallThumbnailPath": "/uploads/thumbs300/73c53c751dad4b88bd39ef28ac287dff.jpg"
     },
     {
       "id": 1775749933675,
@@ -4221,7 +4563,8 @@
       "latitude": 40.7128,
       "longitude": -74.006,
       "uploadedAt": "2026-04-09T08:52:13.675769",
-      "highlight": true
+      "highlight": true,
+      "smallThumbnailPath": "/uploads/thumbs300/69aa53fce59741afbea0aad1a37a996d.jpg"
     },
     {
       "id": 1775749933698,
@@ -4233,7 +4576,8 @@
       "locationName": "New York, USA",
       "latitude": 40.7128,
       "longitude": -74.006,
-      "uploadedAt": "2026-04-09T08:52:13.698654"
+      "uploadedAt": "2026-04-09T08:52:13.698654",
+      "smallThumbnailPath": "/uploads/thumbs300/5d7a880ad0dd43eebb07109a27905b3d.jpg"
     },
     {
       "id": 1775749933710,
@@ -4246,7 +4590,8 @@
       "latitude": 40.7128,
       "longitude": -74.006,
       "uploadedAt": "2026-04-09T08:52:13.710054",
-      "highlight": true
+      "highlight": true,
+      "smallThumbnailPath": "/uploads/thumbs300/f64c7e79903b4cf38d5e6c43f156c090.jpg"
     },
     {
       "id": 1775749933734,
@@ -4258,7 +4603,8 @@
       "locationName": "New York, USA",
       "latitude": 40.7128,
       "longitude": -74.006,
-      "uploadedAt": "2026-04-09T08:52:13.734634"
+      "uploadedAt": "2026-04-09T08:52:13.734634",
+      "smallThumbnailPath": "/uploads/thumbs300/8ba5fe04b8d54781a6f067836edd3a96.jpg"
     },
     {
       "id": 1775749933755,
@@ -4270,7 +4616,8 @@
       "locationName": "New York, USA",
       "latitude": 40.7128,
       "longitude": -74.006,
-      "uploadedAt": "2026-04-09T08:52:13.755965"
+      "uploadedAt": "2026-04-09T08:52:13.755965",
+      "smallThumbnailPath": "/uploads/thumbs300/d3e550d4616b46488ee01d200959d5ad.jpg"
     },
     {
       "id": 1775749933784,
@@ -4282,7 +4629,8 @@
       "locationName": "New York, USA",
       "latitude": 40.7128,
       "longitude": -74.006,
-      "uploadedAt": "2026-04-09T08:52:13.784624"
+      "uploadedAt": "2026-04-09T08:52:13.784624",
+      "smallThumbnailPath": "/uploads/thumbs300/d88ba7390cdf4c01aadb1959a48a3d99.jpg"
     },
     {
       "id": 1775749933813,
@@ -4294,7 +4642,8 @@
       "locationName": "New York, USA",
       "latitude": 40.7128,
       "longitude": -74.006,
-      "uploadedAt": "2026-04-09T08:52:13.813254"
+      "uploadedAt": "2026-04-09T08:52:13.813254",
+      "smallThumbnailPath": "/uploads/thumbs300/c952c940e5874ecca0f613bab234c164.jpg"
     },
     {
       "id": 1775749933837,
@@ -4306,7 +4655,8 @@
       "locationName": "New York, USA",
       "latitude": 40.7128,
       "longitude": -74.006,
-      "uploadedAt": "2026-04-09T08:52:13.837118"
+      "uploadedAt": "2026-04-09T08:52:13.837118",
+      "smallThumbnailPath": "/uploads/thumbs300/5b9cf91258ef4fd5b8636646acc42a2c.jpg"
     },
     {
       "id": 1775749933861,
@@ -4318,7 +4668,8 @@
       "locationName": "New York, USA",
       "latitude": 40.7128,
       "longitude": -74.006,
-      "uploadedAt": "2026-04-09T08:52:13.861696"
+      "uploadedAt": "2026-04-09T08:52:13.861696",
+      "smallThumbnailPath": "/uploads/thumbs300/62b16242168d45f5a24112a7b87f0814.jpg"
     },
     {
       "id": 1775749933882,
@@ -4331,7 +4682,8 @@
       "latitude": 40.7128,
       "longitude": -74.006,
       "uploadedAt": "2026-04-09T08:52:13.882411",
-      "highlight": true
+      "highlight": true,
+      "smallThumbnailPath": "/uploads/thumbs300/4c2ef5eab8ae4e77b09ff22b6f587729.jpg"
     },
     {
       "id": 1775749933901,
@@ -4343,7 +4695,8 @@
       "locationName": "New York, USA",
       "latitude": 40.7128,
       "longitude": -74.006,
-      "uploadedAt": "2026-04-09T08:52:13.901951"
+      "uploadedAt": "2026-04-09T08:52:13.901951",
+      "smallThumbnailPath": "/uploads/thumbs300/3ece83e8c31b43c4b324ab27903c789b.jpg"
     },
     {
       "id": 1775749933922,
@@ -4355,7 +4708,8 @@
       "locationName": "New York, USA",
       "latitude": 40.7128,
       "longitude": -74.006,
-      "uploadedAt": "2026-04-09T08:52:13.922912"
+      "uploadedAt": "2026-04-09T08:52:13.922912",
+      "smallThumbnailPath": "/uploads/thumbs300/d073860ce7f744628a3763bcbb35a9b8.jpg"
     },
     {
       "id": 1775752144625,
@@ -4367,7 +4721,8 @@
       "locationName": "New York, USA",
       "latitude": 40.7128,
       "longitude": -74.006,
-      "uploadedAt": "2026-04-09T09:29:04.625195"
+      "uploadedAt": "2026-04-09T09:29:04.625195",
+      "smallThumbnailPath": "/uploads/thumbs300/f455159bc26345feaf5aaa528a46badf.jpg"
     },
     {
       "id": 1773820206918,
@@ -4379,7 +4734,8 @@
       "latitude": -3.2,
       "longitude": 35.5,
       "highlight": true,
-      "thumbnailPath": "/uploads/thumbs/46c978d361f5436ca36b40b5e1b680d3.jpg"
+      "thumbnailPath": "/uploads/thumbs/46c978d361f5436ca36b40b5e1b680d3.jpg",
+      "smallThumbnailPath": "/uploads/thumbs300/46c978d361f5436ca36b40b5e1b680d3.jpg"
     },
     {
       "id": 1773821122659,
@@ -4391,7 +4747,8 @@
       "latitude": -3.2,
       "longitude": 35.5,
       "highlight": true,
-      "thumbnailPath": "/uploads/thumbs/95fedca409874be1a16c5a84f6afb134.jpg"
+      "thumbnailPath": "/uploads/thumbs/95fedca409874be1a16c5a84f6afb134.jpg",
+      "smallThumbnailPath": "/uploads/thumbs300/95fedca409874be1a16c5a84f6afb134.jpg"
     },
     {
       "id": 1773826853742,
@@ -4404,7 +4761,8 @@
       "longitude": 35.5,
       "uploadedAt": "2026-03-18T02:40:53.742344",
       "highlight": true,
-      "thumbnailPath": "/uploads/thumbs/691bbe83f1f94fe09d0d5865db090de5.jpg"
+      "thumbnailPath": "/uploads/thumbs/691bbe83f1f94fe09d0d5865db090de5.jpg",
+      "smallThumbnailPath": "/uploads/thumbs300/691bbe83f1f94fe09d0d5865db090de5.jpg"
     },
     {
       "id": 1773827721905,
@@ -4417,7 +4775,8 @@
       "longitude": 35.5,
       "uploadedAt": "2026-03-18T02:55:21.905570",
       "highlight": true,
-      "thumbnailPath": "/uploads/thumbs/e185d053d1cf4486b9d315baea742d60.jpg"
+      "thumbnailPath": "/uploads/thumbs/e185d053d1cf4486b9d315baea742d60.jpg",
+      "smallThumbnailPath": "/uploads/thumbs300/e185d053d1cf4486b9d315baea742d60.jpg"
     },
     {
       "id": 1775722820264,
@@ -4430,7 +4789,8 @@
       "latitude": -3.2,
       "longitude": 35.5,
       "uploadedAt": "2026-04-09T01:20:20.264772",
-      "highlight": true
+      "highlight": true,
+      "smallThumbnailPath": "/uploads/thumbs300/d773f5d56d9f4970b16835094ccf9aa5.jpg"
     },
     {
       "id": 1775749932872,
@@ -4442,7 +4802,8 @@
       "locationName": "Orlando, USA",
       "latitude": 28.5383,
       "longitude": -81.3792,
-      "uploadedAt": "2026-04-09T08:52:12.872051"
+      "uploadedAt": "2026-04-09T08:52:12.872051",
+      "smallThumbnailPath": "/uploads/thumbs300/13bd899a832d4133bbadedbd3053d02d.jpg"
     },
     {
       "id": 1775749932893,
@@ -4455,7 +4816,8 @@
       "latitude": 28.5383,
       "longitude": -81.3792,
       "uploadedAt": "2026-04-09T08:52:12.893392",
-      "highlight": false
+      "highlight": false,
+      "smallThumbnailPath": "/uploads/thumbs300/7f136be4a4084973bf8678ed88b82530.jpg"
     },
     {
       "id": 1775749932912,
@@ -4467,7 +4829,8 @@
       "locationName": "Orlando, USA",
       "latitude": 28.5383,
       "longitude": -81.3792,
-      "uploadedAt": "2026-04-09T08:52:12.912234"
+      "uploadedAt": "2026-04-09T08:52:12.912234",
+      "smallThumbnailPath": "/uploads/thumbs300/3f45bd50633b49e1a1540db27326fdea.jpg"
     },
     {
       "id": 1775749932930,
@@ -4479,7 +4842,8 @@
       "locationName": "Orlando, USA",
       "latitude": 28.5383,
       "longitude": -81.3792,
-      "uploadedAt": "2026-04-09T08:52:12.930623"
+      "uploadedAt": "2026-04-09T08:52:12.930623",
+      "smallThumbnailPath": "/uploads/thumbs300/8f3552cc36b6402198b788275f2b786b.jpg"
     },
     {
       "id": 1775749932945,
@@ -4491,7 +4855,8 @@
       "locationName": "Orlando, USA",
       "latitude": 28.5383,
       "longitude": -81.3792,
-      "uploadedAt": "2026-04-09T08:52:12.945670"
+      "uploadedAt": "2026-04-09T08:52:12.945670",
+      "smallThumbnailPath": "/uploads/thumbs300/71b4e145fe2b457cbd49f574ab49a47e.jpg"
     },
     {
       "id": 1775749932963,
@@ -4503,7 +4868,8 @@
       "locationName": "Orlando, USA",
       "latitude": 28.5383,
       "longitude": -81.3792,
-      "uploadedAt": "2026-04-09T08:52:12.963920"
+      "uploadedAt": "2026-04-09T08:52:12.963920",
+      "smallThumbnailPath": "/uploads/thumbs300/8c689a1fcf81406caed9539dcf36aaa6.jpg"
     },
     {
       "id": 1775749932978,
@@ -4515,7 +4881,8 @@
       "locationName": "Orlando, USA",
       "latitude": 28.5383,
       "longitude": -81.3792,
-      "uploadedAt": "2026-04-09T08:52:12.978569"
+      "uploadedAt": "2026-04-09T08:52:12.978569",
+      "smallThumbnailPath": "/uploads/thumbs300/343338f3eec0476f89a1d393e15c2d94.jpg"
     },
     {
       "id": 1775749932997,
@@ -4527,7 +4894,8 @@
       "locationName": "Orlando, USA",
       "latitude": 28.5383,
       "longitude": -81.3792,
-      "uploadedAt": "2026-04-09T08:52:12.997767"
+      "uploadedAt": "2026-04-09T08:52:12.997767",
+      "smallThumbnailPath": "/uploads/thumbs300/b40c63488f70422da5e01201c84a04ca.jpg"
     },
     {
       "id": 1775749933011,
@@ -4539,7 +4907,8 @@
       "locationName": "Orlando, USA",
       "latitude": 28.5383,
       "longitude": -81.3792,
-      "uploadedAt": "2026-04-09T08:52:13.011272"
+      "uploadedAt": "2026-04-09T08:52:13.011272",
+      "smallThumbnailPath": "/uploads/thumbs300/de8eea7e7abc4dd2be99a2230e773d37.jpg"
     },
     {
       "id": 1775749933032,
@@ -4551,7 +4920,8 @@
       "locationName": "Orlando, USA",
       "latitude": 28.5383,
       "longitude": -81.3792,
-      "uploadedAt": "2026-04-09T08:52:13.032522"
+      "uploadedAt": "2026-04-09T08:52:13.032522",
+      "smallThumbnailPath": "/uploads/thumbs300/cda1cbc4301c4341b19015c0792ed041.jpg"
     },
     {
       "id": 1775749933046,
@@ -4563,7 +4933,8 @@
       "locationName": "Orlando, USA",
       "latitude": 28.5383,
       "longitude": -81.3792,
-      "uploadedAt": "2026-04-09T08:52:13.046505"
+      "uploadedAt": "2026-04-09T08:52:13.046505",
+      "smallThumbnailPath": "/uploads/thumbs300/81a60f6222964fe48b94e9e672a347d0.jpg"
     },
     {
       "id": 1775749933067,
@@ -4575,7 +4946,8 @@
       "locationName": "Orlando, USA",
       "latitude": 28.5383,
       "longitude": -81.3792,
-      "uploadedAt": "2026-04-09T08:52:13.067461"
+      "uploadedAt": "2026-04-09T08:52:13.067461",
+      "smallThumbnailPath": "/uploads/thumbs300/7f7cedf3bccd484a900180a59548d9c6.jpg"
     },
     {
       "id": 1775749933944,
@@ -4588,7 +4960,8 @@
       "latitude": 28.5383,
       "longitude": -81.3792,
       "uploadedAt": "2026-04-09T08:52:13.944837",
-      "highlight": true
+      "highlight": true,
+      "smallThumbnailPath": "/uploads/thumbs300/e603f9ba541041f7b1689b617aa8d1bd.jpg"
     },
     {
       "id": 1775749933969,
@@ -4600,7 +4973,8 @@
       "locationName": "Orlando, USA",
       "latitude": 28.5383,
       "longitude": -81.3792,
-      "uploadedAt": "2026-04-09T08:52:13.969412"
+      "uploadedAt": "2026-04-09T08:52:13.969412",
+      "smallThumbnailPath": "/uploads/thumbs300/c752cb9b0e8b413ba3aa3eb9f82d2f07.jpg"
     },
     {
       "id": 1775749933992,
@@ -4612,7 +4986,8 @@
       "locationName": "Orlando, USA",
       "latitude": 28.5383,
       "longitude": -81.3792,
-      "uploadedAt": "2026-04-09T08:52:13.992560"
+      "uploadedAt": "2026-04-09T08:52:13.992560",
+      "smallThumbnailPath": "/uploads/thumbs300/e06fe64c005943acb0631db22da2adf1.jpg"
     },
     {
       "id": 1775749934017,
@@ -4624,7 +4999,8 @@
       "locationName": "Orlando, USA",
       "latitude": 28.5383,
       "longitude": -81.3792,
-      "uploadedAt": "2026-04-09T08:52:14.017709"
+      "uploadedAt": "2026-04-09T08:52:14.017709",
+      "smallThumbnailPath": "/uploads/thumbs300/6da9186864fe49e2a49b520dc3196fb7.jpg"
     },
     {
       "id": 1775749934041,
@@ -4636,7 +5012,8 @@
       "locationName": "Orlando, USA",
       "latitude": 28.5383,
       "longitude": -81.3792,
-      "uploadedAt": "2026-04-09T08:52:14.041333"
+      "uploadedAt": "2026-04-09T08:52:14.041333",
+      "smallThumbnailPath": "/uploads/thumbs300/b065ea5190054c1aa7e3e6ee2dcb0c80.jpg"
     },
     {
       "id": 1775749934062,
@@ -4648,7 +5025,8 @@
       "locationName": "Orlando, USA",
       "latitude": 28.5383,
       "longitude": -81.3792,
-      "uploadedAt": "2026-04-09T08:52:14.062583"
+      "uploadedAt": "2026-04-09T08:52:14.062583",
+      "smallThumbnailPath": "/uploads/thumbs300/cdf14c4889d243279ec0c2329b6cfb1b.jpg"
     },
     {
       "id": 1775749934084,
@@ -4660,7 +5038,8 @@
       "locationName": "Orlando, USA",
       "latitude": 28.5383,
       "longitude": -81.3792,
-      "uploadedAt": "2026-04-09T08:52:14.084318"
+      "uploadedAt": "2026-04-09T08:52:14.084318",
+      "smallThumbnailPath": "/uploads/thumbs300/0baa12c140dc45afba2c957b462597f7.jpg"
     },
     {
       "id": 1775749934108,
@@ -4672,7 +5051,8 @@
       "locationName": "Orlando, USA",
       "latitude": 28.5383,
       "longitude": -81.3792,
-      "uploadedAt": "2026-04-09T08:52:14.108050"
+      "uploadedAt": "2026-04-09T08:52:14.108050",
+      "smallThumbnailPath": "/uploads/thumbs300/37e174df35234dcd9ff355f880369bcb.jpg"
     },
     {
       "id": 1775752145862,
@@ -4684,7 +5064,8 @@
       "locationName": "Patagonia, Argentina",
       "latitude": -41.8101,
       "longitude": -68.9063,
-      "uploadedAt": "2026-04-09T09:29:05.862560"
+      "uploadedAt": "2026-04-09T09:29:05.862560",
+      "smallThumbnailPath": "/uploads/thumbs300/1254966b76f3488bb3413d76bc726f81.jpg"
     },
     {
       "id": 1775752145887,
@@ -4696,7 +5077,8 @@
       "locationName": "Patagonia, Argentina",
       "latitude": -41.8101,
       "longitude": -68.9063,
-      "uploadedAt": "2026-04-09T09:29:05.887354"
+      "uploadedAt": "2026-04-09T09:29:05.887354",
+      "smallThumbnailPath": "/uploads/thumbs300/faa818f577b340adbf8e87d140ab6d61.jpg"
     },
     {
       "id": 1775752145909,
@@ -4708,7 +5090,8 @@
       "locationName": "Patagonia, Argentina",
       "latitude": -41.8101,
       "longitude": -68.9063,
-      "uploadedAt": "2026-04-09T09:29:05.909860"
+      "uploadedAt": "2026-04-09T09:29:05.909860",
+      "smallThumbnailPath": "/uploads/thumbs300/ca7a1f11c41c492f8bf27523994a4621.jpg"
     },
     {
       "id": 1775752145932,
@@ -4720,7 +5103,8 @@
       "locationName": "Patagonia, Argentina",
       "latitude": -41.8101,
       "longitude": -68.9063,
-      "uploadedAt": "2026-04-09T09:29:05.932165"
+      "uploadedAt": "2026-04-09T09:29:05.932165",
+      "smallThumbnailPath": "/uploads/thumbs300/401d4aac70f84e939b5796f2ab5aed84.jpg"
     },
     {
       "id": 1775752145955,
@@ -4732,7 +5116,8 @@
       "locationName": "Patagonia, Argentina",
       "latitude": -41.8101,
       "longitude": -68.9063,
-      "uploadedAt": "2026-04-09T09:29:05.955344"
+      "uploadedAt": "2026-04-09T09:29:05.955344",
+      "smallThumbnailPath": "/uploads/thumbs300/8af196f053574cf3916c66da233b6331.jpg"
     },
     {
       "id": 1775752145976,
@@ -4745,7 +5130,8 @@
       "latitude": -41.8101,
       "longitude": -68.9063,
       "uploadedAt": "2026-04-09T09:29:05.976426",
-      "highlight": true
+      "highlight": true,
+      "smallThumbnailPath": "/uploads/thumbs300/cbb0ae43d400487cb44eaa2ae2b3004d.jpg"
     },
     {
       "id": 1775752146016,
@@ -4757,7 +5143,8 @@
       "locationName": "Patagonia, Argentina",
       "latitude": -41.8101,
       "longitude": -68.9063,
-      "uploadedAt": "2026-04-09T09:29:06.016307"
+      "uploadedAt": "2026-04-09T09:29:06.016307",
+      "smallThumbnailPath": "/uploads/thumbs300/4bee737c261e449dbd40ab0c6bc0e489.jpg"
     },
     {
       "id": 1775752146044,
@@ -4770,7 +5157,8 @@
       "latitude": -41.8101,
       "longitude": -68.9063,
       "uploadedAt": "2026-04-09T09:29:06.044987",
-      "highlight": true
+      "highlight": true,
+      "smallThumbnailPath": "/uploads/thumbs300/ee53dfe16ab24ed6b8a45d4e799a7f58.jpg"
     },
     {
       "id": 1775752146073,
@@ -4783,7 +5171,8 @@
       "latitude": -41.8101,
       "longitude": -68.9063,
       "uploadedAt": "2026-04-09T09:29:06.073288",
-      "highlight": true
+      "highlight": true,
+      "smallThumbnailPath": "/uploads/thumbs300/03341f4e81114f9e9f1e312a9168a1e4.jpg"
     },
     {
       "id": 1775752146093,
@@ -4795,7 +5184,8 @@
       "locationName": "Patagonia, Argentina",
       "latitude": -41.8101,
       "longitude": -68.9063,
-      "uploadedAt": "2026-04-09T09:29:06.093319"
+      "uploadedAt": "2026-04-09T09:29:06.093319",
+      "smallThumbnailPath": "/uploads/thumbs300/e1a5f5e9e5e24bc4a409e61842a7c6e3.jpg"
     },
     {
       "id": 1775752146115,
@@ -4808,7 +5198,8 @@
       "latitude": -41.8101,
       "longitude": -68.9063,
       "uploadedAt": "2026-04-09T09:29:06.115811",
-      "highlight": true
+      "highlight": true,
+      "smallThumbnailPath": "/uploads/thumbs300/c00a43413c7f47558776f54a366d04a1.jpg"
     },
     {
       "id": 1775752146138,
@@ -4820,7 +5211,8 @@
       "locationName": "Patagonia, Argentina",
       "latitude": -41.8101,
       "longitude": -68.9063,
-      "uploadedAt": "2026-04-09T09:29:06.138213"
+      "uploadedAt": "2026-04-09T09:29:06.138213",
+      "smallThumbnailPath": "/uploads/thumbs300/857cef26bb4a4f878369180f8022fb45.jpg"
     },
     {
       "id": 1775752146170,
@@ -4832,7 +5224,8 @@
       "locationName": "Patagonia, Argentina",
       "latitude": -41.8101,
       "longitude": -68.9063,
-      "uploadedAt": "2026-04-09T09:29:06.170490"
+      "uploadedAt": "2026-04-09T09:29:06.170490",
+      "smallThumbnailPath": "/uploads/thumbs300/9037572a6bd648c4ad364dcb6eb1ed3c.jpg"
     },
     {
       "id": 1775752146203,
@@ -4844,7 +5237,8 @@
       "locationName": "Patagonia, Argentina",
       "latitude": -41.8101,
       "longitude": -68.9063,
-      "uploadedAt": "2026-04-09T09:29:06.203487"
+      "uploadedAt": "2026-04-09T09:29:06.203487",
+      "smallThumbnailPath": "/uploads/thumbs300/32becc2286c940dd9544168a650adcff.jpg"
     },
     {
       "id": 1775752146226,
@@ -4856,7 +5250,8 @@
       "locationName": "Patagonia, Argentina",
       "latitude": -41.8101,
       "longitude": -68.9063,
-      "uploadedAt": "2026-04-09T09:29:06.226729"
+      "uploadedAt": "2026-04-09T09:29:06.226729",
+      "smallThumbnailPath": "/uploads/thumbs300/7a1e58945bdf4a7db934868620c778b0.jpg"
     },
     {
       "id": 1775752146426,
@@ -4869,7 +5264,8 @@
       "latitude": -41.8101,
       "longitude": -68.9063,
       "uploadedAt": "2026-04-09T09:29:06.426596",
-      "highlight": true
+      "highlight": true,
+      "smallThumbnailPath": "/uploads/thumbs300/81237f5fcc1a4b91832089043bbb86b2.jpg"
     },
     {
       "id": 1775752146486,
@@ -4882,7 +5278,8 @@
       "latitude": -41.8101,
       "longitude": -68.9063,
       "uploadedAt": "2026-04-09T09:29:06.486638",
-      "highlight": true
+      "highlight": true,
+      "smallThumbnailPath": "/uploads/thumbs300/f040143462ee42f887ec48fb7926baf0.jpg"
     },
     {
       "id": 1775752146268,
@@ -4894,7 +5291,8 @@
       "locationName": "Perito Moreno, Argentina",
       "latitude": -50.4966,
       "longitude": -73.0523,
-      "uploadedAt": "2026-04-09T09:29:06.268079"
+      "uploadedAt": "2026-04-09T09:29:06.268079",
+      "smallThumbnailPath": "/uploads/thumbs300/e3757102f1aa46938be5cd0b325fb316.jpg"
     },
     {
       "id": 1775752146287,
@@ -4906,7 +5304,8 @@
       "locationName": "Perito Moreno, Argentina",
       "latitude": -50.4966,
       "longitude": -73.0523,
-      "uploadedAt": "2026-04-09T09:29:06.287405"
+      "uploadedAt": "2026-04-09T09:29:06.287405",
+      "smallThumbnailPath": "/uploads/thumbs300/caf8a02feede4b11a230973bfd00f07e.jpg"
     },
     {
       "id": 1775752146312,
@@ -4918,7 +5317,8 @@
       "locationName": "Perito Moreno, Argentina",
       "latitude": -50.4966,
       "longitude": -73.0523,
-      "uploadedAt": "2026-04-09T09:29:06.312716"
+      "uploadedAt": "2026-04-09T09:29:06.312716",
+      "smallThumbnailPath": "/uploads/thumbs300/e73689c5668041fba61011e5e38bb4f2.jpg"
     },
     {
       "id": 1775752146333,
@@ -4930,7 +5330,8 @@
       "locationName": "Perito Moreno, Argentina",
       "latitude": -50.4966,
       "longitude": -73.0523,
-      "uploadedAt": "2026-04-09T09:29:06.333703"
+      "uploadedAt": "2026-04-09T09:29:06.333703",
+      "smallThumbnailPath": "/uploads/thumbs300/31b01ac514f14dbe8005bfc9f10b44a1.jpg"
     },
     {
       "id": 1775752146358,
@@ -4942,7 +5343,8 @@
       "locationName": "Perito Moreno, Argentina",
       "latitude": -50.4966,
       "longitude": -73.0523,
-      "uploadedAt": "2026-04-09T09:29:06.358864"
+      "uploadedAt": "2026-04-09T09:29:06.358864",
+      "smallThumbnailPath": "/uploads/thumbs300/c17b4ec02fd9430380750653426e1674.jpg"
     },
     {
       "id": 1775752146381,
@@ -4954,7 +5356,8 @@
       "locationName": "Perito Moreno, Argentina",
       "latitude": -50.4966,
       "longitude": -73.0523,
-      "uploadedAt": "2026-04-09T09:29:06.381079"
+      "uploadedAt": "2026-04-09T09:29:06.381079",
+      "smallThumbnailPath": "/uploads/thumbs300/02daf3f61d9c401085d4c51c92c5b90e.jpg"
     },
     {
       "id": 1775752146402,
@@ -4966,7 +5369,8 @@
       "locationName": "Perito Moreno, Argentina",
       "latitude": -50.4966,
       "longitude": -73.0523,
-      "uploadedAt": "2026-04-09T09:29:06.402690"
+      "uploadedAt": "2026-04-09T09:29:06.402690",
+      "smallThumbnailPath": "/uploads/thumbs300/e7efce9cb3cc4d3496d66b827f76da32.jpg"
     },
     {
       "id": 1775752146462,
@@ -4978,7 +5382,8 @@
       "locationName": "Perito Moreno, Argentina",
       "latitude": -50.4966,
       "longitude": -73.0523,
-      "uploadedAt": "2026-04-09T09:29:06.462772"
+      "uploadedAt": "2026-04-09T09:29:06.462772",
+      "smallThumbnailPath": "/uploads/thumbs300/84a1c11c992b44139c4757d3e1f3efad.jpg"
     },
     {
       "id": 1775750942956,
@@ -4991,7 +5396,8 @@
       "latitude": -0.1807,
       "longitude": -78.4678,
       "uploadedAt": "2026-04-09T09:09:02.956608",
-      "highlight": true
+      "highlight": true,
+      "smallThumbnailPath": "/uploads/thumbs300/161289cc1e3d489d9ac028732bfec0cf.jpg"
     },
     {
       "id": 1775750942980,
@@ -5003,7 +5409,8 @@
       "locationName": "Quito, Ecuador",
       "latitude": -0.1807,
       "longitude": -78.4678,
-      "uploadedAt": "2026-04-09T09:09:02.980694"
+      "uploadedAt": "2026-04-09T09:09:02.980694",
+      "smallThumbnailPath": "/uploads/thumbs300/111f71ca51fe4135a29e538184f12dfd.jpg"
     },
     {
       "id": 1775750943002,
@@ -5015,7 +5422,8 @@
       "locationName": "Quito, Ecuador",
       "latitude": -0.1807,
       "longitude": -78.4678,
-      "uploadedAt": "2026-04-09T09:09:03.002090"
+      "uploadedAt": "2026-04-09T09:09:03.002090",
+      "smallThumbnailPath": "/uploads/thumbs300/9c57a909128f428ead86069f64489e56.jpg"
     },
     {
       "id": 1775750943024,
@@ -5027,7 +5435,8 @@
       "locationName": "Quito, Ecuador",
       "latitude": -0.1807,
       "longitude": -78.4678,
-      "uploadedAt": "2026-04-09T09:09:03.024884"
+      "uploadedAt": "2026-04-09T09:09:03.024884",
+      "smallThumbnailPath": "/uploads/thumbs300/176659e1b6ea4b0db507e31a34a4976f.jpg"
     },
     {
       "id": 1775750943048,
@@ -5040,7 +5449,8 @@
       "latitude": -0.1807,
       "longitude": -78.4678,
       "uploadedAt": "2026-04-09T09:09:03.048748",
-      "highlight": true
+      "highlight": true,
+      "smallThumbnailPath": "/uploads/thumbs300/ca9b11d1763a4ee789e7d222b97aa912.jpg"
     },
     {
       "id": 1773827050633,
@@ -5053,7 +5463,8 @@
       "longitude": 34.8333,
       "uploadedAt": "2026-03-18T02:44:10.633047",
       "highlight": true,
-      "thumbnailPath": "/uploads/thumbs/a8b54ba482f84f189da49f93b830f823.jpg"
+      "thumbnailPath": "/uploads/thumbs/a8b54ba482f84f189da49f93b830f823.jpg",
+      "smallThumbnailPath": "/uploads/thumbs300/a8b54ba482f84f189da49f93b830f823.jpg"
     },
     {
       "id": 1775722261856,
@@ -5065,7 +5476,8 @@
       "locationName": "Tarangire, Tanzania",
       "latitude": -4.0167,
       "longitude": 36.0167,
-      "uploadedAt": "2026-04-09T01:11:01.856116"
+      "uploadedAt": "2026-04-09T01:11:01.856116",
+      "smallThumbnailPath": "/uploads/thumbs300/9b28912c800b44b78b30fc67d49a8da4.jpg"
     },
     {
       "id": 1775722262007,
@@ -5078,7 +5490,8 @@
       "latitude": -4.0167,
       "longitude": 36.0167,
       "uploadedAt": "2026-04-09T01:11:02.007656",
-      "highlight": true
+      "highlight": true,
+      "smallThumbnailPath": "/uploads/thumbs300/14eadfe0dd0b4f5a82c86825556b1013.jpg"
     },
     {
       "id": 1775722262135,
@@ -5091,7 +5504,8 @@
       "latitude": -4.0167,
       "longitude": 36.0167,
       "uploadedAt": "2026-04-09T01:11:02.135387",
-      "highlight": true
+      "highlight": true,
+      "smallThumbnailPath": "/uploads/thumbs300/cd930b34183e4caa813dd0985ad299a2.jpg"
     },
     {
       "id": 1775722262314,
@@ -5103,7 +5517,8 @@
       "locationName": "Tarangire, Tanzania",
       "latitude": -4.0167,
       "longitude": 36.0167,
-      "uploadedAt": "2026-04-09T01:11:02.314755"
+      "uploadedAt": "2026-04-09T01:11:02.314755",
+      "smallThumbnailPath": "/uploads/thumbs300/d9e5186ad3264a86bb587b0029e0193c.jpg"
     },
     {
       "id": 1775722262472,
@@ -5116,7 +5531,8 @@
       "latitude": -4.0167,
       "longitude": 36.0167,
       "uploadedAt": "2026-04-09T01:11:02.472045",
-      "highlight": true
+      "highlight": true,
+      "smallThumbnailPath": "/uploads/thumbs300/bda985ca71094147a80c3a069c75b28d.jpg"
     },
     {
       "id": 1775722262650,
@@ -5129,7 +5545,8 @@
       "latitude": -4.0167,
       "longitude": 36.0167,
       "uploadedAt": "2026-04-09T01:11:02.650962",
-      "highlight": true
+      "highlight": true,
+      "smallThumbnailPath": "/uploads/thumbs300/8ca26fbd1eff44dbbff9cea2cdf671f7.jpg"
     },
     {
       "id": 1775722262682,
@@ -5141,7 +5558,8 @@
       "locationName": "Tarangire, Tanzania",
       "latitude": -4.0167,
       "longitude": 36.0167,
-      "uploadedAt": "2026-04-09T01:11:02.682135"
+      "uploadedAt": "2026-04-09T01:11:02.682135",
+      "smallThumbnailPath": "/uploads/thumbs300/1dde7be0325b433e8d14a9f677ddf390.jpg"
     },
     {
       "id": 1775722262911,
@@ -5154,7 +5572,8 @@
       "latitude": -4.0167,
       "longitude": 36.0167,
       "uploadedAt": "2026-04-09T01:11:02.911233",
-      "highlight": true
+      "highlight": true,
+      "smallThumbnailPath": "/uploads/thumbs300/b00b48a21fc540ce86aebadf206010aa.jpg"
     },
     {
       "id": 1775722263070,
@@ -5166,7 +5585,8 @@
       "locationName": "Tarangire, Tanzania",
       "latitude": -4.0167,
       "longitude": 36.0167,
-      "uploadedAt": "2026-04-09T01:11:03.070949"
+      "uploadedAt": "2026-04-09T01:11:03.070949",
+      "smallThumbnailPath": "/uploads/thumbs300/a60b9661447c4edea5d1fce3823bcc44.jpg"
     },
     {
       "id": 1775722263214,
@@ -5178,7 +5598,8 @@
       "locationName": "Tarangire, Tanzania",
       "latitude": -4.0167,
       "longitude": 36.0167,
-      "uploadedAt": "2026-04-09T01:11:03.214938"
+      "uploadedAt": "2026-04-09T01:11:03.214938",
+      "smallThumbnailPath": "/uploads/thumbs300/7dff7ba6d60444078a964f7a6e286632.jpg"
     },
     {
       "id": 1775722263448,
@@ -5191,7 +5612,8 @@
       "latitude": -4.0167,
       "longitude": 36.0167,
       "uploadedAt": "2026-04-09T01:11:03.448196",
-      "highlight": true
+      "highlight": true,
+      "smallThumbnailPath": "/uploads/thumbs300/bdd80a6c38f240379a35a200b9854bb8.jpg"
     },
     {
       "id": 1775722263566,
@@ -5203,7 +5625,8 @@
       "locationName": "Tarangire, Tanzania",
       "latitude": -4.0167,
       "longitude": 36.0167,
-      "uploadedAt": "2026-04-09T01:11:03.566314"
+      "uploadedAt": "2026-04-09T01:11:03.566314",
+      "smallThumbnailPath": "/uploads/thumbs300/e66b8f164aea4b7296eecfaf54fb11fc.jpg"
     },
     {
       "id": 1775722263684,
@@ -5216,7 +5639,8 @@
       "latitude": -4.0167,
       "longitude": 36.0167,
       "uploadedAt": "2026-04-09T01:11:03.684771",
-      "highlight": true
+      "highlight": true,
+      "smallThumbnailPath": "/uploads/thumbs300/9de88b9b012a4fc98ae3532a822e5019.jpg"
     },
     {
       "id": 1775722263815,
@@ -5229,7 +5653,8 @@
       "latitude": -4.0167,
       "longitude": 36.0167,
       "uploadedAt": "2026-04-09T01:11:03.815391",
-      "highlight": false
+      "highlight": false,
+      "smallThumbnailPath": "/uploads/thumbs300/f74433f4bf4547edb2bf2f50b1ae5ee0.jpg"
     },
     {
       "id": 1775722263951,
@@ -5241,7 +5666,8 @@
       "locationName": "Tarangire, Tanzania",
       "latitude": -4.0167,
       "longitude": 36.0167,
-      "uploadedAt": "2026-04-09T01:11:03.951424"
+      "uploadedAt": "2026-04-09T01:11:03.951424",
+      "smallThumbnailPath": "/uploads/thumbs300/a79fda0b5ca1482aa8380e415fa7680a.jpg"
     },
     {
       "id": 1775722264025,
@@ -5254,7 +5680,8 @@
       "latitude": -4.0167,
       "longitude": 36.0167,
       "uploadedAt": "2026-04-09T01:11:04.025423",
-      "highlight": true
+      "highlight": true,
+      "smallThumbnailPath": "/uploads/thumbs300/6a83ca61a36c455388234653b823cc7e.jpg"
     },
     {
       "id": 1775722264084,
@@ -5267,7 +5694,8 @@
       "latitude": -4.0167,
       "longitude": 36.0167,
       "uploadedAt": "2026-04-09T01:11:04.084771",
-      "highlight": true
+      "highlight": true,
+      "smallThumbnailPath": "/uploads/thumbs300/940104bf93d74b699d65821ccb12b788.jpg"
     },
     {
       "id": 1775722264156,
@@ -5279,7 +5707,8 @@
       "locationName": "Tarangire, Tanzania",
       "latitude": -4.0167,
       "longitude": 36.0167,
-      "uploadedAt": "2026-04-09T01:11:04.156054"
+      "uploadedAt": "2026-04-09T01:11:04.156054",
+      "smallThumbnailPath": "/uploads/thumbs300/ba58671d10114e528894aeeab7076bc7.jpg"
     },
     {
       "id": 1775752146245,
@@ -5292,7 +5721,8 @@
       "latitude": -41.8101,
       "longitude": -68.9063,
       "uploadedAt": "2026-04-09T09:29:06.245791",
-      "highlight": true
+      "highlight": true,
+      "smallThumbnailPath": "/uploads/thumbs300/b4539e05a25a4eac8ff1df6a5f7b40f8.jpg"
     },
     {
       "id": 1775752144518,
@@ -5304,7 +5734,8 @@
       "locationName": "Tulum, Mexico",
       "latitude": 20.2115,
       "longitude": -87.4291,
-      "uploadedAt": "2026-04-09T09:29:04.518252"
+      "uploadedAt": "2026-04-09T09:29:04.518252",
+      "smallThumbnailPath": "/uploads/thumbs300/af709749acbf451db8bdb488942c0814.jpg"
     },
     {
       "id": 1775752144603,
@@ -5316,7 +5747,8 @@
       "locationName": "Tulum, Mexico",
       "latitude": 20.2115,
       "longitude": -87.4291,
-      "uploadedAt": "2026-04-09T09:29:04.603965"
+      "uploadedAt": "2026-04-09T09:29:04.603965",
+      "smallThumbnailPath": "/uploads/thumbs300/7409141763f843cf8503fd97acce3d9a.jpg"
     },
     {
       "id": 1775752146656,
@@ -5328,7 +5760,8 @@
       "locationName": "Tulum, Mexico",
       "latitude": 20.2115,
       "longitude": -87.4291,
-      "uploadedAt": "2026-04-09T09:29:06.656732"
+      "uploadedAt": "2026-04-09T09:29:06.656732",
+      "smallThumbnailPath": "/uploads/thumbs300/bdc9bed38eb64a1ca86b624fd3a1c2c4.jpg"
     },
     {
       "id": 1775752145406,
@@ -5341,7 +5774,8 @@
       "latitude": -54.8019,
       "longitude": -68.303,
       "uploadedAt": "2026-04-09T09:29:05.406349",
-      "highlight": true
+      "highlight": true,
+      "smallThumbnailPath": "/uploads/thumbs300/1adb98ac2e9840e2a80eab309b98e5b7.jpg"
     },
     {
       "id": 1775752145425,
@@ -5353,7 +5787,8 @@
       "locationName": "Ushuaia, Argentina",
       "latitude": -54.8019,
       "longitude": -68.303,
-      "uploadedAt": "2026-04-09T09:29:05.425197"
+      "uploadedAt": "2026-04-09T09:29:05.425197",
+      "smallThumbnailPath": "/uploads/thumbs300/2f6cc948036f4172bb1e3c724c64d808.jpg"
     },
     {
       "id": 1775752145443,
@@ -5366,7 +5801,8 @@
       "latitude": -54.8019,
       "longitude": -68.303,
       "uploadedAt": "2026-04-09T09:29:05.443105",
-      "highlight": true
+      "highlight": true,
+      "smallThumbnailPath": "/uploads/thumbs300/15acb8f2fea9427ba52a0b2abb47da00.jpg"
     },
     {
       "id": 1775752145465,
@@ -5378,7 +5814,8 @@
       "locationName": "Ushuaia, Argentina",
       "latitude": -54.8019,
       "longitude": -68.303,
-      "uploadedAt": "2026-04-09T09:29:05.465979"
+      "uploadedAt": "2026-04-09T09:29:05.465979",
+      "smallThumbnailPath": "/uploads/thumbs300/2246ea31d3444082bed7184ec15a4a38.jpg"
     },
     {
       "id": 1775752145488,
@@ -5390,7 +5827,8 @@
       "locationName": "Ushuaia, Argentina",
       "latitude": -54.8019,
       "longitude": -68.303,
-      "uploadedAt": "2026-04-09T09:29:05.488311"
+      "uploadedAt": "2026-04-09T09:29:05.488311",
+      "smallThumbnailPath": "/uploads/thumbs300/d5e9d3aebccc4c0b859a30a9a04abc10.jpg"
     },
     {
       "id": 1775752145507,
@@ -5402,7 +5840,8 @@
       "locationName": "Ushuaia, Argentina",
       "latitude": -54.8019,
       "longitude": -68.303,
-      "uploadedAt": "2026-04-09T09:29:05.507593"
+      "uploadedAt": "2026-04-09T09:29:05.507593",
+      "smallThumbnailPath": "/uploads/thumbs300/9f279885c96140e7880ee34ac636371e.jpg"
     },
     {
       "id": 1775752145526,
@@ -5414,7 +5853,8 @@
       "locationName": "Ushuaia, Argentina",
       "latitude": -54.8019,
       "longitude": -68.303,
-      "uploadedAt": "2026-04-09T09:29:05.526874"
+      "uploadedAt": "2026-04-09T09:29:05.526874",
+      "smallThumbnailPath": "/uploads/thumbs300/4d1b3b84d5d34e52829873c2a7c3832c.jpg"
     },
     {
       "id": 1775752145545,
@@ -5426,7 +5866,8 @@
       "locationName": "Ushuaia, Argentina",
       "latitude": -54.8019,
       "longitude": -68.303,
-      "uploadedAt": "2026-04-09T09:29:05.545156"
+      "uploadedAt": "2026-04-09T09:29:05.545156",
+      "smallThumbnailPath": "/uploads/thumbs300/28c5b7388f8949bda680b413762dc86c.jpg"
     },
     {
       "id": 1775752145561,
@@ -5438,7 +5879,8 @@
       "locationName": "Ushuaia, Argentina",
       "latitude": -54.8019,
       "longitude": -68.303,
-      "uploadedAt": "2026-04-09T09:29:05.561922"
+      "uploadedAt": "2026-04-09T09:29:05.561922",
+      "smallThumbnailPath": "/uploads/thumbs300/963da1c5a02742dfa3f119928b063c6d.jpg"
     },
     {
       "id": 1775752145583,
@@ -5450,7 +5892,8 @@
       "locationName": "Ushuaia, Argentina",
       "latitude": -54.8019,
       "longitude": -68.303,
-      "uploadedAt": "2026-04-09T09:29:05.583016"
+      "uploadedAt": "2026-04-09T09:29:05.583016",
+      "smallThumbnailPath": "/uploads/thumbs300/99a5aa54bf4a412186b307471a7de80f.jpg"
     },
     {
       "id": 1775752145601,
@@ -5463,7 +5906,8 @@
       "latitude": -54.8019,
       "longitude": -68.303,
       "uploadedAt": "2026-04-09T09:29:05.601264",
-      "highlight": true
+      "highlight": true,
+      "smallThumbnailPath": "/uploads/thumbs300/40184070cf3d45dd9ac7b14a6c0c2166.jpg"
     },
     {
       "id": 1775752145620,
@@ -5475,7 +5919,8 @@
       "locationName": "Ushuaia, Argentina",
       "latitude": -54.8019,
       "longitude": -68.303,
-      "uploadedAt": "2026-04-09T09:29:05.620182"
+      "uploadedAt": "2026-04-09T09:29:05.620182",
+      "smallThumbnailPath": "/uploads/thumbs300/4e05130268224d05b6cefc0be04eb8a5.jpg"
     },
     {
       "id": 1775752145642,
@@ -5488,7 +5933,8 @@
       "latitude": -54.8019,
       "longitude": -68.303,
       "uploadedAt": "2026-04-09T09:29:05.642803",
-      "highlight": true
+      "highlight": true,
+      "smallThumbnailPath": "/uploads/thumbs300/ae18c57dc2cd44cca44ee231a18a7bc4.jpg"
     },
     {
       "id": 1775752145656,
@@ -5500,7 +5946,8 @@
       "locationName": "Ushuaia, Argentina",
       "latitude": -54.8019,
       "longitude": -68.303,
-      "uploadedAt": "2026-04-09T09:29:05.656848"
+      "uploadedAt": "2026-04-09T09:29:05.656848",
+      "smallThumbnailPath": "/uploads/thumbs300/bf0fba96243246b682c1c73fc7a2b878.jpg"
     },
     {
       "id": 1775752145676,
@@ -5512,7 +5959,8 @@
       "locationName": "Ushuaia, Argentina",
       "latitude": -54.8019,
       "longitude": -68.303,
-      "uploadedAt": "2026-04-09T09:29:05.676298"
+      "uploadedAt": "2026-04-09T09:29:05.676298",
+      "smallThumbnailPath": "/uploads/thumbs300/27963fe68ef847a49b3a67b491c70a2f.jpg"
     },
     {
       "id": 1775752145697,
@@ -5524,7 +5972,8 @@
       "locationName": "Ushuaia, Argentina",
       "latitude": -54.8019,
       "longitude": -68.303,
-      "uploadedAt": "2026-04-09T09:29:05.697281"
+      "uploadedAt": "2026-04-09T09:29:05.697281",
+      "smallThumbnailPath": "/uploads/thumbs300/944867c2af4845d887f5b397de97db8b.jpg"
     },
     {
       "id": 1775752145715,
@@ -5536,7 +5985,8 @@
       "locationName": "Ushuaia, Argentina",
       "latitude": -54.8019,
       "longitude": -68.303,
-      "uploadedAt": "2026-04-09T09:29:05.715991"
+      "uploadedAt": "2026-04-09T09:29:05.715991",
+      "smallThumbnailPath": "/uploads/thumbs300/4995943e9d74434e91359a74d08fb369.jpg"
     },
     {
       "id": 1775752145731,
@@ -5549,7 +5999,8 @@
       "latitude": -54.8019,
       "longitude": -68.303,
       "uploadedAt": "2026-04-09T09:29:05.731061",
-      "highlight": true
+      "highlight": true,
+      "smallThumbnailPath": "/uploads/thumbs300/2f57bb801d7243c492b34996395eb7f7.jpg"
     },
     {
       "id": 1775752145744,
@@ -5562,7 +6013,8 @@
       "latitude": -54.8019,
       "longitude": -68.303,
       "uploadedAt": "2026-04-09T09:29:05.744252",
-      "highlight": true
+      "highlight": true,
+      "smallThumbnailPath": "/uploads/thumbs300/9adb45874e4644d59f0eacf1f8b3ee3c.jpg"
     },
     {
       "id": 1775752145762,
@@ -5575,7 +6027,8 @@
       "latitude": -54.8019,
       "longitude": -68.303,
       "uploadedAt": "2026-04-09T09:29:05.762650",
-      "highlight": true
+      "highlight": true,
+      "smallThumbnailPath": "/uploads/thumbs300/283cb11a030447ab82d0a0acb55dd5f0.jpg"
     },
     {
       "id": 1775752145780,
@@ -5587,7 +6040,8 @@
       "locationName": "Ushuaia, Argentina",
       "latitude": -54.8019,
       "longitude": -68.303,
-      "uploadedAt": "2026-04-09T09:29:05.780285"
+      "uploadedAt": "2026-04-09T09:29:05.780285",
+      "smallThumbnailPath": "/uploads/thumbs300/c035e7ccf4374f649615f23c54eb64f3.jpg"
     },
     {
       "id": 1775752145798,
@@ -5599,7 +6053,8 @@
       "locationName": "Ushuaia, Argentina",
       "latitude": -54.8019,
       "longitude": -68.303,
-      "uploadedAt": "2026-04-09T09:29:05.798136"
+      "uploadedAt": "2026-04-09T09:29:05.798136",
+      "smallThumbnailPath": "/uploads/thumbs300/5fe90465f9604bdaac850ab0f119a1e5.jpg"
     },
     {
       "id": 1775752145819,
@@ -5611,7 +6066,8 @@
       "locationName": "Ushuaia, Argentina",
       "latitude": -54.8019,
       "longitude": -68.303,
-      "uploadedAt": "2026-04-09T09:29:05.819071"
+      "uploadedAt": "2026-04-09T09:29:05.819071",
+      "smallThumbnailPath": "/uploads/thumbs300/416f1394c9e7459a96fba27ec30e5eb5.jpg"
     },
     {
       "id": 1775752145842,
@@ -5623,7 +6079,8 @@
       "locationName": "Ushuaia, Argentina",
       "latitude": -54.8019,
       "longitude": -68.303,
-      "uploadedAt": "2026-04-09T09:29:05.842043"
+      "uploadedAt": "2026-04-09T09:29:05.842043",
+      "smallThumbnailPath": "/uploads/thumbs300/6f0e172c200e4f108c21f4e525854eff.jpg"
     },
     {
       "id": 1775750943124,
@@ -5635,7 +6092,8 @@
       "locationName": "Uyuni Salt Flats, Bolivia",
       "latitude": -20.1338,
       "longitude": -67.4891,
-      "uploadedAt": "2026-04-09T09:09:03.124458"
+      "uploadedAt": "2026-04-09T09:09:03.124458",
+      "smallThumbnailPath": "/uploads/thumbs300/f8dc107c36f6494ebccc2152b893fe5e.jpg"
     },
     {
       "id": 1775750943139,
@@ -5648,7 +6106,8 @@
       "latitude": -20.1338,
       "longitude": -67.4891,
       "uploadedAt": "2026-04-09T09:09:03.139323",
-      "highlight": true
+      "highlight": true,
+      "smallThumbnailPath": "/uploads/thumbs300/e854252e06b247b4bdf3c43ff1f00854.jpg"
     },
     {
       "id": 1775750943155,
@@ -5661,7 +6120,8 @@
       "latitude": -20.1338,
       "longitude": -67.4891,
       "uploadedAt": "2026-04-09T09:09:03.155877",
-      "highlight": false
+      "highlight": false,
+      "smallThumbnailPath": "/uploads/thumbs300/6b0697f3c3434fb48937937b403efafa.jpg"
     },
     {
       "id": 1775750943173,
@@ -5673,7 +6133,8 @@
       "locationName": "Uyuni Salt Flats, Bolivia",
       "latitude": -20.1338,
       "longitude": -67.4891,
-      "uploadedAt": "2026-04-09T09:09:03.173230"
+      "uploadedAt": "2026-04-09T09:09:03.173230",
+      "smallThumbnailPath": "/uploads/thumbs300/ed97ba5c2c404853b75ae97b16e6b973.jpg"
     },
     {
       "id": 1775750943208,
@@ -5686,7 +6147,8 @@
       "latitude": -20.1338,
       "longitude": -67.4891,
       "uploadedAt": "2026-04-09T09:09:03.208777",
-      "highlight": true
+      "highlight": true,
+      "smallThumbnailPath": "/uploads/thumbs300/f857aa53e4ff4f4d9f466e7e75802760.jpg"
     },
     {
       "id": 1775750943222,
@@ -5698,7 +6160,8 @@
       "locationName": "Uyuni Salt Flats, Bolivia",
       "latitude": -20.1338,
       "longitude": -67.4891,
-      "uploadedAt": "2026-04-09T09:09:03.222283"
+      "uploadedAt": "2026-04-09T09:09:03.222283",
+      "smallThumbnailPath": "/uploads/thumbs300/b32a6eac20634463b7e74c07ff8172e3.jpg"
     },
     {
       "id": 1775750943244,
@@ -5711,7 +6174,8 @@
       "latitude": -20.1338,
       "longitude": -67.4891,
       "uploadedAt": "2026-04-09T09:09:03.244086",
-      "highlight": true
+      "highlight": true,
+      "smallThumbnailPath": "/uploads/thumbs300/5465099659ef48ec9bf3699a163af2e2.jpg"
     },
     {
       "id": 1775750943262,
@@ -5724,7 +6188,8 @@
       "latitude": -20.1338,
       "longitude": -67.4891,
       "uploadedAt": "2026-04-09T09:09:03.262134",
-      "highlight": true
+      "highlight": true,
+      "smallThumbnailPath": "/uploads/thumbs300/c7da0385217b4329a09b3b77cc772315.jpg"
     },
     {
       "id": 1775750943280,
@@ -5737,7 +6202,8 @@
       "latitude": -20.1338,
       "longitude": -67.4891,
       "uploadedAt": "2026-04-09T09:09:03.280531",
-      "highlight": true
+      "highlight": true,
+      "smallThumbnailPath": "/uploads/thumbs300/88e936001b7647a990ee4f5c3aa1e784.jpg"
     },
     {
       "id": 1775750943298,
@@ -5750,7 +6216,8 @@
       "latitude": -20.1338,
       "longitude": -67.4891,
       "uploadedAt": "2026-04-09T09:09:03.298634",
-      "highlight": true
+      "highlight": true,
+      "smallThumbnailPath": "/uploads/thumbs300/7cbe1296b45d45b9829dd87b5828e3ad.jpg"
     },
     {
       "id": 1775750943315,
@@ -5762,7 +6229,8 @@
       "locationName": "Uyuni Salt Flats, Bolivia",
       "latitude": -20.1338,
       "longitude": -67.4891,
-      "uploadedAt": "2026-04-09T09:09:03.315151"
+      "uploadedAt": "2026-04-09T09:09:03.315151",
+      "smallThumbnailPath": "/uploads/thumbs300/d969c2a504db457abbfcba16aee32d09.jpg"
     },
     {
       "id": 1775750943336,
@@ -5775,7 +6243,8 @@
       "latitude": -20.1338,
       "longitude": -67.4891,
       "uploadedAt": "2026-04-09T09:09:03.336212",
-      "highlight": true
+      "highlight": true,
+      "smallThumbnailPath": "/uploads/thumbs300/7b5b3b3815f1465cb464ea679da43403.jpg"
     },
     {
       "id": 1775750943356,
@@ -5787,7 +6256,8 @@
       "locationName": "Uyuni Salt Flats, Bolivia",
       "latitude": -20.1338,
       "longitude": -67.4891,
-      "uploadedAt": "2026-04-09T09:09:03.356170"
+      "uploadedAt": "2026-04-09T09:09:03.356170",
+      "smallThumbnailPath": "/uploads/thumbs300/4282829953de4726b5eb2ee014892470.jpg"
     },
     {
       "id": 1775750943377,
@@ -5799,7 +6269,8 @@
       "locationName": "Uyuni Salt Flats, Bolivia",
       "latitude": -20.1338,
       "longitude": -67.4891,
-      "uploadedAt": "2026-04-09T09:09:03.377442"
+      "uploadedAt": "2026-04-09T09:09:03.377442",
+      "smallThumbnailPath": "/uploads/thumbs300/5045e91a55d44bb28637c5e8776a1416.jpg"
     },
     {
       "id": 1775750943392,
@@ -5812,7 +6283,8 @@
       "latitude": -20.1338,
       "longitude": -67.4891,
       "uploadedAt": "2026-04-09T09:09:03.392586",
-      "highlight": true
+      "highlight": true,
+      "smallThumbnailPath": "/uploads/thumbs300/dd58440eb5f1465692737a4204a9ea03.jpg"
     },
     {
       "id": 1775750943412,
@@ -5824,7 +6296,8 @@
       "locationName": "Uyuni Salt Flats, Bolivia",
       "latitude": -20.1338,
       "longitude": -67.4891,
-      "uploadedAt": "2026-04-09T09:09:03.412221"
+      "uploadedAt": "2026-04-09T09:09:03.412221",
+      "smallThumbnailPath": "/uploads/thumbs300/8a7fb492643a40ea818e8d28bcdc1bcf.jpg"
     },
     {
       "id": 1775752144779,
@@ -5836,7 +6309,8 @@
       "locationName": "Uyuni Salt Flats, Bolivia",
       "latitude": -20.1338,
       "longitude": -67.4891,
-      "uploadedAt": "2026-04-09T09:29:04.779476"
+      "uploadedAt": "2026-04-09T09:29:04.779476",
+      "smallThumbnailPath": "/uploads/thumbs300/dec4897daead422a96aa87a40b3e541f.jpg"
     },
     {
       "id": 1775752144800,
@@ -5848,7 +6322,8 @@
       "locationName": "Uyuni Salt Flats, Bolivia",
       "latitude": -20.1338,
       "longitude": -67.4891,
-      "uploadedAt": "2026-04-09T09:29:04.800993"
+      "uploadedAt": "2026-04-09T09:29:04.800993",
+      "smallThumbnailPath": "/uploads/thumbs300/bc9c58c10bde4c5daace32325b40a13e.jpg"
     },
     {
       "id": 1775752144823,
@@ -5860,7 +6335,8 @@
       "locationName": "Uyuni Salt Flats, Bolivia",
       "latitude": -20.1338,
       "longitude": -67.4891,
-      "uploadedAt": "2026-04-09T09:29:04.823176"
+      "uploadedAt": "2026-04-09T09:29:04.823176",
+      "smallThumbnailPath": "/uploads/thumbs300/fcca2093e9c947bba826173e4f2230e1.jpg"
     },
     {
       "id": 1775752144845,
@@ -5872,7 +6348,8 @@
       "locationName": "Uyuni Salt Flats, Bolivia",
       "latitude": -20.1338,
       "longitude": -67.4891,
-      "uploadedAt": "2026-04-09T09:29:04.845363"
+      "uploadedAt": "2026-04-09T09:29:04.845363",
+      "smallThumbnailPath": "/uploads/thumbs300/27a4c6318c47478888f04ac27a2483a2.jpg"
     },
     {
       "id": 1775752144865,
@@ -5884,7 +6361,8 @@
       "locationName": "Uyuni Salt Flats, Bolivia",
       "latitude": -20.1338,
       "longitude": -67.4891,
-      "uploadedAt": "2026-04-09T09:29:04.865117"
+      "uploadedAt": "2026-04-09T09:29:04.865117",
+      "smallThumbnailPath": "/uploads/thumbs300/6b76c02a368148b09fbb116f72fd0043.jpg"
     },
     {
       "id": 1775752144893,
@@ -5896,7 +6374,8 @@
       "locationName": "Uyuni Salt Flats, Bolivia",
       "latitude": -20.1338,
       "longitude": -67.4891,
-      "uploadedAt": "2026-04-09T09:29:04.893169"
+      "uploadedAt": "2026-04-09T09:29:04.893169",
+      "smallThumbnailPath": "/uploads/thumbs300/c0b1c5bf3eb7432d9d7393dc35464892.jpg"
     },
     {
       "id": 1775752144921,
@@ -5908,7 +6387,8 @@
       "locationName": "Uyuni Salt Flats, Bolivia",
       "latitude": -20.1338,
       "longitude": -67.4891,
-      "uploadedAt": "2026-04-09T09:29:04.921059"
+      "uploadedAt": "2026-04-09T09:29:04.921059",
+      "smallThumbnailPath": "/uploads/thumbs300/2c8d0dab1000464f871aab9a1c8ac209.jpg"
     },
     {
       "id": 1775752144994,
@@ -5920,7 +6400,8 @@
       "locationName": "Uyuni Salt Flats, Bolivia",
       "latitude": -20.1338,
       "longitude": -67.4891,
-      "uploadedAt": "2026-04-09T09:29:04.994065"
+      "uploadedAt": "2026-04-09T09:29:04.994065",
+      "smallThumbnailPath": "/uploads/thumbs300/076d6d906d3747ba9fc2357b2c4c256d.jpg"
     },
     {
       "id": 1775752145073,
@@ -5932,7 +6413,8 @@
       "locationName": "Uyuni Salt Flats, Bolivia",
       "latitude": -20.1338,
       "longitude": -67.4891,
-      "uploadedAt": "2026-04-09T09:29:05.073813"
+      "uploadedAt": "2026-04-09T09:29:05.073813",
+      "smallThumbnailPath": "/uploads/thumbs300/29ba393054274803ae0a42dcab8ec886.jpg"
     },
     {
       "id": 1775752145102,
@@ -5944,7 +6426,8 @@
       "locationName": "Uyuni Salt Flats, Bolivia",
       "latitude": -20.1338,
       "longitude": -67.4891,
-      "uploadedAt": "2026-04-09T09:29:05.102601"
+      "uploadedAt": "2026-04-09T09:29:05.102601",
+      "smallThumbnailPath": "/uploads/thumbs300/a46fa396dbe349b5ba56305f483e94f9.jpg"
     },
     {
       "id": 1775752145193,
@@ -5956,7 +6439,8 @@
       "locationName": "Uyuni Salt Flats, Bolivia",
       "latitude": -20.1338,
       "longitude": -67.4891,
-      "uploadedAt": "2026-04-09T09:29:05.193595"
+      "uploadedAt": "2026-04-09T09:29:05.193595",
+      "smallThumbnailPath": "/uploads/thumbs300/2ea94d14d87d4cf2b033cf5d0c46a6c3.jpg"
     },
     {
       "id": 1775752145213,
@@ -5968,7 +6452,8 @@
       "locationName": "Uyuni Salt Flats, Bolivia",
       "latitude": -20.1338,
       "longitude": -67.4891,
-      "uploadedAt": "2026-04-09T09:29:05.213067"
+      "uploadedAt": "2026-04-09T09:29:05.213067",
+      "smallThumbnailPath": "/uploads/thumbs300/7f3f4eed0d4e422b8f41669f45818dc7.jpg"
     },
     {
       "id": 1775722950768,
@@ -5980,7 +6465,8 @@
       "locationName": "Vancouver, Canada",
       "latitude": 49.2827,
       "longitude": -123.1207,
-      "uploadedAt": "2026-04-09T01:22:30.768250"
+      "uploadedAt": "2026-04-09T01:22:30.768250",
+      "smallThumbnailPath": "/uploads/thumbs300/5a29dfc220d146b6af2bce862bc16e3a.jpg"
     },
     {
       "id": 1775722950916,
@@ -5993,7 +6479,8 @@
       "latitude": 49.2827,
       "longitude": -123.1207,
       "uploadedAt": "2026-04-09T01:22:30.916768",
-      "highlight": true
+      "highlight": true,
+      "smallThumbnailPath": "/uploads/thumbs300/5a637442c2ca40c790c560ae63118395.jpg"
     },
     {
       "id": 1775722951022,
@@ -6006,7 +6493,8 @@
       "latitude": 49.2827,
       "longitude": -123.1207,
       "uploadedAt": "2026-04-09T01:22:31.022629",
-      "highlight": true
+      "highlight": true,
+      "smallThumbnailPath": "/uploads/thumbs300/280f2ad9fdad47079bb15df8e8d90582.jpg"
     },
     {
       "id": 1775723185757,
@@ -6019,7 +6507,8 @@
       "latitude": 49.2827,
       "longitude": -123.1207,
       "uploadedAt": "2026-04-09T01:26:25.757595",
-      "highlight": false
+      "highlight": false,
+      "smallThumbnailPath": "/uploads/thumbs300/61a63af59f5b4ef28c11be8dd1fea50c.jpg"
     },
     {
       "id": 1775723185787,
@@ -6032,7 +6521,8 @@
       "latitude": 49.2827,
       "longitude": -123.1207,
       "uploadedAt": "2026-04-09T01:26:25.787698",
-      "highlight": true
+      "highlight": true,
+      "smallThumbnailPath": "/uploads/thumbs300/55acdefe41ab4af7aede7a2c61400f04.jpg"
     },
     {
       "id": 1775723185819,
@@ -6045,7 +6535,8 @@
       "latitude": 49.2827,
       "longitude": -123.1207,
       "uploadedAt": "2026-04-09T01:26:25.819735",
-      "highlight": true
+      "highlight": true,
+      "smallThumbnailPath": "/uploads/thumbs300/a5e6f1c432104dfb87faf38b88f75a59.jpg"
     },
     {
       "id": 1775723185848,
@@ -6057,7 +6548,8 @@
       "locationName": "Vancouver, Canada",
       "latitude": 49.2827,
       "longitude": -123.1207,
-      "uploadedAt": "2026-04-09T01:26:25.848324"
+      "uploadedAt": "2026-04-09T01:26:25.848324",
+      "smallThumbnailPath": "/uploads/thumbs300/6b188b4f76fb48848e759525d1371724.jpg"
     },
     {
       "id": 1775723185879,
@@ -6069,7 +6561,8 @@
       "locationName": "Vancouver, Canada",
       "latitude": 49.2827,
       "longitude": -123.1207,
-      "uploadedAt": "2026-04-09T01:26:25.879102"
+      "uploadedAt": "2026-04-09T01:26:25.879102",
+      "smallThumbnailPath": "/uploads/thumbs300/f36856b61f264e7eb790ad67302e96bf.jpg"
     },
     {
       "id": 1775723185906,
@@ -6081,7 +6574,8 @@
       "locationName": "Vancouver, Canada",
       "latitude": 49.2827,
       "longitude": -123.1207,
-      "uploadedAt": "2026-04-09T01:26:25.906879"
+      "uploadedAt": "2026-04-09T01:26:25.906879",
+      "smallThumbnailPath": "/uploads/thumbs300/4653178a8dd44d1eb981b8e05d073702.jpg"
     },
     {
       "id": 1775723185934,
@@ -6093,7 +6587,8 @@
       "locationName": "Vancouver, Canada",
       "latitude": 49.2827,
       "longitude": -123.1207,
-      "uploadedAt": "2026-04-09T01:26:25.934351"
+      "uploadedAt": "2026-04-09T01:26:25.934351",
+      "smallThumbnailPath": "/uploads/thumbs300/0c641e42eaa748db84b70d78e38d505b.jpg"
     },
     {
       "id": 1775723185955,
@@ -6105,7 +6600,8 @@
       "locationName": "Vancouver, Canada",
       "latitude": 49.2827,
       "longitude": -123.1207,
-      "uploadedAt": "2026-04-09T01:26:25.955627"
+      "uploadedAt": "2026-04-09T01:26:25.955627",
+      "smallThumbnailPath": "/uploads/thumbs300/320162d31f644c0f91973e08c6dab4d2.jpg"
     },
     {
       "id": 1775723186030,
@@ -6117,7 +6613,8 @@
       "locationName": "Vancouver, Canada",
       "latitude": 49.2827,
       "longitude": -123.1207,
-      "uploadedAt": "2026-04-09T01:26:26.030077"
+      "uploadedAt": "2026-04-09T01:26:26.030077",
+      "smallThumbnailPath": "/uploads/thumbs300/ffc114a8384945b2952cc8d2212349d5.jpg"
     },
     {
       "id": 1775723186092,
@@ -6129,7 +6626,8 @@
       "locationName": "Vancouver, Canada",
       "latitude": 49.2827,
       "longitude": -123.1207,
-      "uploadedAt": "2026-04-09T01:26:26.092242"
+      "uploadedAt": "2026-04-09T01:26:26.092242",
+      "smallThumbnailPath": "/uploads/thumbs300/1a92b2246a2c4dbb97d3b7d6860a090c.jpg"
     },
     {
       "id": 1775723186127,
@@ -6141,7 +6639,8 @@
       "locationName": "Vancouver, Canada",
       "latitude": 49.2827,
       "longitude": -123.1207,
-      "uploadedAt": "2026-04-09T01:26:26.127075"
+      "uploadedAt": "2026-04-09T01:26:26.127075",
+      "smallThumbnailPath": "/uploads/thumbs300/420d1a58d90345ecbec9a1ab120f8222.jpg"
     },
     {
       "id": 1775723384554,
@@ -6153,7 +6652,8 @@
       "locationName": "Vancouver, Canada",
       "latitude": 49.2827,
       "longitude": -123.1207,
-      "uploadedAt": "2026-04-09T01:29:44.554873"
+      "uploadedAt": "2026-04-09T01:29:44.554873",
+      "smallThumbnailPath": "/uploads/thumbs300/c8e4b965596c48bc9fbf09a5e3a1a4da.jpg"
     },
     {
       "id": 1775723384598,
@@ -6165,7 +6665,8 @@
       "locationName": "Vancouver, Canada",
       "latitude": 49.2827,
       "longitude": -123.1207,
-      "uploadedAt": "2026-04-09T01:29:44.598461"
+      "uploadedAt": "2026-04-09T01:29:44.598461",
+      "smallThumbnailPath": "/uploads/thumbs300/b6b3075faaa64ccab180e236e492d267.jpg"
     },
     {
       "id": 1775723384643,
@@ -6177,7 +6678,8 @@
       "locationName": "Vancouver, Canada",
       "latitude": 49.2827,
       "longitude": -123.1207,
-      "uploadedAt": "2026-04-09T01:29:44.643082"
+      "uploadedAt": "2026-04-09T01:29:44.643082",
+      "smallThumbnailPath": "/uploads/thumbs300/d59d0215c7034a939a3ccf9645c39bef.jpg"
     },
     {
       "id": 1775723384687,
@@ -6189,7 +6691,8 @@
       "locationName": "Vancouver, Canada",
       "latitude": 49.2827,
       "longitude": -123.1207,
-      "uploadedAt": "2026-04-09T01:29:44.687455"
+      "uploadedAt": "2026-04-09T01:29:44.687455",
+      "smallThumbnailPath": "/uploads/thumbs300/dd66160112e448748a461fd943e64899.jpg"
     },
     {
       "id": 1775723384744,
@@ -6201,7 +6704,8 @@
       "locationName": "Vancouver, Canada",
       "latitude": 49.2827,
       "longitude": -123.1207,
-      "uploadedAt": "2026-04-09T01:29:44.744258"
+      "uploadedAt": "2026-04-09T01:29:44.744258",
+      "smallThumbnailPath": "/uploads/thumbs300/42046b0c03db4fc4a649c29904bfae87.jpg"
     },
     {
       "id": 1775723384788,
@@ -6213,7 +6717,8 @@
       "locationName": "Vancouver, Canada",
       "latitude": 49.2827,
       "longitude": -123.1207,
-      "uploadedAt": "2026-04-09T01:29:44.788273"
+      "uploadedAt": "2026-04-09T01:29:44.788273",
+      "smallThumbnailPath": "/uploads/thumbs300/2c7a5cb82ef74d69a8b4b273cba03116.jpg"
     },
     {
       "id": 1775723384814,
@@ -6226,7 +6731,8 @@
       "latitude": 49.2827,
       "longitude": -123.1207,
       "uploadedAt": "2026-04-09T01:29:44.814275",
-      "highlight": true
+      "highlight": true,
+      "smallThumbnailPath": "/uploads/thumbs300/f8a52df6b2dc41dab791c85f37082aac.jpg"
     }
   ]
 }
