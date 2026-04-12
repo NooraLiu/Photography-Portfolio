@@ -867,6 +867,45 @@ function preloadAdjacent(visibleImages, currentIdx) {
     });
 }
 
+// --- Aperture iris animation (JS-driven: precise polygon + line geometry) ---
+let _aperAF = null, _aperT0 = null;
+function _aperFrame(ts) {
+    if (!_aperT0) _aperT0 = ts;
+    const t = (ts - _aperT0) / 1000;
+    const N = 6, cx = 50, cy = 50, R_out = 44;
+    // Oscillate inner polygon radius: small = closed, large = open
+    const R = 5 + 20 * (0.5 - 0.5 * Math.cos(t * Math.PI * 2 / 2.4));
+    const rot = t * 18 * Math.PI / 180; // slow clockwise rotation
+    const half = Math.PI / N;           // offset outer tip by half a blade
+    const lines = shutterLoader ? shutterLoader.querySelectorAll('.blade-line') : [];
+    const pts = [];
+    for (let k = 0; k < N; k++) {
+        const ai = rot + k * 2 * Math.PI / N;
+        const ix = (cx + R * Math.cos(ai)).toFixed(2);
+        const iy = (cy + R * Math.sin(ai)).toFixed(2);
+        pts.push(`${ix},${iy}`);
+        if (lines[k]) {
+            lines[k].setAttribute('x1', ix);
+            lines[k].setAttribute('y1', iy);
+            lines[k].setAttribute('x2', (cx + R_out * Math.cos(ai + half)).toFixed(2));
+            lines[k].setAttribute('y2', (cy + R_out * Math.sin(ai + half)).toFixed(2));
+        }
+    }
+    const hole = document.getElementById('apertureHole');
+    if (hole) hole.setAttribute('points', pts.join(' '));
+    _aperAF = requestAnimationFrame(_aperFrame);
+}
+function showLoader() {
+    if (!shutterLoader) return;
+    shutterLoader.classList.add('visible');
+    if (!_aperAF) { _aperT0 = null; _aperAF = requestAnimationFrame(_aperFrame); }
+}
+function hideLoader() {
+    if (!shutterLoader) return;
+    shutterLoader.classList.remove('visible');
+    if (_aperAF) { cancelAnimationFrame(_aperAF); _aperAF = null; }
+}
+
 // Open lightbox by element reference (more reliable)
 function openLightboxByElement(element) {
     const img = element.querySelector('img');
@@ -879,16 +918,16 @@ function openLightboxByElement(element) {
     lightboxImage.style.height = '';
     lightbox.classList.add('active');
     document.body.style.overflow = 'hidden';
-    if (shutterLoader) shutterLoader.classList.add('visible');
+    showLoader();
 
     const preload = new Image();
     preload.onload = () => {
         lightboxImage.src = fullres;
         lightboxImage.style.opacity = '1';
-        if (shutterLoader) shutterLoader.classList.remove('visible');
+        hideLoader();
     };
     preload.onerror = () => {
-        if (shutterLoader) shutterLoader.classList.remove('visible');
+        hideLoader();
     };
     preload.src = fullres;
 
@@ -921,7 +960,7 @@ function openLightbox(src) {
 function closeLightbox() {
     lightbox.classList.remove('active');
     document.body.style.overflow = '';
-    if (shutterLoader) shutterLoader.classList.remove('visible');
+    hideLoader();
 }
 
 if (lightboxClose) lightboxClose.addEventListener('click', closeLightbox);
@@ -977,15 +1016,15 @@ function navigateLightbox(direction) {
         lightboxImage.style.opacity = '0';
         lightboxImage.style.width = '';
         lightboxImage.style.height = '';
-        if (shutterLoader) shutterLoader.classList.add('visible');
+        showLoader();
         const preload = new Image();
         preload.onload = () => {
             lightboxImage.src = newSrc;
             lightboxImage.style.opacity = '1';
-            if (shutterLoader) shutterLoader.classList.remove('visible');
+            hideLoader();
         };
         preload.onerror = () => {
-            if (shutterLoader) shutterLoader.classList.remove('visible');
+            hideLoader();
         };
         preload.src = newSrc;
         // Preload the image after this one

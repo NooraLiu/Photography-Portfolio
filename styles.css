@@ -1011,28 +1011,10 @@ img {
     width: 72px;
     height: 72px;
 }
-.shutter-blades {
-    transform-origin: 40px 40px;
-    animation: shutter-spin 3s linear infinite;
-}
-/* Each blade pivots from center — aperture iris mechanics */
-.aperture-blade {
-    fill: #c9a962;
-    opacity: 0.9;
-    transform-box: fill-box;
-    transform-origin: 0% 100%;
-    animation: iris-pivot 2.4s ease-in-out infinite;
-}
-@keyframes shutter-spin {
-    from { transform: rotate(0deg); }
-    to   { transform: rotate(360deg); }
-}
-@keyframes iris-pivot {
-    /* closed: blades overlap heavily, small center hole */
-    0%, 15%   { transform: rotate(0deg); }
-    /* open: blades pivot back, large center hole */
-    40%, 60%  { transform: rotate(-28deg); }
-    85%, 100% { transform: rotate(0deg); }
+.blade-line {
+    stroke: #c9a962;
+    stroke-width: 1.5;
+    opacity: 0.85;
 }
 
 .lightbox.active {
