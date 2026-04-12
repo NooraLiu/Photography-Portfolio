@@ -1039,6 +1039,8 @@
             // Mouse events for marker interaction
             renderer.domElement.addEventListener('click', onMouseClick);
             renderer.domElement.addEventListener('mousemove', onMouseMove);
+            // Touch support — tap pins on mobile
+            renderer.domElement.addEventListener('touchend', onTouchEnd, { passive: false });
             
             // Modal close - X button and Escape key only
             document.getElementById('modalClose').addEventListener('click', closeModal);
@@ -1364,8 +1366,32 @@
         }
 
         let isDragging = false;
+        let _touchStartX = 0, _touchStartY = 0;
         document.addEventListener('mousedown', () => isDragging = true);
         document.addEventListener('mouseup', () => isDragging = false);
+
+        // Touch tap handler — fires on touchend, ignores drags
+        function onTouchEnd(event) {
+            const touch = event.changedTouches[0];
+            const dx = Math.abs(touch.clientX - _touchStartX);
+            const dy = Math.abs(touch.clientY - _touchStartY);
+            if (dx > 8 || dy > 8) return; // was a drag, not a tap
+            event.preventDefault();
+            mouse.x = (touch.clientX / window.innerWidth) * 2 - 1;
+            mouse.y = -(touch.clientY / window.innerHeight) * 2 + 1;
+            raycaster.setFromCamera(mouse, camera);
+            const intersects = raycaster.intersectObjects(markers);
+            if (intersects.length > 0) {
+                const marker = intersects[0].object;
+                if (marker.userData.album) {
+                    showAlbumModal(marker.userData.album);
+                }
+            }
+        }
+        renderer.domElement && renderer.domElement.addEventListener('touchstart', (e) => {
+            _touchStartX = e.touches[0].clientX;
+            _touchStartY = e.touches[0].clientY;
+        }, { passive: true });
 
         // Initialize when DOM is ready
         document.addEventListener('DOMContentLoaded', init);
