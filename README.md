@@ -12,12 +12,12 @@ Browse a curated collection of photos organized by location and genre. Highlight
 ### 🌍 Globe View
 An interactive 3D globe displays every photo location as a pin. Drag to rotate, scroll to zoom, and click a marker to view the photos taken there. A sidebar lists all locations with photo counts and preview thumbnails.
 
-![Globe View](Screenshot%202026-07-27%20at%2011.45.17%20AM.png)
+![Globe View](GlobeView.png)
 
 ### 📤 Upload Photos (Owner Only)
 The owner dashboard lets you batch-import photos by drag & drop. GPS coordinates are automatically extracted from EXIF data, so each photo is instantly placed on the globe without any manual entry.
 
-![Upload Photos](Screenshot%202026-07-27%20at%2011.43.04%20AM.png)
+![Upload Photos](Upload.png)
 
 ### ✏️ Edit Albums (Owner Only)
 Browse all photos grouped by location. Select one or many photos to:
@@ -28,7 +28,7 @@ Browse all photos grouped by location. Select one or many photos to:
 
 Sort the entire gallery by location or shuffle it for a fresh look.
 
-![Edit Albums](Screenshot%202026-07-27%20at%2011.43.44%20AM.png)
+![Edit Albums](PhotoManagement.png)
 
 ---
 
