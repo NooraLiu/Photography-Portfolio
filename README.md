@@ -36,6 +36,8 @@ Sort the entire gallery by location or shuffle it for a fresh look.
 
 ## Running Locally
 
+The live site above is the public portfolio only — the Owner link is hidden there and uploads are unavailable, since GitHub Pages serves static files with no backend. Run the local server to use the owner dashboard.
+
 **Requirements:** Python 3
 
 ```bash
