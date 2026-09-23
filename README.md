@@ -2,6 +2,8 @@
 
 A personal photography portfolio website with an interactive globe view, curated gallery, and a private owner dashboard for managing photos.
 
+**Live site:** [nooraliu.github.io/Photography-Portfolio](https://nooraliu.github.io/Photography-Portfolio/)
+
 ---
 
 ## Features

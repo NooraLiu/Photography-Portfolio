@@ -1,0 +1,529 @@
+{
+  "version": 1,
+  "meta": {
+    "lastScanned": "2026-09-23T03:33:11.787Z",
+    "fileCount": 15,
+    "hits": 0,
+    "misses": 0,
+    "renderedHash": "1b5266ee33062e8e77b3affbaddc7a805fda0d4fbfa45a92dcdfc19cf0e207c1",
+    "storeUpdatedAt": "2026-09-23T03:33:11.787Z",
+    "rootHash": "3e3e8dc5fe6b426e"
+  },
+  "files": {
+    ".gitattributes": {
+      "description": "Git attributes",
+      "tokens": 18,
+      "hash": "1a1dbe176bc233b4",
+      "size": 66,
+      "mtimeMs": 1789865549962.115,
+      "updatedAt": "2026-09-23T03:33:11.714Z",
+      "source": "scan"
+    },
+    ".gitignore": {
+      "description": "Git ignore rules",
+      "tokens": 14,
+      "hash": "12eb2c691cb38c8f",
+      "size": 50,
+      "mtimeMs": 1789865549962.1758,
+      "updatedAt": "2026-09-23T03:33:11.714Z",
+      "source": "scan"
+    },
+    "AGENTS.md": {
+      "description": "OpenWolf",
+      "tokens": 75,
+      "hash": "e401f79554a8d796",
+      "size": 297,
+      "mtimeMs": 1790134391654.8738,
+      "updatedAt": "2026-09-23T03:33:11.714Z",
+      "source": "scan"
+    },
+    "CLAUDE.md": {
+      "description": "OpenWolf",
+      "tokens": 99,
+      "hash": "074d6b42b583729a",
+      "size": 395,
+      "mtimeMs": 1790134391647.3367,
+      "updatedAt": "2026-09-23T03:33:11.714Z",
+      "source": "scan"
+    },
+    "earth.html": {
+      "description": "Photo Globe - Photography Portfolio",
+      "tokens": 13701,
+      "hash": "3bd1e66fe8b28bf5",
+      "size": 51402,
+      "mtimeMs": 1789865549972.6633,
+      "updatedAt": "2026-09-23T03:33:11.715Z",
+      "source": "scan"
+    },
+    "edit-album.html": {
+      "description": "Edit Albums — Photography Portfolio",
+      "tokens": 5881,
+      "hash": "c69345b9bf11d083",
+      "size": 22086,
+      "mtimeMs": 1789865549972.7869,
+      "updatedAt": "2026-09-23T03:33:11.715Z",
+      "source": "scan"
+    },
+    "gallery-data.json": {
+      "description": "",
+      "tokens": 77290,
+      "hash": "3d0c349ef990e582",
+      "size": 270513,
+      "mtimeMs": 1789865549973.002,
+      "updatedAt": "2026-09-23T03:33:11.716Z",
+      "source": "scan"
+    },
+    "index.html": {
+      "description": "Photography Portfolio",
+      "tokens": 2054,
+      "hash": "82ac463cf0bfd31e",
+      "size": 7706,
+      "mtimeMs": 1789865549973.0928,
+      "updatedAt": "2026-09-23T03:33:11.717Z",
+      "source": "scan"
+    },
+    "owner.html": {
+      "description": "Owner Dashboard — Nora Liu Photography",
+      "tokens": 9186,
+      "hash": "3c53260fc5962a0b",
+      "size": 34518,
+      "mtimeMs": 1789865549973.1514,
+      "updatedAt": "2026-09-23T03:33:11.717Z",
+      "source": "scan"
+    },
+    "package.json": {
+      "description": "Node.js package manifest",
+      "tokens": 78,
+      "hash": "edf5b39f8aead611",
+      "size": 273,
+      "mtimeMs": 1789865549973.218,
+      "updatedAt": "2026-09-23T03:33:11.717Z",
+      "source": "scan"
+    },
+    "README.md": {
+      "description": "Project documentation",
+      "tokens": 576,
+      "hash": "469138d1caa9b3ba",
+      "size": 2323,
+      "mtimeMs": 1790027654462.1086,
+      "updatedAt": "2026-09-23T03:33:11.717Z",
+      "source": "scan"
+    },
+    "script.js": {
+      "description": "===== DOM Elements =====",
+      "tokens": 23864,
+      "hash": "c121dfa927c3e69f",
+      "size": 85048,
+      "mtimeMs": 1789865549973.3628,
+      "updatedAt": "2026-09-23T03:33:11.719Z",
+      "source": "scan",
+      "symbols": [
+        {
+          "name": "selectCity",
+          "kind": "fn",
+          "startLine": 638,
+          "endLine": 649,
+          "tokens": 156
+        },
+        {
+          "name": "updateAddButton",
+          "kind": "fn",
+          "startLine": 657,
+          "endLine": 664,
+          "tokens": 84
+        },
+        {
+          "name": "resetForm",
+          "kind": "fn",
+          "startLine": 715,
+          "endLine": 730,
+          "tokens": 148
+        },
+        {
+          "name": "addToGallery",
+          "kind": "fn",
+          "startLine": 733,
+          "endLine": 782,
+          "tokens": 495
+        },
+        {
+          "name": "showNotification",
+          "kind": "fn",
+          "startLine": 785,
+          "endLine": 804,
+          "tokens": 152
+        },
+        {
+          "name": "initGalleryImages",
+          "kind": "fn",
+          "startLine": 830,
+          "endLine": 845,
+          "tokens": 134
+        },
+        {
+          "name": "computeLightboxSize",
+          "kind": "fn",
+          "startLine": 849,
+          "endLine": 857,
+          "tokens": 111
+        },
+        {
+          "name": "preloadAdjacent",
+          "kind": "fn",
+          "startLine": 860,
+          "endLine": 868,
+          "tokens": 99
+        },
+        {
+          "name": "_aperFrame",
+          "kind": "fn",
+          "startLine": 872,
+          "endLine": 897,
+          "tokens": 350
+        },
+        {
+          "name": "showLoader",
+          "kind": "fn",
+          "startLine": 898,
+          "endLine": 902,
+          "tokens": 53
+        },
+        {
+          "name": "hideLoader",
+          "kind": "fn",
+          "startLine": 903,
+          "endLine": 907,
+          "tokens": 50
+        },
+        {
+          "name": "openLightboxByElement",
+          "kind": "fn",
+          "startLine": 910,
+          "endLine": 940,
+          "tokens": 297
+        },
+        {
+          "name": "openLightbox",
+          "kind": "fn",
+          "startLine": 943,
+          "endLine": 957,
+          "tokens": 167
+        },
+        {
+          "name": "closeLightbox",
+          "kind": "fn",
+          "startLine": 960,
+          "endLine": 964,
+          "tokens": 36
+        },
+        {
+          "name": "navigateLightbox",
+          "kind": "fn",
+          "startLine": 975,
+          "endLine": 1035,
+          "tokens": 726
+        },
+        {
+          "name": "observer",
+          "kind": "fn",
+          "startLine": 1094,
+          "endLine": 1101,
+          "tokens": 74
+        },
+        {
+          "name": "fixPath",
+          "kind": "fn",
+          "startLine": 1110,
+          "endLine": 1112,
+          "tokens": 23
+        },
+        {
+          "name": "loadSavedImages",
+          "kind": "fn",
+          "startLine": 1114,
+          "endLine": 1143,
+          "tokens": 303
+        },
+        {
+          "name": "extractEXIF",
+          "kind": "fn",
+          "startLine": 1154,
+          "endLine": 1182,
+          "tokens": 322
+        },
+        {
+          "name": "parseEXIFBlock",
+          "kind": "fn",
+          "startLine": 1184,
+          "endLine": 1206,
+          "tokens": 252
+        },
+        {
+          "name": "findGPSIFDPointer",
+          "kind": "fn",
+          "startLine": 1208,
+          "endLine": 1223,
+          "tokens": 174
+        },
+        {
+          "name": "parseGPSIFD",
+          "kind": "fn",
+          "startLine": 1225,
+          "endLine": 1258,
+          "tokens": 425
+        },
+        {
+          "name": "readGPSCoord",
+          "kind": "fn",
+          "startLine": 1260,
+          "endLine": 1266,
+          "tokens": 135
+        },
+        {
+          "name": "findNearestCity",
+          "kind": "fn",
+          "startLine": 1269,
+          "endLine": 1284,
+          "tokens": 132
+        },
+        {
+          "name": "initBatchImport",
+          "kind": "fn",
+          "startLine": 1289,
+          "endLine": 1431,
+          "tokens": 1522
+        },
+        {
+          "name": "handleBatchFiles",
+          "kind": "fn",
+          "startLine": 1433,
+          "endLine": 1466,
+          "tokens": 258
+        },
+        {
+          "name": "renderBatchPreview",
+          "kind": "fn",
+          "startLine": 1468,
+          "endLine": 1569,
+          "tokens": 1414
+        },
+        {
+          "name": "doBatchImport",
+          "kind": "fn",
+          "startLine": 1571,
+          "endLine": 1648,
+          "tokens": 848
+        }
+      ],
+      "symbolSource": "ts",
+      "skeleton": "function selectCity(city) {\nfunction updateAddButton() {\nfunction resetForm() {\nfunction addToGallery(fileData, isUserUploaded = true) {\nfunction showNotification(message) {\nfunction initGalleryImages() {\nfunction computeLightboxSize(naturalWidth, naturalHeight) {\nfunction preloadAdjacent(visibleImages, currentIdx) {\nfunction _aperFrame(ts) {\nfunction showLoader() {\nfunction hideLoader() {\nfunction openLightboxByElement(element) {\nfunction openLightbox(src) {\nfunction closeLightbox() {\nfunction navigateLightbox(direction) {\nconst observer = new IntersectionObserver((entries) => {\nfunction fixPath(p) {\nasync function loadSavedImages() {\nfunction extractEXIF(file) {\nfunction parseEXIFBlock(view, start, length) {\nfunction findGPSIFDPointer(view, tiffOffset, ifdOffset, littleEndian) {\nfunction parseGPSIFD(view, tiffOffset, gpsOffset, littleEndian) {\nfunction readGPSCoord(view, offset, littleEndian) {\nfunction findNearestCity(lat, lng) {\nfunction initBatchImport() {\nasync function handleBatchFiles(files) {\nfunction renderBatchPreview() {\nasync function doBatchImport() {"
+    },
+    "server.js": {
+      "description": "API routes: GET, POST, DELETE (3 endpoints)",
+      "tokens": 1149,
+      "hash": "5da58832a07087f3",
+      "size": 4025,
+      "mtimeMs": 1789865549973.4211,
+      "updatedAt": "2026-09-23T03:33:11.719Z",
+      "source": "scan",
+      "symbols": [
+        {
+          "name": "storage",
+          "kind": "fn",
+          "startLine": 15,
+          "endLine": 27,
+          "tokens": 135
+        },
+        {
+          "name": "readGalleryData",
+          "kind": "fn",
+          "startLine": 46,
+          "endLine": 56,
+          "tokens": 91
+        },
+        {
+          "name": "writeGalleryData",
+          "kind": "fn",
+          "startLine": 59,
+          "endLine": 61,
+          "tokens": 30
+        }
+      ],
+      "symbolSource": "ts"
+    },
+    "server.py": {
+      "description": "PortfolioHandler: do_GET, do_POST, do_PUT, do_DELETE + 7 more",
+      "tokens": 4977,
+      "hash": "5d470084674c511a",
+      "size": 17423,
+      "mtimeMs": 1789865549973.503,
+      "updatedAt": "2026-09-23T03:33:11.720Z",
+      "source": "scan",
+      "symbols": [
+        {
+          "name": "PortfolioHandler",
+          "kind": "class",
+          "startLine": 33,
+          "endLine": 437,
+          "tokens": 4556
+        },
+        {
+          "name": "PortfolioHandler.do_GET",
+          "kind": "method",
+          "startLine": 35,
+          "endLine": 41,
+          "tokens": 66
+        },
+        {
+          "name": "PortfolioHandler.do_POST",
+          "kind": "method",
+          "startLine": 43,
+          "endLine": 53,
+          "tokens": 111
+        },
+        {
+          "name": "PortfolioHandler.do_PUT",
+          "kind": "method",
+          "startLine": 55,
+          "endLine": 71,
+          "tokens": 215
+        },
+        {
+          "name": "PortfolioHandler.do_DELETE",
+          "kind": "method",
+          "startLine": 73,
+          "endLine": 78,
+          "tokens": 60
+        },
+        {
+          "name": "PortfolioHandler.handle_upload",
+          "kind": "method",
+          "startLine": 80,
+          "endLine": 190,
+          "tokens": 1169
+        },
+        {
+          "name": "PortfolioHandler.handle_delete",
+          "kind": "method",
+          "startLine": 192,
+          "endLine": 226,
+          "tokens": 408
+        },
+        {
+          "name": "PortfolioHandler.handle_update_location",
+          "kind": "method",
+          "startLine": 228,
+          "endLine": 255,
+          "tokens": 334
+        },
+        {
+          "name": "PortfolioHandler.handle_toggle_highlight",
+          "kind": "method",
+          "startLine": 257,
+          "endLine": 273,
+          "tokens": 233
+        },
+        {
+          "name": "PortfolioHandler.handle_bulk_highlight",
+          "kind": "method",
+          "startLine": 275,
+          "endLine": 292,
+          "tokens": 216
+        },
+        {
+          "name": "PortfolioHandler.handle_bulk_update",
+          "kind": "method",
+          "startLine": 294,
+          "endLine": 314,
+          "tokens": 261
+        },
+        {
+          "name": "PortfolioHandler.handle_bulk_delete",
+          "kind": "method",
+          "startLine": 316,
+          "endLine": 339,
+          "tokens": 346
+        },
+        {
+          "name": "PortfolioHandler.handle_shuffle",
+          "kind": "method",
+          "startLine": 341,
+          "endLine": 348,
+          "tokens": 92
+        },
+        {
+          "name": "PortfolioHandler.handle_sort",
+          "kind": "method",
+          "startLine": 350,
+          "endLine": 357,
+          "tokens": 109
+        },
+        {
+          "name": "PortfolioHandler.get_images",
+          "kind": "method",
+          "startLine": 359,
+          "endLine": 361,
+          "tokens": 28
+        },
+        {
+          "name": "PortfolioHandler.read_data",
+          "kind": "method",
+          "startLine": 363,
+          "endLine": 370,
+          "tokens": 66
+        },
+        {
+          "name": "PortfolioHandler.write_data",
+          "kind": "method",
+          "startLine": 372,
+          "endLine": 374,
+          "tokens": 32
+        },
+        {
+          "name": "PortfolioHandler.send_json_response",
+          "kind": "method",
+          "startLine": 376,
+          "endLine": 382,
+          "tokens": 92
+        },
+        {
+          "name": "PortfolioHandler.handle_generate_thumbnails",
+          "kind": "method",
+          "startLine": 416,
+          "endLine": 433,
+          "tokens": 234
+        },
+        {
+          "name": "PortfolioHandler.log_message",
+          "kind": "method",
+          "startLine": 435,
+          "endLine": 437,
+          "tokens": 39
+        },
+        {
+          "name": "main",
+          "kind": "fn",
+          "startLine": 440,
+          "endLine": 461,
+          "tokens": 244
+        }
+      ],
+      "symbolSource": "ts",
+      "skeleton": "class PortfolioHandler(http.server.SimpleHTTPRequestHandler):\n    def do_GET(self):\n    def do_POST(self):\n    def do_PUT(self):\n    def do_DELETE(self):\n    def handle_upload(self):\n    def handle_delete(self, image_id):\n    def handle_update_location(self, image_id):\n    def handle_toggle_highlight(self, image_id):\n    def handle_bulk_highlight(self):\n    def handle_bulk_update(self):\n    def handle_bulk_delete(self):\n    def handle_shuffle(self):\n    def handle_sort(self):\n    def get_images(self):\n    def read_data(self):\n    def write_data(self, data):\n    def send_json_response(self, data, status=200):\n    def handle_generate_thumbnails(self):\n    def log_message(self, format, *args):\ndef main():"
+    },
+    "styles.css": {
+      "description": "Styles: 89 rules, 8 vars, 1 animations",
+      "tokens": 9061,
+      "hash": "2aac55012affe777",
+      "size": 31713,
+      "mtimeMs": 1789865549973.5732,
+      "updatedAt": "2026-09-23T03:33:11.720Z",
+      "source": "scan"
+    }
+  },
+  "preamble": [
+    "> Project structure index. Auto-maintained by OpenWolf hooks and daemon.",
+    "> Run `openwolf scan` to generate, or wait for the first Claude Code session.",
+    "> Status: Pending initial scan"
+  ]
+}
