@@ -12,6 +12,11 @@ budget_tokens: 2000
 
 <!-- How the user likes things done. Code style, tools, patterns, communication. -->
 
+- **Visual design: prefers minimal/restrained over explanatory.** Shown three app-icon
+  variants (aperture+checkmark, aperture with one gold blade, pure aperture), chose the
+  pure aperture — rejecting the versions that added a semantic element to spell out
+  function. Offer the clean geometric option; don't assume added meaning-signals win.
+
 ## Key Learnings
 
 - **Project:** photography-portfolio
@@ -25,3 +30,9 @@ budget_tokens: 2000
 ## Decision Log
 
 <!-- Significant technical decisions with rationale. Why X was chosen over Y. -->
+
+- **[2026-10-02] App icon = pure 6-blade iris**, geometry derived from the lightbox
+  shutter animation in script.js:870 (N=6, blade lines offset by half a blade, `HALF = pi/N`),
+  palette #1a1a1a / #c9a962 from styles.css. Two renderings ship: master (>=96px) and a
+  small variant (<=64px) with a heavier gold ring and lighter blades, because at 32px the
+  thin ring and dark-on-dark blades turned to mud.
